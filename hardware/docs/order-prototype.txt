@@ -1,0 +1,16 @@
+Prototype components order placed on 26/07/2016 (DigiKey basket: http://www.digikey.co.uk/short/341wrq).
+
+| Part Number      | Description                      | Reference       | Quantity |
+|------------------+----------------------------------+-----------------+----------|
+| EG2352-ND        | SWITCH TOGGLE SPDT 5A 120V       | ON - OFF        |        1 |
+| EG2389-ND        | SWITCH TOGGLE SPDT 5A 120V       | MOM - OFF - MOM |        1 |
+| EG2394-ND        | SWITCH TOGGLE SPDT 5A 120V       | MOM - OFF - ON  |        4 |
+| EG2377-ND        | SWITCH TOGGLE SPDT 5A 120V       | ON - OFF - ON   |        4 |
+| MCP23017-E/SP-ND | IO EXPANDER I2C 16B 28SDIP       |                 |        2 |
+| MAX7221CNG+-ND   | IC DRVR DSPLAY LED 8DIG 24-DIP   |                 |        2 |
+| 1125-1192-ND     | LED AMBER DIFF 5MM OVAL T/H      |                 |      100 |
+| ED3049-5-ND      | CONN IC DIP SOCKET 24POS TIN     | SOCKET MAX      |        2 |
+| ED3050-5-ND      | CONN IC DIP SOCKET 28POS TIN     | SOCKET MCP      |        2 |
+| 1470-2764-ND     | AC/DC WALL MOUNT ADAPTER 5V 5W   | 5V 1A LIGHTS    |        1 |
+| CP-050AH-ND      | CON PWR JCK 2.0 X 6.0MM HIGH CUR |                 |        1 |
+
