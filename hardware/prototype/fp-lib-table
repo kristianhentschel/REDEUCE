@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name DIL24)(type Legacy)(uri /Users/kristian/repositories/redeuce/hardware/kicad_libs/DIL24.mod)(options "")(descr ""))
+  (lib (name DIL28)(type Legacy)(uri /Users/kristian/repositories/redeuce/hardware/kicad_libs/DIL28.mod)(options "")(descr ""))
+)
