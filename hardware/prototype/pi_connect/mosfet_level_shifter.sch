@@ -31,11 +31,12 @@ LIBS:valves
 LIBS:MAX7221
 LIBS:Pi2_Connector
 LIBS:MCP23017
+LIBS:prototype_pi_connect-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -46,28 +47,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R 10K1
+L R R3
 U 1 1 5798C5FD
 P 1150 1000
-AR Path="/5798C58F/5798C5FD" Ref="10K1"  Part="1" 
-AR Path="/5798D753/5798C5FD" Ref="10K3"  Part="1" 
-AR Path="/5798D9BB/5798C5FD" Ref="10K5"  Part="1" 
-F 0 "10K1" V 1230 1000 50  0000 C CNN
-F 1 "R" V 1150 1000 50  0000 C CNN
+AR Path="/5798C58F/5798C5FD" Ref="R3"  Part="1" 
+AR Path="/5798D753/5798C5FD" Ref="R7"  Part="1" 
+AR Path="/5798D9BB/5798C5FD" Ref="R5"  Part="1" 
+F 0 "R5" V 1230 1000 50  0000 C CNN
+F 1 "10K" V 1150 1000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1080 1000 50  0001 C CNN
 F 3 "" H 1150 1000 50  0000 C CNN
 	1    1150 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L R 10K2
+L R R4
 U 1 1 5798C628
 P 2000 1000
-AR Path="/5798C58F/5798C628" Ref="10K2"  Part="1" 
-AR Path="/5798D753/5798C628" Ref="10K4"  Part="1" 
-AR Path="/5798D9BB/5798C628" Ref="10K6"  Part="1" 
-F 0 "10K2" V 2080 1000 50  0000 C CNN
-F 1 "R" V 2000 1000 50  0000 C CNN
+AR Path="/5798C58F/5798C628" Ref="R4"  Part="1" 
+AR Path="/5798D753/5798C628" Ref="R8"  Part="1" 
+AR Path="/5798D9BB/5798C628" Ref="R6"  Part="1" 
+F 0 "R6" V 2080 1000 50  0000 C CNN
+F 1 "10K" V 2000 1000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 1000 50  0001 C CNN
 F 3 "" H 2000 1000 50  0000 C CNN
 	1    2000 1000
@@ -88,9 +89,9 @@ P 1550 1200
 AR Path="/5798C58F/5798C66E" Ref="Q1"  Part="1" 
 AR Path="/5798D753/5798C66E" Ref="Q2"  Part="1" 
 AR Path="/5798D9BB/5798C66E" Ref="Q3"  Part="1" 
-F 0 "Q1" H 1750 1275 50  0000 L CNN
+F 0 "Q3" H 1750 1275 50  0000 L CNN
 F 1 "2N7000" H 1750 1200 50  0000 L CNN
-F 2 "TO-92" H 1750 1125 50  0000 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1750 1125 50  0000 L CIN
 F 3 "" H 1550 1200 50  0000 L CNN
 	1    1550 1200
 	0    1    1    0   

@@ -1,0 +1,50 @@
+Source,/Users/kristian/repositories/redeuce/hardware/prototype/pi_connect/prototype_pi_connect.sch
+Kicad Rev,Eeschema 4.0.2-stable
+Generated Date,Wednesday, 27 July 2016 'amt' 11:39:10
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+U2,Pi2_Connector,Pi2_Connector,Pi2_Connector
+U3,MAX7221,MAX7221,MAX7221
+U4,MAX7221,MAX7221,MAX7221
+U1,MCP23017,MCP23017,MCP23017
+CON1,BARREL_JACK,conn,BARREL_JACK
+C2,0.1uF,device,C
+C1,10uF,device,CP
+R1,25K,device,R
+R2,25K,device,R
+D1,LED,device,LED
+D3,LED,device,LED
+D5,LED,device,LED
+D7,LED,device,LED
+D9,LED,device,LED
+D11,LED,device,LED
+D13,LED,device,LED
+D15,LED,device,LED
+D2,LED,device,LED
+D4,LED,device,LED
+D6,LED,device,LED
+D8,LED,device,LED
+D10,LED,device,LED
+D12,LED,device,LED
+D14,LED,device,LED
+D16,LED,device,LED
+C4,0.1uF,device,C
+C3,10uF,device,CP
+SW1,SWITCH_INV,device,SWITCH_INV
+SW2,SWITCH_INV,device,SWITCH_INV
+SW3,SWITCH_INV,device,SWITCH_INV
+SW4,SWITCH_INV,device,SWITCH_INV
+10K1,R,device,R
+10K2,R,device,R
+Q1,2N7000,transistors,BS170
+10K3,R,device,R
+10K4,R,device,R
+Q2,2N7000,transistors,BS170
+10K5,R,device,R
+10K6,R,device,R
+Q3,2N7000,transistors,BS170
