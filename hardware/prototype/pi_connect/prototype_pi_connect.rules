@@ -1,0 +1,87 @@
+
+(rules PCB prototype_pi_connect
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2607)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 1000.0)
+    (clear 500.2)
+    (clear 500.0 (type smd_to_turn_gap))
+    (clear 125.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_1000:600_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1000:600_um" "Via[0-1]_1000:600_um" default
+  )
+  (via 
+    "Via[0-1]_1000:600_um-kicad_default" "Via[0-1]_1000:600_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_1000:600_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1000:600_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +3V3 "/LEDDRIVER_CS_TTL" VCC "/LEDDRIVER_CS" "/LEDDRIVER_CLK_TTL" "/LEDDRIVER_CLK" "/LEDDRIVER_DIN_TTL" "/LEDDRIVER_DIN"
+    GND "Net-(CON1-Pad3)" "/A_DIG0" "/A_SEGA" "/B_DIG0" "/B_SEGA" "/A_SEGB" "/B_SEGB"
+    "/A_SEGC" "/B_SEGC" "/A_SEGD" "/B_SEGD" "/A_SEGE" "/B_SEGE" "/A_SEGF" "/B_SEGF"
+    "/A_SEGG" "/B_SEGG" "/A_SEGDP" "/B_SEGDP" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "/A_GPB7" "/A_GPB6"
+    "/A_GPB5" "/A_GPB4" "/A_GPB3" "/A_GPB2" "/A_GPB1" "/A_GPB0" "Net-(U1-Pad11)" "/IO_SCK"
+    "/IO_SDA" "Net-(U1-Pad14)" "Net-(U1-Pad19)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad24)"
+    "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" +5V "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U2-Pad10)"
+    "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad18)" "Net-(U2-Pad21)" "Net-(U2-Pad22)"
+    "Net-(U2-Pad26)" "Net-(U2-Pad27)" "Net-(U2-Pad28)" "Net-(U2-Pad29)" "Net-(U2-Pad31)" "Net-(U2-Pad32)" "Net-(U2-Pad33)" "Net-(U2-Pad35)"
+    "Net-(U2-Pad36)" "Net-(U2-Pad37)" "Net-(U2-Pad38)" "Net-(U2-Pad40)" "Net-(U3-Pad3)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U3-Pad7)"
+    "Net-(U3-Pad8)" "Net-(U3-Pad10)" "Net-(U3-Pad11)" "Net-(U3-Pad24)" "Net-(U4-Pad3)" "Net-(U4-Pad5)" "Net-(U4-Pad6)" "Net-(U4-Pad7)"
+    "Net-(U4-Pad8)" "Net-(U4-Pad10)" "Net-(U4-Pad11)" "Net-(U4-Pad24)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
