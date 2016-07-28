@@ -1,3890 +1,1022 @@
-
-(PCB "prototype_pi_connect"
+(pcb /Users/kristian/repositories/redeuce/hardware/prototype/pi_connect/prototype_pi_connect.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
     (host_version "4.0.2-stable")
-    (generated_by_freeroute)
   )
   (resolution um 10)
+  (unit um)
   (structure
-    (boundary
-      (rect pcb 13870.0 -157580.0 142340.0 -38000.0)
-    )
-    (boundary
-      (polygon signal 0
-        13970.0 -157480.0
-        142240.0 -157480.0
-        142240.0 -38100.0
-        13970.0 -38100.0
-      )
-    )
-    (snap_angle 
-      fortyfive_degree
-    )
-    (via "Via[0-1]_1000:600_um")
-    (control
-      (via_at_smd off)
-    )
-    (rule
-      (width 1000.0)
-      (clear 500.2)
-      (clear 500.0 (type smd_to_turn_gap))
-      (clear 125.0 (type smd_smd))
-    )
     (layer F.Cu
       (type signal)
+      (property
+        (index 0)
+      )
     )
     (layer B.Cu
       (type signal)
+      (property
+        (index 1)
+      )
     )
-    (autoroute_settings
-      (fanout off)
-      (autoroute on)
-      (postroute on)
-      (vias on)
-      (via_costs 50)
-      (plane_via_costs 5)
-      (start_ripup_costs 100)
-      (start_pass_no 2607)
-      (layer_rule F.Cu
-        (active on)
-        (preferred_direction horizontal)
-        (preferred_direction_trace_costs 1.0)
-        (against_preferred_direction_trace_costs 2.1)
-      )
-      (layer_rule B.Cu
-        (active on)
-        (preferred_direction vertical)
-        (preferred_direction_trace_costs 1.0)
-        (against_preferred_direction_trace_costs 1.9)
-      )
+    (boundary
+      (path pcb 0  13970 -157480  13970 -38100  142240 -38100  142240 -157480
+            13970 -157480  13970 -157480)
+    )
+    (via "Via[0-1]_1000:600_um")
+    (rule
+      (width 1000)
+      (clearance 500.1)
+      (clearance 500.1 (type default_smd))
+      (clearance 125 (type smd_smd))
     )
   )
   (placement
     (component Discret:CP5
-      (place 
-        C1 68400.4 -140796.0 front 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        C3 128270.0 -140796.0 front 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
+      (place C1 68400.4 -140796 front 90 (PN 10uF))
+      (place C3 128270 -140796 front 90 (PN 10uF))
     )
-    (component "Capacitors_ThroughHole:C_Disc_D6_P5"
-      (place 
-        C2 120650.0 -142160.0 front 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        C4 60780.4 -143430.0 front 90
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
+    (component Capacitors_ThroughHole:C_Disc_D6_P5
+      (place C2 120650 -142160 front 90 (PN 0.1uF))
+      (place C4 60780.4 -143430 front 90 (PN 0.1uF))
     )
-    (component "Connect:BARREL_JACK"
-      (place 
-        CON1 25400.0 -50800.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-      )
+    (component Connect:BARREL_JACK
+      (place CON1 25400 -50800 front 0 (PN BARREL_JACK))
     )
     (component "LEDs:LED-5MM"
-      (place 
-        D1 31115.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D2 43815.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D3 56515.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D4 69215.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D5 81915.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D6 94615.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D7 107315.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D8 120015.0 -97790.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D9 31115.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D10 43815.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D11 56515.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D12 69215.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D13 94615.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D14 81915.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D15 107315.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        D16 120015.0 -110490.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
+      (place D1 31115 -97790 front 0 (PN LED))
+      (place D2 43815 -97790 front 0 (PN LED))
+      (place D3 56515 -97790 front 0 (PN LED))
+      (place D4 69215 -97790 front 0 (PN LED))
+      (place D5 81915 -97790 front 0 (PN LED))
+      (place D6 94615 -97790 front 0 (PN LED))
+      (place D7 107315 -97790 front 0 (PN LED))
+      (place D8 120015 -97790 front 0 (PN LED))
+      (place D9 31115 -110490 front 0 (PN LED))
+      (place D10 43815 -110490 front 0 (PN LED))
+      (place D11 56515 -110490 front 0 (PN LED))
+      (place D12 69215 -110490 front 0 (PN LED))
+      (place D13 94615 -110490 front 0 (PN LED))
+      (place D14 81915 -110490 front 0 (PN LED))
+      (place D15 107315 -110490 front 0 (PN LED))
+      (place D16 120015 -110490 front 0 (PN LED))
     )
-    (component "Resistors_ThroughHole:Resistor_Horizontal_RM10mm"
-      (place 
-        R1 96520.0 -151130.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R2 34290.0 -151130.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R3 93345.0 -63500.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R4 93345.0 -71120.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R5 108585.0 -63500.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R6 108585.0 -71120.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R7 123825.0 -63500.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
-      (place 
-        R8 123825.0 -71120.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-      )
+    (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (place R1 96520 -151130 front 0 (PN 25K))
+      (place R2 34290 -151130 front 0 (PN 25K))
+      (place R3 93345 -63500 front 0 (PN 10K))
+      (place R4 93345 -71120 front 0 (PN 10K))
+      (place R5 108585 -63500 front 0 (PN 10K))
+      (place R6 108585 -71120 front 0 (PN 10K))
+      (place R7 123825 -63500 front 0 (PN 10K))
+      (place R8 123825 -71120 front 0 (PN 10K))
     )
     (component DIL28:DIL28
-      (place 
-        U1 42545.0 -54610.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 4 (clearance_class "kicad_default"))
-        (pin 5 (clearance_class "kicad_default"))
-        (pin 6 (clearance_class "kicad_default"))
-        (pin 7 (clearance_class "kicad_default"))
-        (pin 8 (clearance_class "kicad_default"))
-        (pin 9 (clearance_class "kicad_default"))
-        (pin 10 (clearance_class "kicad_default"))
-        (pin 11 (clearance_class "kicad_default"))
-        (pin 12 (clearance_class "kicad_default"))
-        (pin 13 (clearance_class "kicad_default"))
-        (pin 14 (clearance_class "kicad_default"))
-        (pin 15 (clearance_class "kicad_default"))
-        (pin 16 (clearance_class "kicad_default"))
-        (pin 17 (clearance_class "kicad_default"))
-        (pin 18 (clearance_class "kicad_default"))
-        (pin 19 (clearance_class "kicad_default"))
-        (pin 20 (clearance_class "kicad_default"))
-        (pin 21 (clearance_class "kicad_default"))
-        (pin 22 (clearance_class "kicad_default"))
-        (pin 23 (clearance_class "kicad_default"))
-        (pin 24 (clearance_class "kicad_default"))
-        (pin 25 (clearance_class "kicad_default"))
-        (pin 26 (clearance_class "kicad_default"))
-        (pin 27 (clearance_class "kicad_default"))
-        (pin 28 (clearance_class "kicad_default"))
-      )
-    )
-    (component "CONN_02x20:CONN_02x20"
-      (place 
-        U2 88900.0 -54610.0 front 0
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 4 (clearance_class "kicad_default"))
-        (pin 5 (clearance_class "kicad_default"))
-        (pin 6 (clearance_class "kicad_default"))
-        (pin 7 (clearance_class "kicad_default"))
-        (pin 8 (clearance_class "kicad_default"))
-        (pin 9 (clearance_class "kicad_default"))
-        (pin 10 (clearance_class "kicad_default"))
-        (pin 11 (clearance_class "kicad_default"))
-        (pin 12 (clearance_class "kicad_default"))
-        (pin 13 (clearance_class "kicad_default"))
-        (pin 14 (clearance_class "kicad_default"))
-        (pin 15 (clearance_class "kicad_default"))
-        (pin 16 (clearance_class "kicad_default"))
-        (pin 17 (clearance_class "kicad_default"))
-        (pin 18 (clearance_class "kicad_default"))
-        (pin 19 (clearance_class "kicad_default"))
-        (pin 20 (clearance_class "kicad_default"))
-        (pin 21 (clearance_class "kicad_default"))
-        (pin 22 (clearance_class "kicad_default"))
-        (pin 23 (clearance_class "kicad_default"))
-        (pin 24 (clearance_class "kicad_default"))
-        (pin 25 (clearance_class "kicad_default"))
-        (pin 26 (clearance_class "kicad_default"))
-        (pin 27 (clearance_class "kicad_default"))
-        (pin 28 (clearance_class "kicad_default"))
-        (pin 29 (clearance_class "kicad_default"))
-        (pin 30 (clearance_class "kicad_default"))
-        (pin 31 (clearance_class "kicad_default"))
-        (pin 32 (clearance_class "kicad_default"))
-        (pin 33 (clearance_class "kicad_default"))
-        (pin 34 (clearance_class "kicad_default"))
-        (pin 35 (clearance_class "kicad_default"))
-        (pin 36 (clearance_class "kicad_default"))
-        (pin 37 (clearance_class "kicad_default"))
-        (pin 38 (clearance_class "kicad_default"))
-        (pin 39 (clearance_class "kicad_default"))
-        (pin 40 (clearance_class "kicad_default"))
-      )
+      (place U1 42545 -54610 front 0 (PN MCP23017))
     )
     (component DIL24:DIL24
-      (place 
-        U3 111760.0 -137160.0 front 180
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 4 (clearance_class "kicad_default"))
-        (pin 5 (clearance_class "kicad_default"))
-        (pin 6 (clearance_class "kicad_default"))
-        (pin 7 (clearance_class "kicad_default"))
-        (pin 8 (clearance_class "kicad_default"))
-        (pin 9 (clearance_class "kicad_default"))
-        (pin 10 (clearance_class "kicad_default"))
-        (pin 11 (clearance_class "kicad_default"))
-        (pin 12 (clearance_class "kicad_default"))
-        (pin 13 (clearance_class "kicad_default"))
-        (pin 14 (clearance_class "kicad_default"))
-        (pin 15 (clearance_class "kicad_default"))
-        (pin 16 (clearance_class "kicad_default"))
-        (pin 17 (clearance_class "kicad_default"))
-        (pin 18 (clearance_class "kicad_default"))
-        (pin 19 (clearance_class "kicad_default"))
-        (pin 20 (clearance_class "kicad_default"))
-        (pin 21 (clearance_class "kicad_default"))
-        (pin 22 (clearance_class "kicad_default"))
-        (pin 23 (clearance_class "kicad_default"))
-        (pin 24 (clearance_class "kicad_default"))
-      )
-      (place 
-        U4 52070.0 -137160.0 front 180
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 4 (clearance_class "kicad_default"))
-        (pin 5 (clearance_class "kicad_default"))
-        (pin 6 (clearance_class "kicad_default"))
-        (pin 7 (clearance_class "kicad_default"))
-        (pin 8 (clearance_class "kicad_default"))
-        (pin 9 (clearance_class "kicad_default"))
-        (pin 10 (clearance_class "kicad_default"))
-        (pin 11 (clearance_class "kicad_default"))
-        (pin 12 (clearance_class "kicad_default"))
-        (pin 13 (clearance_class "kicad_default"))
-        (pin 14 (clearance_class "kicad_default"))
-        (pin 15 (clearance_class "kicad_default"))
-        (pin 16 (clearance_class "kicad_default"))
-        (pin 17 (clearance_class "kicad_default"))
-        (pin 18 (clearance_class "kicad_default"))
-        (pin 19 (clearance_class "kicad_default"))
-        (pin 20 (clearance_class "kicad_default"))
-        (pin 21 (clearance_class "kicad_default"))
-        (pin 22 (clearance_class "kicad_default"))
-        (pin 23 (clearance_class "kicad_default"))
-        (pin 24 (clearance_class "kicad_default"))
-      )
+      (place U3 111760 -137160 front 180 (PN MAX7221))
+      (place U4 52070 -137160 front 180 (PN MAX7221))
     )
     (component "TO_SOT_Packages_THT:TO-92_Molded_Narrow"
-      (place 
-        Q1 98425.0 -81280.0 front 90
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 1 (clearance_class "kicad_default"))
-      )
-      (place 
-        Q2 128905.0 -81280.0 front 90
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 1 (clearance_class "kicad_default"))
-      )
-      (place 
-        Q3 113665.0 -81280.0 front 90
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-        (pin 1 (clearance_class "kicad_default"))
-      )
+      (place Q1 98425 -81280 front 90 (PN 2N7000))
+      (place Q2 128905 -81280 front 90 (PN 2N7000))
+      (place Q3 113665 -81280 front 90 (PN 2N7000))
     )
-    (component "myparts:SW_SPDT"
-      (place 
-        SW1 71006.2 -74115.4 front 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-      )
-      (place 
-        SW2 58306.2 -74115.4 front 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-      )
-      (place 
-        SW3 45606.2 -74115.4 front 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-      )
-      (place 
-        SW4 32906.2 -74115.4 front 270
-        (pin 1 (clearance_class "kicad_default"))
-        (pin 2 (clearance_class "kicad_default"))
-        (pin 3 (clearance_class "kicad_default"))
-      )
+    (component myparts:SW_SPDT
+      (place SW1 71006.2 -74115.4 front 270 (PN SWITCH_INV))
+      (place SW2 58306.2 -74115.4 front 270 (PN SWITCH_INV))
+      (place SW3 45606.2 -74115.4 front 270 (PN SWITCH_INV))
+      (place SW4 32906.2 -74115.4 front 270 (PN SWITCH_INV))
+    )
+    (component CONN_02x20:CONN_02x20
+      (place U2 86360 -49530 front 0 (PN Pi2_Connector))
     )
   )
   (library
     (image Discret:CP5
-      (side front)
-      (pin "Rect[A]Pad_1397x1397_um" 1 -6350.0 0.0)
-      (pin "Round[A]Pad_1397_um" 2 6350.0 0.0)
-      (outline
-        (polygon signal 0
-          -4476.1 1195.0
-          -4413.9 1195.0
-          -4370.0 1238.9
-          -4370.0 1301.1
-          -4413.9 1345.0
-          -4476.1 1345.0
-          -4520.0 1301.1
-          -4520.0 1238.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -4476.1 1195.0
-          -4413.9 1195.0
-          -4370.0 1238.9
-          -4370.0 1301.1
-          -4413.9 1345.0
-          -4476.1 1345.0
-          -4520.0 1301.1
-          -4520.0 1238.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -4476.1 1195.0
-          -4413.9 1195.0
-          -4370.0 1238.9
-          -4370.0 1301.1
-          -4413.9 1345.0
-          -4476.1 1345.0
-          -4520.0 1301.1
-          -4520.0 1238.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -4476.1 1195.0
-          5111.1 1195.0
-          5155.0 1238.9
-          5155.0 1301.1
-          5111.1 1345.0
-          -4476.1 1345.0
-          -4520.0 1301.1
-          -4520.0 1238.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          5048.9 -1345.0
-          5111.1 -1345.0
-          5155.0 -1301.1
-          5155.0 1301.1
-          5111.1 1345.0
-          5048.9 1345.0
-          5005.0 1301.1
-          5005.0 -1301.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -4476.1 -1345.0
-          5111.1 -1345.0
-          5155.0 -1301.1
-          5155.0 -1238.9
-          5111.1 -1195.0
-          -4476.1 -1195.0
-          -4520.0 -1238.9
-          -4520.0 -1301.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -4476.1 -1345.0
-          -4413.9 -1345.0
-          -4370.0 -1301.1
-          -4370.0 1301.1
-          -4413.9 1345.0
-          -4476.1 1345.0
-          -4520.0 1301.1
-          -4520.0 -1301.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -4476.1 560.0
-          -4413.9 560.0
-          -4370.0 603.9
-          -4370.0 666.1
-          -4413.9 710.0
-          -4476.1 710.0
-          -4520.0 666.1
-          -4520.0 603.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -5111.1 560.0
-          -4413.9 560.0
-          -4370.0 603.9
-          -4370.0 666.1
-          -4413.9 710.0
-          -5111.1 710.0
-          -5155.0 666.1
-          -5155.0 603.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -5111.1 -710.0
-          -5048.9 -710.0
-          -5005.0 -666.1
-          -5005.0 666.1
-          -5048.9 710.0
-          -5111.1 710.0
-          -5155.0 666.1
-          -5155.0 -666.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -5111.1 -710.0
-          -4413.9 -710.0
-          -4370.0 -666.1
-          -4370.0 -603.9
-          -4413.9 -560.0
-          -5111.1 -560.0
-          -5155.0 -603.9
-          -5155.0 -666.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -6381.1 -75.0
-          -6318.9 -75.0
-          -6275.0 -31.1
-          -6275.0 31.1
-          -6318.9 75.0
-          -6381.1 75.0
-          -6425.0 31.1
-          -6425.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -6381.1 -75.0
-          -5048.9 -75.0
-          -5005.0 -31.1
-          -5005.0 31.1
-          -5048.9 75.0
-          -6381.1 75.0
-          -6425.0 31.1
-          -6425.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -5111.1 -75.0
-          -5048.9 -75.0
-          -5005.0 -31.1
-          -5005.0 31.1
-          -5048.9 75.0
-          -5111.1 75.0
-          -5155.0 31.1
-          -5155.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -5111.1 -75.0
-          -5048.9 -75.0
-          -5005.0 -31.1
-          -5005.0 31.1
-          -5048.9 75.0
-          -5111.1 75.0
-          -5155.0 31.1
-          -5155.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          5048.9 -75.0
-          5111.1 -75.0
-          5155.0 -31.1
-          5155.0 31.1
-          5111.1 75.0
-          5048.9 75.0
-          5005.0 31.1
-          5005.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          5048.9 -75.0
-          5111.1 -75.0
-          5155.0 -31.1
-          5155.0 31.1
-          5111.1 75.0
-          5048.9 75.0
-          5005.0 31.1
-          5005.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          5048.9 -75.0
-          6381.1 -75.0
-          6425.0 -31.1
-          6425.0 31.1
-          6381.1 75.0
-          5048.9 75.0
-          5005.0 31.1
-          5005.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          6318.9 -75.0
-          6381.1 -75.0
-          6425.0 -31.1
-          6425.0 31.1
-          6381.1 75.0
-          6318.9 75.0
-          6275.0 31.1
-          6275.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          6318.9 -75.0
-          6381.1 -75.0
-          6425.0 -31.1
-          6425.0 31.1
-          6381.1 75.0
-          6318.9 75.0
-          6275.0 31.1
-          6275.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          6318.9 -75.0
-          6381.1 -75.0
-          6425.0 -31.1
-          6425.0 31.1
-          6381.1 75.0
-          6318.9 75.0
-          6275.0 31.1
-          6275.0 -31.1
-        )
-      )
+      (outline (path signal 150  -4445 1270  -4445 1270))
+      (outline (path signal 150  -4445 1270  -4445 1270))
+      (outline (path signal 150  -4445 1270  -4445 1270))
+      (outline (path signal 150  -4445 1270  5080 1270))
+      (outline (path signal 150  5080 1270  5080 -1270))
+      (outline (path signal 150  5080 -1270  -4445 -1270))
+      (outline (path signal 150  -4445 -1270  -4445 1270))
+      (outline (path signal 150  -4445 635  -4445 635))
+      (outline (path signal 150  -4445 635  -5080 635))
+      (outline (path signal 150  -5080 635  -5080 -635))
+      (outline (path signal 150  -5080 -635  -4445 -635))
+      (outline (path signal 150  -6350 0  -6350 0))
+      (outline (path signal 150  -6350 0  -5080 0))
+      (outline (path signal 150  -5080 0  -5080 0))
+      (outline (path signal 150  -5080 0  -5080 0))
+      (outline (path signal 150  5080 0  5080 0))
+      (outline (path signal 150  5080 0  5080 0))
+      (outline (path signal 150  5080 0  6350 0))
+      (outline (path signal 150  6350 0  6350 0))
+      (outline (path signal 150  6350 0  6350 0))
+      (outline (path signal 150  6350 0  6350 0))
+      (pin Rect[A]Pad_1397x1397_um 1 -6350 0)
+      (pin Round[A]Pad_1397_um 2 6350 0)
     )
-    (image "Capacitors_ThroughHole:C_Disc_D6_P5"
-      (side front)
-      (pin "Rect[A]Pad_1400x1400_um" 1 0.0 0.0)
-      (pin "Round[A]Pad_1400_um" 2 5000.0 0.0)
-      (outline
-        (polygon signal 0
-          -960.4 2475.0
-          5960.4 2475.0
-          5975.0 2489.6
-          5975.0 2510.4
-          5960.4 2525.0
-          -960.4 2525.0
-          -975.0 2510.4
-          -975.0 2489.6
-        )
-      )
-      (outline
-        (polygon signal 0
-          5939.6 -2525.0
-          5960.4 -2525.0
-          5975.0 -2510.4
-          5975.0 2510.4
-          5960.4 2525.0
-          5939.6 2525.0
-          5925.0 2510.4
-          5925.0 -2510.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -960.4 -2525.0
-          5960.4 -2525.0
-          5975.0 -2510.4
-          5975.0 -2489.6
-          5960.4 -2475.0
-          -960.4 -2475.0
-          -975.0 -2489.6
-          -975.0 -2510.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -960.4 -2525.0
-          -939.6 -2525.0
-          -925.0 -2510.4
-          -925.0 2510.4
-          -939.6 2525.0
-          -960.4 2525.0
-          -975.0 2510.4
-          -975.0 -2510.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -531.1 2175.0
-          5531.1 2175.0
-          5575.0 2218.9
-          5575.0 2281.1
-          5531.1 2325.0
-          -531.1 2325.0
-          -575.0 2281.1
-          -575.0 2218.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -531.1 -2325.0
-          5531.1 -2325.0
-          5575.0 -2281.1
-          5575.0 -2218.9
-          5531.1 -2175.0
-          -531.1 -2175.0
-          -575.0 -2218.9
-          -575.0 -2281.1
-        )
-      )
+    (image Capacitors_ThroughHole:C_Disc_D6_P5
+      (outline (path signal 50  -950 2500  5950 2500))
+      (outline (path signal 50  5950 2500  5950 -2500))
+      (outline (path signal 50  5950 -2500  -950 -2500))
+      (outline (path signal 50  -950 -2500  -950 2500))
+      (outline (path signal 150  -500 2250  5500 2250))
+      (outline (path signal 150  5500 -2250  -500 -2250))
+      (pin Rect[A]Pad_1400x1400_um 1 0 0)
+      (pin Round[A]Pad_1400_um 2 5000 0)
     )
-    (image "Connect:BARREL_JACK"
-      (side front)
-      (pin "Rect[A]Pad_3500.12x3500.12_um" 1 6200.1 0.0)
-      (pin "Rect[A]Pad_3500.12x3500.12_um" 2 200.7 0.0)
-      (pin "Rect[A]Pad_3500.12x3500.12_um" 3 3200.4 -4699.0)
-      (outline
-        (polygon signal 0
-          -4031.6 -4575.9
-          -3969.4 -4575.9
-          -3925.5 -4532.0
-          -3925.5 4532.0
-          -3969.4 4575.9
-          -4031.6 4575.9
-          -4075.5 4532.0
-          -4075.5 -4532.0
-        )
-      )
-      (outline
-        (polygon signal 0
-          -7531.7 -4575.9
-          -7469.5 -4575.9
-          -7425.6 -4532.0
-          -7425.6 4532.0
-          -7469.5 4575.9
-          -7531.7 4575.9
-          -7575.7 4531.9
-          -7575.7 -4531.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -7531.7 -4575.9
-          7031.4 -4575.9
-          7075.3 -4532.0
-          7075.3 -4469.8
-          7031.3 -4425.8
-          -7531.7 -4425.8
-          -7575.7 -4469.8
-          -7575.7 -4531.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          6969.1 -4575.9
-          7031.4 -4575.9
-          7075.3 -4532.0
-          7075.3 4532.0
-          7031.4 4575.9
-          6969.1 4575.9
-          6925.2 4532.0
-          6925.2 -4532.0
-        )
-      )
-      (outline
-        (polygon signal 0
-          -7531.7 4425.8
-          7031.3 4425.8
-          7075.3 4469.8
-          7075.3 4532.0
-          7031.4 4575.9
-          -7531.7 4575.9
-          -7575.7 4531.9
-          -7575.7 4469.8
-        )
-      )
+    (image Connect:BARREL_JACK
+      (outline (path signal 150  -4000.5 4500.88  -4000.5 -4500.88))
+      (outline (path signal 150  -7500.62 4500.88  -7500.62 -4500.88))
+      (outline (path signal 150  -7500.62 -4500.88  7000.24 -4500.88))
+      (outline (path signal 150  7000.24 -4500.88  7000.24 4500.88))
+      (outline (path signal 150  7000.24 4500.88  -7500.62 4500.88))
+      (pin Rect[A]Pad_3500.12x3500.12_um 1 6200.14 0)
+      (pin Rect[A]Pad_3500.12x3500.12_um 2 200.66 0)
+      (pin Rect[A]Pad_3500.12x3500.12_um 3 3200.4 -4699)
     )
     (image "LEDs:LED-5MM"
-      (side front)
-      (pin "Rect[A]Pad_2000x1900_um" 1 0.0 0.0(rotate 90))
-      (pin "Round[A]Pad_1900_um" 2 2540.0 0.0)
-      (outline
-        (polygon signal 0
-          -1510.4 -1575.0
-          -1489.6 -1575.0
-          -1475.0 -1560.4
-          -1475.0 1560.4
-          -1489.6 1575.0
-          -1510.4 1575.0
-          -1525.0 1560.4
-          -1525.0 -1560.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -1261.1 -1575.0
-          -1198.9 -1575.0
-          -1155.0 -1531.1
-          -1155.0 1531.1
-          -1198.9 1575.0
-          -1261.1 1575.0
-          -1305.0 1531.1
-          -1305.0 -1531.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          1264.315827922078 -2592.9
-          1275.684172077922 -2592.9
-          2071.727717120291 -2466.85891948436
-          2794.675301333765 -2098.43271792693
-          3307.1 -1586.1
-          3368.554022654662 -1524.6459773453385
-          3736.857401589617 -801.737303759082
-          3862.9 -5.684172077922078
-          3862.9 5.684172077922078
-          3736.857401589617 801.737303759082
-          3368.554022654662 1524.6459773453385
-          2794.6459773453385 2098.5540226546614
-          2071.737303759082 2466.857401589617
-          1275.684172077922 2592.9
-          1264.315827922078 2592.9
-          468.262696240918 2466.857401589617
-          -254.64597734533837 2098.5540226546614
-          -828.5540226546616 1524.6459773453385
-          -1196.857401589617 801.737303759082
-          -1322.9 5.684172077922078
-          -1322.9 -5.684172077922078
-          -1196.857401589617 -801.737303759082
-          -828.5540226546616 -1524.6459773453385
-          -767.1 -1586.1
-          -254.67530133376545 -2098.43271792693
-          468.2722828797092 -2466.85891948436
-        )
-      )
+      (outline (path signal 50  -1500 1550  -1500 -1550))
+      (outline (path signal 150  -1230 -1500  -1230 1500))
+      (outline (path signal 150  3787.94 0  3664.7 -778.085  3307.05 -1480.01  2750.01 -2037.05
+            2048.09 -2394.7  1270 -2517.94  491.915 -2394.7  -210.005 -2037.05
+            -767.053 -1480.01  -1124.7 -778.085  -1247.94 0  -1124.7 778.085
+            -767.053 1480.01  -210.005 2037.05  491.915 2394.7  1270 2517.94
+            2048.09 2394.7  2750.01 2037.05  3307.05 1480.01  3664.7 778.085))
+      (pin Rect[A]Pad_2000x1900_um (rotate 90) 1 0 0)
+      (pin Round[A]Pad_1900_um 2 2540 0)
     )
-    (image "Resistors_ThroughHole:Resistor_Horizontal_RM10mm"
-      (side front)
-      (pin "Round[A]Pad_1998.98_um" 1 0.0 0.0)
-      (pin "Round[A]Pad_1998.98_um" 2 10160.0 0.0)
-      (outline
-        (polygon signal 0
-          -1260.4 1475.0
-          11410.4 1475.0
-          11425.0 1489.6
-          11425.0 1510.4
-          11410.4 1525.0
-          -1260.4 1525.0
-          -1275.0 1510.4
-          -1275.0 1489.6
-        )
-      )
-      (outline
-        (polygon signal 0
-          -1260.4 -1525.0
-          -1239.6 -1525.0
-          -1225.0 -1510.4
-          -1225.0 1510.4
-          -1239.6 1525.0
-          -1260.4 1525.0
-          -1275.0 1510.4
-          -1275.0 -1510.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          11389.6 -1525.0
-          11410.4 -1525.0
-          11425.0 -1510.4
-          11425.0 1510.4
-          11410.4 1525.0
-          11389.6 1525.0
-          11375.0 1510.4
-          11375.0 -1510.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -1260.4 -1525.0
-          11410.4 -1525.0
-          11425.0 -1510.4
-          11425.0 -1489.6
-          11410.4 -1475.0
-          -1260.4 -1475.0
-          -1275.0 -1489.6
-          -1275.0 -1510.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          2508.9 1195.0
-          7651.1 1195.0
-          7695.0 1238.9
-          7695.0 1301.1
-          7651.1 1345.0
-          2508.9 1345.0
-          2465.0 1301.1
-          2465.0 1238.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          7588.9 -1345.0
-          7651.1 -1345.0
-          7695.0 -1301.1
-          7695.0 1301.1
-          7651.1 1345.0
-          7588.9 1345.0
-          7545.0 1301.1
-          7545.0 -1301.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          2508.9 -1345.0
-          7651.1 -1345.0
-          7695.0 -1301.1
-          7695.0 -1238.9
-          7651.1 -1195.0
-          2508.9 -1195.0
-          2465.0 -1238.9
-          2465.0 -1301.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          2508.9 -1345.0
-          2571.1 -1345.0
-          2615.0 -1301.1
-          2615.0 1301.1
-          2571.1 1345.0
-          2508.9 1345.0
-          2465.0 1301.1
-          2465.0 -1301.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          1238.9 -75.0
-          2571.1 -75.0
-          2615.0 -31.1
-          2615.0 31.1
-          2571.1 75.0
-          1238.9 75.0
-          1195.0 31.1
-          1195.0 -31.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          7588.9 -75.0
-          8921.1 -75.0
-          8965.0 -31.1
-          8965.0 31.1
-          8921.1 75.0
-          7588.9 75.0
-          7545.0 31.1
-          7545.0 -31.1
-        )
-      )
+    (image Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (outline (path signal 50  -1250 1500  11400 1500))
+      (outline (path signal 50  -1250 -1500  -1250 1500))
+      (outline (path signal 50  11400 1500  11400 -1500))
+      (outline (path signal 50  -1250 -1500  11400 -1500))
+      (outline (path signal 150  2540 1270  7620 1270))
+      (outline (path signal 150  7620 1270  7620 -1270))
+      (outline (path signal 150  7620 -1270  2540 -1270))
+      (outline (path signal 150  2540 -1270  2540 1270))
+      (outline (path signal 150  2540 0  1270 0))
+      (outline (path signal 150  7620 0  8890 0))
+      (pin Round[A]Pad_1998.98_um 1 0 0)
+      (pin Round[A]Pad_1998.98_um 2 10160 0)
     )
     (image DIL28:DIL28
-      (side front)
-      (pin "Rect[A]Pad_2032x2032_um" 1 0.0 0.0)
-      (pin "Round[A]Pad_2032_um" 2 2540.0 0.0)
-      (pin "Round[A]Pad_2032_um" 3 5080.0 0.0)
-      (pin "Round[A]Pad_2032_um" 4 7620.0 0.0)
-      (pin "Round[A]Pad_2032_um" 5 10160.0 0.0)
-      (pin "Round[A]Pad_2032_um" 6 12700.0 0.0)
-      (pin "Round[A]Pad_2032_um" 7 15240.0 0.0)
-      (pin "Round[A]Pad_2032_um" 8 17780.0 0.0)
-      (pin "Round[A]Pad_2032_um" 9 20320.0 0.0)
-      (pin "Round[A]Pad_2032_um" 10 22860.0 0.0)
-      (pin "Round[A]Pad_2032_um" 11 25400.0 0.0)
-      (pin "Round[A]Pad_2032_um" 12 27940.0 0.0)
-      (pin "Round[A]Pad_2032_um" 13 30480.0 0.0)
-      (pin "Round[A]Pad_2032_um" 14 33020.0 0.0)
-      (pin "Round[A]Pad_2032_um" 15 33020.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 16 30480.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 17 27940.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 18 25400.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 19 22860.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 20 20320.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 21 17780.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 22 15240.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 23 12700.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 24 10160.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 25 7620.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 26 5080.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 27 2540.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 28 0.0 7620.0(rotate 180))
-      (outline
-        (polygon signal 0
-          -698.1 -787.4
-          33718.1 -787.4
-          33807.4 -698.1
-          33807.4 -571.9
-          33718.1 -482.6
-          -698.1 -482.6
-          -787.4 -571.9
-          -787.4 -698.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          33591.9 -787.4
-          33718.1 -787.4
-          33807.4 -698.1
-          33807.4 8318.1
-          33718.1 8407.4
-          33591.9 8407.4
-          33502.6 8318.1
-          33502.6 -698.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -698.1 8102.6
-          33718.1 8102.6
-          33807.4 8191.9
-          33807.4 8318.1
-          33718.1 8407.4
-          -698.1 8407.4
-          -787.4 8318.1
-          -787.4 8191.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -698.1 -787.4
-          -571.9 -787.4
-          -482.6 -698.1
-          -482.6 8318.1
-          -571.9 8407.4
-          -698.1 8407.4
-          -787.4 8318.1
-          -787.4 -698.1
-        )
-      )
-    )
-    (image "CONN_02x20:CONN_02x20"
-      (side front)
-      (pin "Rect[A]Pad_2032x2032_um" 1 0.0 0.0)
-      (pin "Round[A]Pad_2032_um" 2 0.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 3 2540.0 0.0)
-      (pin "Round[A]Pad_2032_um" 4 2540.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 5 5080.0 0.0)
-      (pin "Round[A]Pad_2032_um" 6 5080.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 7 7620.0 0.0)
-      (pin "Round[A]Pad_2032_um" 8 7620.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 9 10160.0 0.0)
-      (pin "Round[A]Pad_2032_um" 10 10160.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 11 12700.0 0.0)
-      (pin "Round[A]Pad_2032_um" 12 12700.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 13 15240.0 0.0)
-      (pin "Round[A]Pad_2032_um" 14 15240.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 15 17780.0 0.0)
-      (pin "Round[A]Pad_2032_um" 16 17780.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 17 20320.0 0.0)
-      (pin "Round[A]Pad_2032_um" 18 20320.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 19 22860.0 0.0)
-      (pin "Round[A]Pad_2032_um" 20 22860.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 21 25400.0 0.0)
-      (pin "Round[A]Pad_2032_um" 22 25400.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 23 27940.0 0.0)
-      (pin "Round[A]Pad_2032_um" 24 27940.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 25 30480.0 0.0)
-      (pin "Round[A]Pad_2032_um" 26 30480.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 27 33020.0 0.0)
-      (pin "Round[A]Pad_2032_um" 28 33020.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 29 35560.0 0.0)
-      (pin "Round[A]Pad_2032_um" 30 35560.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 31 38100.0 0.0)
-      (pin "Round[A]Pad_2032_um" 32 38100.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 33 40640.0 0.0)
-      (pin "Round[A]Pad_2032_um" 34 40640.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 35 43180.0 0.0)
-      (pin "Round[A]Pad_2032_um" 36 43180.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 37 45720.0 0.0)
-      (pin "Round[A]Pad_2032_um" 38 45720.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 39 48260.0 0.0)
-      (pin "Round[A]Pad_2032_um" 40 48260.0 7620.0(rotate 180))
-      (outline
-        (polygon signal 0
-          -698.1 -787.4
-          48958.1 -787.4
-          49047.4 -698.1
-          49047.4 -571.9
-          48958.1 -482.6
-          -698.1 -482.6
-          -787.4 -571.9
-          -787.4 -698.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          48831.9 -787.4
-          48958.1 -787.4
-          49047.4 -698.1
-          49047.4 8318.1
-          48958.1 8407.4
-          48831.9 8407.4
-          48742.6 8318.1
-          48742.6 -698.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -698.1 8102.6
-          48958.1 8102.6
-          49047.4 8191.9
-          49047.4 8318.1
-          48958.1 8407.4
-          -698.1 8407.4
-          -787.4 8318.1
-          -787.4 8191.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -698.1 -787.4
-          -571.9 -787.4
-          -482.6 -698.1
-          -482.6 8318.1
-          -571.9 8407.4
-          -698.1 8407.4
-          -787.4 8318.1
-          -787.4 -698.1
-        )
-      )
+      (outline (path signal 304.8  -635 -635  33655 -635))
+      (outline (path signal 304.8  33655 -635  33655 8255))
+      (outline (path signal 304.8  33655 8255  -635 8255))
+      (outline (path signal 304.8  -635 8255  -635 -635))
+      (pin Rect[A]Pad_2032x2032_um 1 0 0)
+      (pin Round[A]Pad_2032_um 2 2540 0)
+      (pin Round[A]Pad_2032_um 3 5080 0)
+      (pin Round[A]Pad_2032_um 4 7620 0)
+      (pin Round[A]Pad_2032_um 5 10160 0)
+      (pin Round[A]Pad_2032_um 6 12700 0)
+      (pin Round[A]Pad_2032_um 7 15240 0)
+      (pin Round[A]Pad_2032_um 8 17780 0)
+      (pin Round[A]Pad_2032_um 9 20320 0)
+      (pin Round[A]Pad_2032_um 10 22860 0)
+      (pin Round[A]Pad_2032_um 11 25400 0)
+      (pin Round[A]Pad_2032_um 12 27940 0)
+      (pin Round[A]Pad_2032_um 13 30480 0)
+      (pin Round[A]Pad_2032_um 14 33020 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 15 33020 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 16 30480 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 17 27940 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 18 25400 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 19 22860 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 20 20320 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 21 17780 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 22 15240 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 23 12700 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 24 10160 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 25 7620 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 26 5080 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 27 2540 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 28 0 7620)
     )
     (image DIL24:DIL24
-      (side front)
-      (pin "Rect[A]Pad_2032x2032_um" 1 0.0 0.0)
-      (pin "Round[A]Pad_2032_um" 2 2540.0 0.0)
-      (pin "Round[A]Pad_2032_um" 3 5080.0 0.0)
-      (pin "Round[A]Pad_2032_um" 4 7620.0 0.0)
-      (pin "Round[A]Pad_2032_um" 5 10160.0 0.0)
-      (pin "Round[A]Pad_2032_um" 6 12700.0 0.0)
-      (pin "Round[A]Pad_2032_um" 7 15240.0 0.0)
-      (pin "Round[A]Pad_2032_um" 8 17780.0 0.0)
-      (pin "Round[A]Pad_2032_um" 9 20320.0 0.0)
-      (pin "Round[A]Pad_2032_um" 10 22860.0 0.0)
-      (pin "Round[A]Pad_2032_um" 11 25400.0 0.0)
-      (pin "Round[A]Pad_2032_um" 12 27940.0 0.0)
-      (pin "Round[A]Pad_2032_um" 13 27940.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 14 25400.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 15 22860.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 16 20320.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 17 17780.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 18 15240.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 19 12700.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 20 10160.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 21 7620.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 22 5080.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 23 2540.0 7620.0(rotate 180))
-      (pin "Round[A]Pad_2032_um" 24 0.0 7620.0(rotate 180))
-      (outline
-        (polygon signal 0
-          -698.1 -787.4
-          28638.1 -787.4
-          28727.4 -698.1
-          28727.4 -571.9
-          28638.1 -482.6
-          -698.1 -482.6
-          -787.4 -571.9
-          -787.4 -698.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          28511.9 -787.4
-          28638.1 -787.4
-          28727.4 -698.1
-          28727.4 8318.1
-          28638.1 8407.4
-          28511.9 8407.4
-          28422.6 8318.1
-          28422.6 -698.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -698.1 8102.6
-          28638.1 8102.6
-          28727.4 8191.9
-          28727.4 8318.1
-          28638.1 8407.4
-          -698.1 8407.4
-          -787.4 8318.1
-          -787.4 8191.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          -698.1 -787.4
-          -571.9 -787.4
-          -482.6 -698.1
-          -482.6 8318.1
-          -571.9 8407.4
-          -698.1 8407.4
-          -787.4 8318.1
-          -787.4 -698.1
-        )
-      )
+      (outline (path signal 304.8  -635 -635  28575 -635))
+      (outline (path signal 304.8  28575 -635  28575 8255))
+      (outline (path signal 304.8  28575 8255  -635 8255))
+      (outline (path signal 304.8  -635 8255  -635 -635))
+      (pin Rect[A]Pad_2032x2032_um 1 0 0)
+      (pin Round[A]Pad_2032_um 2 2540 0)
+      (pin Round[A]Pad_2032_um 3 5080 0)
+      (pin Round[A]Pad_2032_um 4 7620 0)
+      (pin Round[A]Pad_2032_um 5 10160 0)
+      (pin Round[A]Pad_2032_um 6 12700 0)
+      (pin Round[A]Pad_2032_um 7 15240 0)
+      (pin Round[A]Pad_2032_um 8 17780 0)
+      (pin Round[A]Pad_2032_um 9 20320 0)
+      (pin Round[A]Pad_2032_um 10 22860 0)
+      (pin Round[A]Pad_2032_um 11 25400 0)
+      (pin Round[A]Pad_2032_um 12 27940 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 13 27940 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 14 25400 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 15 22860 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 16 20320 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 17 17780 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 18 15240 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 19 12700 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 20 10160 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 21 7620 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 22 5080 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 23 2540 7620)
+      (pin Round[A]Pad_2032_um (rotate 180) 24 0 7620)
     )
     (image "TO_SOT_Packages_THT:TO-92_Molded_Narrow"
-      (side front)
-      (pin "Round[A]Pad_1000.76_um" 2 1270.0 1270.0(rotate 90))
-      (pin "Round[A]Pad_1000.76_um" 3 2540.0 0.0(rotate 90))
-      (pin "Round[A]Pad_1000.76_um" 1 0.0 0.0(rotate 90))
-      (outline
-        (polygon signal 0
-          -1410.4 -1975.0
-          -1389.6 -1975.0
-          -1375.0 -1960.4
-          -1375.0 2660.4
-          -1389.6 2675.0
-          -1410.4 2675.0
-          -1425.0 2660.4
-          -1425.0 -1960.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -1410.4 -1975.0
-          3910.4 -1975.0
-          3925.0 -1960.4
-          3925.0 -1939.6
-          3910.4 -1925.0
-          -1410.4 -1925.0
-          -1425.0 -1939.6
-          -1425.0 -1960.4
-        )
-      )
-      (outline
-        (polygon signal 0
-          -461.1 -1775.0
-          3001.1 -1775.0
-          3045.0 -1731.1
-          3045.0 -1668.9
-          3001.1 -1625.0
-          -461.1 -1625.0
-          -505.0 -1668.9
-          -505.0 -1731.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -1410.4 2625.0
-          3910.4 2625.0
-          3925.0 2639.6
-          3925.0 2660.4
-          3910.4 2675.0
-          -1410.4 2675.0
-          -1425.0 2660.4
-          -1425.0 2639.6
-        )
-      )
-      (outline
-        (polygon signal 0
-          3889.6 -1975.0
-          3910.4 -1975.0
-          3925.0 -1960.4
-          3925.0 2660.4
-          3910.4 2675.0
-          3889.6 2675.0
-          3875.0 2660.4
-          3875.0 -1960.4
-        )
-      )
+      (outline (path signal 50  -1400 -1950  -1400 2650))
+      (outline (path signal 50  -1400 -1950  3900 -1950))
+      (outline (path signal 150  -430 -1700  2970 -1700))
+      (outline (path signal 50  -1400 2650  3900 2650))
+      (outline (path signal 50  3900 -1950  3900 2650))
+      (pin Round[A]Pad_1000.76_um (rotate 90) 2 1270 1270)
+      (pin Round[A]Pad_1000.76_um (rotate 90) 3 2540 0)
+      (pin Round[A]Pad_1000.76_um (rotate 90) 1 0 0)
     )
-    (image "myparts:SW_SPDT"
-      (side front)
-      (pin "Rect[A]Pad_2540x2540_um" 1 -4699.0 0.0)
-      (pin "Round[A]Pad_2540_um" 2 0.0 0.0)
-      (pin "Round[A]Pad_2540_um" 3 4699.0 0.0)
-      (outline
-        (polygon signal 0
-          -6381.1 -3504.0
-          -6318.9 -3504.0
-          -6275.0 -3460.1
-          -6275.0 3460.1
-          -6318.9 3504.0
-          -6381.1 3504.0
-          -6425.0 3460.1
-          -6425.0 -3460.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -6381.1 3354.0
-          6381.1 3354.0
-          6425.0 3397.9
-          6425.0 3460.1
-          6381.1 3504.0
-          -6381.1 3504.0
-          -6425.0 3460.1
-          -6425.0 3397.9
-        )
-      )
-      (outline
-        (polygon signal 0
-          6318.9 -3504.0
-          6381.1 -3504.0
-          6425.0 -3460.1
-          6425.0 3460.1
-          6381.1 3504.0
-          6318.9 3504.0
-          6275.0 3460.1
-          6275.0 -3460.1
-        )
-      )
-      (outline
-        (polygon signal 0
-          -6381.1 -3504.0
-          6381.1 -3504.0
-          6425.0 -3460.1
-          6425.0 -3397.9
-          6381.1 -3354.0
-          -6381.1 -3354.0
-          -6425.0 -3397.9
-          -6425.0 -3460.1
-        )
-      )
+    (image myparts:SW_SPDT
+      (outline (path signal 150  -6350 -3429  -6350 3429))
+      (outline (path signal 150  -6350 3429  6350 3429))
+      (outline (path signal 150  6350 3429  6350 -3429))
+      (outline (path signal 150  6350 -3429  -6350 -3429))
+      (pin Rect[A]Pad_2540x2540_um 1 -4699 0)
+      (pin Round[A]Pad_2540_um 2 0 0)
+      (pin Round[A]Pad_2540_um 3 4699 0)
     )
-    (padstack "Round[A]Pad_1000.76_um"
-      (shape
-        (circle F.Cu 1000.8 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 1000.8 0.0 0.0)
-      )
+    (image CONN_02x20:CONN_02x20
+      (outline (path signal 304.8  -635 -635  48895 -635))
+      (outline (path signal 304.8  48895 -635  48895 3175))
+      (outline (path signal 304.8  48895 3175  -635 3175))
+      (outline (path signal 304.8  -635 3175  -635 -635))
+      (pin Rect[A]Pad_2032x2032_um 1 0 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 2 0 2540)
+      (pin Round[A]Pad_2032_um 3 2540 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 4 2540 2540)
+      (pin Round[A]Pad_2032_um 5 5080 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 6 5080 2540)
+      (pin Round[A]Pad_2032_um 7 7620 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 8 7620 2540)
+      (pin Round[A]Pad_2032_um 9 10160 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 10 10160 2540)
+      (pin Round[A]Pad_2032_um 11 12700 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 12 12700 2540)
+      (pin Round[A]Pad_2032_um 13 15240 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 14 15240 2540)
+      (pin Round[A]Pad_2032_um 15 17780 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 16 17780 2540)
+      (pin Round[A]Pad_2032_um 17 20320 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 18 20320 2540)
+      (pin Round[A]Pad_2032_um 19 22860 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 20 22860 2540)
+      (pin Round[A]Pad_2032_um 21 25400 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 22 25400 2540)
+      (pin Round[A]Pad_2032_um 23 27940 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 24 27940 2540)
+      (pin Round[A]Pad_2032_um 25 30480 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 26 30480 2540)
+      (pin Round[A]Pad_2032_um 27 33020 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 28 33020 2540)
+      (pin Round[A]Pad_2032_um 29 35560 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 30 35560 2540)
+      (pin Round[A]Pad_2032_um 31 38100 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 32 38100 2540)
+      (pin Round[A]Pad_2032_um 33 40640 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 34 40640 2540)
+      (pin Round[A]Pad_2032_um 35 43180 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 36 43180 2540)
+      (pin Round[A]Pad_2032_um 37 45720 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 38 45720 2540)
+      (pin Round[A]Pad_2032_um 39 48260 0)
+      (pin Round[A]Pad_2032_um (rotate 180) 40 48260 2540)
+    )
+    (padstack Round[A]Pad_1000.76_um
+      (shape (circle F.Cu 1000.76))
+      (shape (circle B.Cu 1000.76))
       (attach off)
     )
-    (padstack "Round[A]Pad_1397_um"
-      (shape
-        (circle F.Cu 1397.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 1397.0 0.0 0.0)
-      )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
       (attach off)
     )
-    (padstack "Round[A]Pad_1400_um"
-      (shape
-        (circle F.Cu 1400.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 1400.0 0.0 0.0)
-      )
+    (padstack Round[A]Pad_1400_um
+      (shape (circle F.Cu 1400))
+      (shape (circle B.Cu 1400))
       (attach off)
     )
-    (padstack "Round[A]Pad_1900_um"
-      (shape
-        (circle F.Cu 1900.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 1900.0 0.0 0.0)
-      )
+    (padstack Round[A]Pad_1900_um
+      (shape (circle F.Cu 1900))
+      (shape (circle B.Cu 1900))
       (attach off)
     )
-    (padstack "Round[A]Pad_1998.98_um"
-      (shape
-        (circle F.Cu 1999.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 1999.0 0.0 0.0)
-      )
+    (padstack Round[A]Pad_1998.98_um
+      (shape (circle F.Cu 1998.98))
+      (shape (circle B.Cu 1998.98))
       (attach off)
     )
-    (padstack "Round[A]Pad_2032_um"
-      (shape
-        (circle F.Cu 2032.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 2032.0 0.0 0.0)
-      )
+    (padstack Round[A]Pad_2032_um
+      (shape (circle F.Cu 2032))
+      (shape (circle B.Cu 2032))
       (attach off)
     )
-    (padstack "Round[A]Pad_2540_um"
-      (shape
-        (circle F.Cu 2540.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 2540.0 0.0 0.0)
-      )
+    (padstack Round[A]Pad_2540_um
+      (shape (circle F.Cu 2540))
+      (shape (circle B.Cu 2540))
       (attach off)
     )
-    (padstack "Rect[A]Pad_2000x1900_um"
-      (shape
-        (rect F.Cu -1000.0 -950.0 1000.0 950.0)
-      )
-      (shape
-        (rect B.Cu -1000.0 -950.0 1000.0 950.0)
-      )
+    (padstack Rect[A]Pad_2000x1900_um
+      (shape (rect F.Cu -1000 -950 1000 950))
+      (shape (rect B.Cu -1000 -950 1000 950))
       (attach off)
     )
-    (padstack "Rect[A]Pad_2032x2032_um"
-      (shape
-        (rect F.Cu -1016.0 -1016.0 1016.0 1016.0)
-      )
-      (shape
-        (rect B.Cu -1016.0 -1016.0 1016.0 1016.0)
-      )
+    (padstack Rect[A]Pad_2032x2032_um
+      (shape (rect F.Cu -1016 -1016 1016 1016))
+      (shape (rect B.Cu -1016 -1016 1016 1016))
       (attach off)
     )
-    (padstack "Rect[A]Pad_2540x2540_um"
-      (shape
-        (rect F.Cu -1270.0 -1270.0 1270.0 1270.0)
-      )
-      (shape
-        (rect B.Cu -1270.0 -1270.0 1270.0 1270.0)
-      )
+    (padstack Rect[A]Pad_2540x2540_um
+      (shape (rect F.Cu -1270 -1270 1270 1270))
+      (shape (rect B.Cu -1270 -1270 1270 1270))
       (attach off)
     )
-    (padstack "Rect[A]Pad_3500.12x3500.12_um"
-      (shape
-        (rect F.Cu -1750.1 -1750.1 1750.1 1750.1)
-      )
-      (shape
-        (rect B.Cu -1750.1 -1750.1 1750.1 1750.1)
-      )
+    (padstack Rect[A]Pad_3500.12x3500.12_um
+      (shape (rect F.Cu -1750.06 -1750.06 1750.06 1750.06))
+      (shape (rect B.Cu -1750.06 -1750.06 1750.06 1750.06))
       (attach off)
     )
-    (padstack "Rect[A]Pad_1397x1397_um"
-      (shape
-        (rect F.Cu -698.5 -698.5 698.5 698.5)
-      )
-      (shape
-        (rect B.Cu -698.5 -698.5 698.5 698.5)
-      )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
       (attach off)
     )
-    (padstack "Rect[A]Pad_1400x1400_um"
-      (shape
-        (rect F.Cu -700.0 -700.0 700.0 700.0)
-      )
-      (shape
-        (rect B.Cu -700.0 -700.0 700.0 700.0)
-      )
+    (padstack Rect[A]Pad_1400x1400_um
+      (shape (rect F.Cu -700 -700 700 700))
+      (shape (rect B.Cu -700 -700 700 700))
       (attach off)
     )
     (padstack "Via[0-1]_1000:600_um"
-      (shape
-        (circle F.Cu 1000.0 0.0 0.0)
-      )
-      (shape
-        (circle B.Cu 1000.0 0.0 0.0)
-      )
+      (shape (circle F.Cu 1000))
+      (shape (circle B.Cu 1000))
       (attach off)
     )
   )
   (network
-    (net +3V3 1
-      (pins
-        Q3-2
-        Q2-2
-        Q1-2
-        U2-17
-        U2-1
-        U1-18
-        U1-9
-        R7-1
-        R5-1
-        R3-1
-      )
-    )
-    (net "/LEDDRIVER_CS_TTL" 1
-      (pins
-        Q1-3
-        U2-24
-        R3-2
-      )
-    )
-    (net VCC 1
-      (pins
-        U4-19
-        U3-19
-        R8-1
-        R6-1
-        R4-1
-        R2-2
-        R1-2
-        CON1-1
-        C4-1
-        C2-1
-        C3-1
-        C1-1
-      )
-    )
-    (net "/LEDDRIVER_CS" 1
-      (pins
-        Q1-1
-        U4-12
-        U3-12
-        R4-2
-      )
-    )
-    (net "/LEDDRIVER_CLK_TTL" 1
-      (pins
-        Q2-3
-        U2-23
-        R7-2
-      )
+    (net +3V3
+      (pins U1-9 U1-18 Q1-2 Q2-2 Q3-2 R3-1 R5-1 R7-1 U2-1 U2-17)
     )
-    (net "/LEDDRIVER_CLK" 1
-      (pins
-        Q2-1
-        U4-13
-        U3-13
-        R8-2
-      )
+    (net /LEDDRIVER_CS_TTL
+      (pins Q1-3 R3-2 U2-24)
     )
-    (net "/LEDDRIVER_DIN_TTL" 1
-      (pins
-        Q3-3
-        U2-19
-        R5-2
-      )
+    (net VCC
+      (pins C1-1 C2-1 C3-1 C4-1 CON1-1 R1-2 R2-2 U3-19 U4-19 R4-1 R6-1 R8-1)
     )
-    (net "/LEDDRIVER_DIN" 1
-      (pins
-        Q3-1
-        U3-1
-        R6-2
-      )
+    (net /LEDDRIVER_CS
+      (pins U3-12 U4-12 Q1-1 R4-2)
     )
-    (net GND 1
-      (pins
-        SW4-2
-        SW3-2
-        SW2-2
-        SW1-2
-        U4-9
-        U4-4
-        U3-9
-        U3-4
-        U2-39
-        U2-34
-        U2-30
-        U2-25
-        U2-20
-        U2-14
-        U2-9
-        U2-6
-        U1-17
-        U1-16
-        U1-15
-        U1-10
-        CON1-2
-        C4-2
-        C2-2
-        C3-2
-        C1-2
-      )
+    (net /LEDDRIVER_CLK_TTL
+      (pins Q2-3 R7-2 U2-23)
     )
-    (net "Net-(CON1-Pad3)" 1
-      (pins
-        CON1-3
-      )
+    (net /LEDDRIVER_CLK
+      (pins U3-13 U4-13 Q2-1 R8-2)
     )
-    (net "/A_DIG0" 1
-      (pins
-        U3-2
-        D8-1
-        D7-1
-        D6-1
-        D5-1
-        D4-1
-        D3-1
-        D2-1
-        D1-1
-      )
+    (net /LEDDRIVER_DIN_TTL
+      (pins Q3-3 R5-2 U2-19)
     )
-    (net "/A_SEGA" 1
-      (pins
-        U3-14
-        D1-2
-      )
+    (net /LEDDRIVER_DIN
+      (pins U3-1 Q3-1 R6-2)
     )
-    (net "/B_DIG0" 1
-      (pins
-        U4-2
-        D16-1
-        D15-1
-        D14-1
-        D13-1
-        D12-1
-        D11-1
-        D10-1
-        D9-1
-      )
+    (net GND
+      (pins C1-2 C2-2 C3-2 C4-2 CON1-2 U1-10 U1-15 U1-16 U1-17 U3-4 U3-9 U4-4 U4-9
+        SW1-2 SW2-2 SW3-2 SW4-2 U2-6 U2-9 U2-14 U2-20 U2-25 U2-30 U2-34 U2-39)
     )
-    (net "/B_SEGA" 1
-      (pins
-        U4-14
-        D9-2
-      )
+    (net "Net-(CON1-Pad3)"
+      (pins CON1-3)
     )
-    (net "/A_SEGB" 1
-      (pins
-        U3-16
-        D2-2
-      )
+    (net /A_DIG0
+      (pins D1-1 D2-1 D3-1 D4-1 D5-1 D6-1 D7-1 D8-1 U3-2)
     )
-    (net "/B_SEGB" 1
-      (pins
-        U4-16
-        D10-2
-      )
+    (net /A_SEGA
+      (pins D1-2 U3-14)
     )
-    (net "/A_SEGC" 1
-      (pins
-        U3-20
-        D3-2
-      )
+    (net /B_DIG0
+      (pins D9-1 D10-1 D11-1 D12-1 D13-1 D14-1 D15-1 D16-1 U4-2)
     )
-    (net "/B_SEGC" 1
-      (pins
-        U4-20
-        D11-2
-      )
+    (net /B_SEGA
+      (pins D9-2 U4-14)
     )
-    (net "/A_SEGD" 1
-      (pins
-        U3-23
-        D4-2
-      )
+    (net /A_SEGB
+      (pins D2-2 U3-16)
     )
-    (net "/B_SEGD" 1
-      (pins
-        U4-23
-        D12-2
-      )
+    (net /B_SEGB
+      (pins D10-2 U4-16)
     )
-    (net "/A_SEGE" 1
-      (pins
-        U3-21
-        D5-2
-      )
+    (net /A_SEGC
+      (pins D3-2 U3-20)
     )
-    (net "/B_SEGE" 1
-      (pins
-        U4-21
-        D13-2
-      )
+    (net /B_SEGC
+      (pins D11-2 U4-20)
     )
-    (net "/A_SEGF" 1
-      (pins
-        U3-15
-        D6-2
-      )
+    (net /A_SEGD
+      (pins D4-2 U3-23)
     )
-    (net "/B_SEGF" 1
-      (pins
-        U4-15
-        D14-2
-      )
+    (net /B_SEGD
+      (pins D12-2 U4-23)
     )
-    (net "/A_SEGG" 1
-      (pins
-        U3-17
-        D7-2
-      )
+    (net /A_SEGE
+      (pins D5-2 U3-21)
     )
-    (net "/B_SEGG" 1
-      (pins
-        U4-17
-        D15-2
-      )
+    (net /B_SEGE
+      (pins D13-2 U4-21)
     )
-    (net "/A_SEGDP" 1
-      (pins
-        U3-22
-        D8-2
-      )
+    (net /A_SEGF
+      (pins D6-2 U3-15)
     )
-    (net "/B_SEGDP" 1
-      (pins
-        U4-22
-        D16-2
-      )
+    (net /B_SEGF
+      (pins D14-2 U4-15)
     )
-    (net "Net-(R1-Pad1)" 1
-      (pins
-        U3-18
-        R1-1
-      )
+    (net /A_SEGG
+      (pins D7-2 U3-17)
     )
-    (net "Net-(R2-Pad1)" 1
-      (pins
-        U4-18
-        R2-1
-      )
+    (net /B_SEGG
+      (pins D15-2 U4-17)
     )
-    (net "/A_GPB7" 1
-      (pins
-        SW1-1
-        U1-8
-      )
+    (net /A_SEGDP
+      (pins D8-2 U3-22)
     )
-    (net "/A_GPB6" 1
-      (pins
-        SW1-3
-        U1-7
-      )
+    (net /B_SEGDP
+      (pins D16-2 U4-22)
     )
-    (net "/A_GPB5" 1
-      (pins
-        SW2-1
-        U1-6
-      )
+    (net "Net-(R1-Pad1)"
+      (pins R1-1 U3-18)
     )
-    (net "/A_GPB4" 1
-      (pins
-        SW2-3
-        U1-5
-      )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 U4-18)
     )
-    (net "/A_GPB3" 1
-      (pins
-        SW3-1
-        U1-4
-      )
+    (net /A_GPB7
+      (pins U1-8 SW1-1)
     )
-    (net "/A_GPB2" 1
-      (pins
-        SW3-3
-        U1-3
-      )
+    (net /A_GPB6
+      (pins U1-7 SW1-3)
     )
-    (net "/A_GPB1" 1
-      (pins
-        SW4-1
-        U1-2
-      )
+    (net /A_GPB5
+      (pins U1-6 SW2-1)
     )
-    (net "/A_GPB0" 1
-      (pins
-        SW4-3
-        U1-1
-      )
+    (net /A_GPB4
+      (pins U1-5 SW2-3)
     )
-    (net "Net-(U1-Pad11)" 1
-      (pins
-        U1-11
-      )
+    (net /A_GPB3
+      (pins U1-4 SW3-1)
     )
-    (net "/IO_SCK" 1
-      (pins
-        U2-5
-        U1-12
-      )
+    (net /A_GPB2
+      (pins U1-3 SW3-3)
     )
-    (net "/IO_SDA" 1
-      (pins
-        U2-3
-        U1-13
-      )
+    (net /A_GPB1
+      (pins U1-2 SW4-1)
     )
-    (net "Net-(U1-Pad14)" 1
-      (pins
-        U1-14
-      )
+    (net /A_GPB0
+      (pins U1-1 SW4-3)
     )
-    (net "Net-(U1-Pad19)" 1
-      (pins
-        U1-19
-      )
+    (net "Net-(U1-Pad11)"
+      (pins U1-11)
     )
-    (net "Net-(U1-Pad20)" 1
-      (pins
-        U1-20
-      )
+    (net /IO_SCK
+      (pins U1-12 U2-5)
     )
-    (net "Net-(U1-Pad21)" 1
-      (pins
-        U1-21
-      )
+    (net /IO_SDA
+      (pins U1-13 U2-3)
     )
-    (net "Net-(U1-Pad22)" 1
-      (pins
-        U1-22
-      )
+    (net "Net-(U1-Pad14)"
+      (pins U1-14)
     )
-    (net "Net-(U1-Pad23)" 1
-      (pins
-        U1-23
-      )
+    (net "Net-(U1-Pad19)"
+      (pins U1-19)
     )
-    (net "Net-(U1-Pad24)" 1
-      (pins
-        U1-24
-      )
+    (net "Net-(U1-Pad20)"
+      (pins U1-20)
     )
-    (net "Net-(U1-Pad25)" 1
-      (pins
-        U1-25
-      )
+    (net "Net-(U1-Pad21)"
+      (pins U1-21)
     )
-    (net "Net-(U1-Pad26)" 1
-      (pins
-        U1-26
-      )
+    (net "Net-(U1-Pad22)"
+      (pins U1-22)
     )
-    (net "Net-(U1-Pad27)" 1
-      (pins
-        U1-27
-      )
+    (net "Net-(U1-Pad23)"
+      (pins U1-23)
     )
-    (net "Net-(U1-Pad28)" 1
-      (pins
-        U1-28
-      )
+    (net "Net-(U1-Pad24)"
+      (pins U1-24)
     )
-    (net +5V 1
-      (pins
-        U2-4
-        U2-2
-      )
+    (net "Net-(U1-Pad25)"
+      (pins U1-25)
     )
-    (net "Net-(U2-Pad7)" 1
-      (pins
-        U2-7
-      )
+    (net "Net-(U1-Pad26)"
+      (pins U1-26)
     )
-    (net "Net-(U2-Pad8)" 1
-      (pins
-        U2-8
-      )
+    (net "Net-(U1-Pad27)"
+      (pins U1-27)
     )
-    (net "Net-(U2-Pad10)" 1
-      (pins
-        U2-10
-      )
+    (net "Net-(U1-Pad28)"
+      (pins U1-28)
     )
-    (net "Net-(U2-Pad11)" 1
-      (pins
-        U2-11
-      )
+    (net +5V
+      (pins U2-2 U2-4)
     )
-    (net "Net-(U2-Pad12)" 1
-      (pins
-        U2-12
-      )
+    (net "Net-(U2-Pad7)"
+      (pins U2-7)
     )
-    (net "Net-(U2-Pad13)" 1
-      (pins
-        U2-13
-      )
+    (net "Net-(U2-Pad8)"
+      (pins U2-8)
     )
-    (net "Net-(U2-Pad15)" 1
-      (pins
-        U2-15
-      )
+    (net "Net-(U2-Pad10)"
+      (pins U2-10)
     )
-    (net "Net-(U2-Pad16)" 1
-      (pins
-        U2-16
-      )
+    (net "Net-(U2-Pad11)"
+      (pins U2-11)
     )
-    (net "Net-(U2-Pad18)" 1
-      (pins
-        U2-18
-      )
+    (net "Net-(U2-Pad12)"
+      (pins U2-12)
     )
-    (net "Net-(U2-Pad21)" 1
-      (pins
-        U2-21
-      )
+    (net "Net-(U2-Pad13)"
+      (pins U2-13)
     )
-    (net "Net-(U2-Pad22)" 1
-      (pins
-        U2-22
-      )
+    (net "Net-(U2-Pad15)"
+      (pins U2-15)
     )
-    (net "Net-(U2-Pad26)" 1
-      (pins
-        U2-26
-      )
+    (net "Net-(U2-Pad16)"
+      (pins U2-16)
     )
-    (net "Net-(U2-Pad27)" 1
-      (pins
-        U2-27
-      )
+    (net "Net-(U2-Pad18)"
+      (pins U2-18)
     )
-    (net "Net-(U2-Pad28)" 1
-      (pins
-        U2-28
-      )
+    (net "Net-(U2-Pad21)"
+      (pins U2-21)
     )
-    (net "Net-(U2-Pad29)" 1
-      (pins
-        U2-29
-      )
+    (net "Net-(U2-Pad22)"
+      (pins U2-22)
     )
-    (net "Net-(U2-Pad31)" 1
-      (pins
-        U2-31
-      )
+    (net "Net-(U2-Pad26)"
+      (pins U2-26)
     )
-    (net "Net-(U2-Pad32)" 1
-      (pins
-        U2-32
-      )
+    (net "Net-(U2-Pad27)"
+      (pins U2-27)
     )
-    (net "Net-(U2-Pad33)" 1
-      (pins
-        U2-33
-      )
+    (net "Net-(U2-Pad28)"
+      (pins U2-28)
     )
-    (net "Net-(U2-Pad35)" 1
-      (pins
-        U2-35
-      )
+    (net "Net-(U2-Pad29)"
+      (pins U2-29)
     )
-    (net "Net-(U2-Pad36)" 1
-      (pins
-        U2-36
-      )
+    (net "Net-(U2-Pad31)"
+      (pins U2-31)
     )
-    (net "Net-(U2-Pad37)" 1
-      (pins
-        U2-37
-      )
+    (net "Net-(U2-Pad32)"
+      (pins U2-32)
     )
-    (net "Net-(U2-Pad38)" 1
-      (pins
-        U2-38
-      )
+    (net "Net-(U2-Pad33)"
+      (pins U2-33)
     )
-    (net "Net-(U2-Pad40)" 1
-      (pins
-        U2-40
-      )
+    (net "Net-(U2-Pad35)"
+      (pins U2-35)
     )
-    (net "Net-(U3-Pad3)" 1
-      (pins
-        U3-3
-      )
+    (net "Net-(U2-Pad36)"
+      (pins U2-36)
     )
-    (net "Net-(U3-Pad5)" 1
-      (pins
-        U3-5
-      )
+    (net "Net-(U2-Pad37)"
+      (pins U2-37)
     )
-    (net "Net-(U3-Pad6)" 1
-      (pins
-        U3-6
-      )
+    (net "Net-(U2-Pad38)"
+      (pins U2-38)
     )
-    (net "Net-(U3-Pad7)" 1
-      (pins
-        U3-7
-      )
+    (net "Net-(U2-Pad40)"
+      (pins U2-40)
     )
-    (net "Net-(U3-Pad8)" 1
-      (pins
-        U3-8
-      )
+    (net "Net-(U3-Pad3)"
+      (pins U3-3)
     )
-    (net "Net-(U3-Pad10)" 1
-      (pins
-        U3-10
-      )
+    (net "Net-(U3-Pad5)"
+      (pins U3-5)
     )
-    (net "Net-(U3-Pad11)" 1
-      (pins
-        U3-11
-      )
+    (net "Net-(U3-Pad6)"
+      (pins U3-6)
     )
-    (net "Net-(U3-Pad24)" 1
-      (pins
-        U4-1
-        U3-24
-      )
+    (net "Net-(U3-Pad7)"
+      (pins U3-7)
     )
-    (net "Net-(U4-Pad3)" 1
-      (pins
-        U4-3
-      )
+    (net "Net-(U3-Pad8)"
+      (pins U3-8)
     )
-    (net "Net-(U4-Pad5)" 1
-      (pins
-        U4-5
-      )
+    (net "Net-(U3-Pad10)"
+      (pins U3-10)
     )
-    (net "Net-(U4-Pad6)" 1
-      (pins
-        U4-6
-      )
+    (net "Net-(U3-Pad11)"
+      (pins U3-11)
     )
-    (net "Net-(U4-Pad7)" 1
-      (pins
-        U4-7
-      )
+    (net "Net-(U3-Pad24)"
+      (pins U3-24 U4-1)
     )
-    (net "Net-(U4-Pad8)" 1
-      (pins
-        U4-8
-      )
+    (net "Net-(U4-Pad3)"
+      (pins U4-3)
     )
-    (net "Net-(U4-Pad10)" 1
-      (pins
-        U4-10
-      )
+    (net "Net-(U4-Pad5)"
+      (pins U4-5)
     )
-    (net "Net-(U4-Pad11)" 1
-      (pins
-        U4-11
-      )
+    (net "Net-(U4-Pad6)"
+      (pins U4-6)
     )
-    (net "Net-(U4-Pad24)" 1
-      (pins
-        U4-24
-      )
+    (net "Net-(U4-Pad7)"
+      (pins U4-7)
     )
-    (via 
-      "Via[0-1]_1000:600_um" "Via[0-1]_1000:600_um" default
+    (net "Net-(U4-Pad8)"
+      (pins U4-8)
     )
-    (via 
-      "Via[0-1]_1000:600_um-kicad_default" "Via[0-1]_1000:600_um" "kicad_default"
+    (net "Net-(U4-Pad10)"
+      (pins U4-10)
     )
-    (via_rule
-      default "Via[0-1]_1000:600_um"
+    (net "Net-(U4-Pad11)"
+      (pins U4-11)
     )
-    (via_rule
-      "kicad_default" "Via[0-1]_1000:600_um-kicad_default"
+    (net "Net-(U4-Pad24)"
+      (pins U4-24)
     )
-    (class default
-      (clearance_class default)
-      (via_rule default)
+    (class kicad_default "" +3V3 +5V /A_DIG0 /A_GPB0 /A_GPB1 /A_GPB2 /A_GPB3
+      /A_GPB4 /A_GPB5 /A_GPB6 /A_GPB7 /A_SEGA /A_SEGB /A_SEGC /A_SEGD /A_SEGDP
+      /A_SEGE /A_SEGF /A_SEGG /B_DIG0 /B_SEGA /B_SEGB /B_SEGC /B_SEGD /B_SEGDP
+      /B_SEGE /B_SEGF /B_SEGG /IO_SCK /IO_SDA /LEDDRIVER_CLK /LEDDRIVER_CLK_TTL
+      /LEDDRIVER_CS /LEDDRIVER_CS_TTL /LEDDRIVER_DIN /LEDDRIVER_DIN_TTL GND
+      "Net-(CON1-Pad3)" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(U1-Pad11)" "Net-(U1-Pad14)"
+      "Net-(U1-Pad19)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)"
+      "Net-(U1-Pad23)" "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad26)"
+      "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U2-Pad10)" "Net-(U2-Pad11)"
+      "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad15)" "Net-(U2-Pad16)"
+      "Net-(U2-Pad18)" "Net-(U2-Pad21)" "Net-(U2-Pad22)" "Net-(U2-Pad26)"
+      "Net-(U2-Pad27)" "Net-(U2-Pad28)" "Net-(U2-Pad29)" "Net-(U2-Pad31)"
+      "Net-(U2-Pad32)" "Net-(U2-Pad33)" "Net-(U2-Pad35)" "Net-(U2-Pad36)"
+      "Net-(U2-Pad37)" "Net-(U2-Pad38)" "Net-(U2-Pad40)" "Net-(U2-Pad7)" "Net-(U2-Pad8)"
+      "Net-(U3-Pad10)" "Net-(U3-Pad11)" "Net-(U3-Pad24)" "Net-(U3-Pad3)" "Net-(U3-Pad5)"
+      "Net-(U3-Pad6)" "Net-(U3-Pad7)" "Net-(U3-Pad8)" "Net-(U4-Pad10)" "Net-(U4-Pad11)"
+      "Net-(U4-Pad24)" "Net-(U4-Pad3)" "Net-(U4-Pad5)" "Net-(U4-Pad6)" "Net-(U4-Pad7)"
+      "Net-(U4-Pad8)" VCC
+      (circuit
+        (use_via Via[0-1]_1000:600_um)
+      )
       (rule
-        (width 1000.0)
-      )
-      (circuit 
-        (use_layer F.Cu B.Cu)
-      )
-    )
-    (class "kicad_default"
-      +3V3 "/LEDDRIVER_CS_TTL" VCC "/LEDDRIVER_CS" "/LEDDRIVER_CLK_TTL" "/LEDDRIVER_CLK" "/LEDDRIVER_DIN_TTL" "/LEDDRIVER_DIN"
-      GND "Net-(CON1-Pad3)" "/A_DIG0" "/A_SEGA" "/B_DIG0" "/B_SEGA" "/A_SEGB" "/B_SEGB"
-      "/A_SEGC" "/B_SEGC" "/A_SEGD" "/B_SEGD" "/A_SEGE" "/B_SEGE" "/A_SEGF" "/B_SEGF"
-      "/A_SEGG" "/B_SEGG" "/A_SEGDP" "/B_SEGDP" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "/A_GPB7" "/A_GPB6"
-      "/A_GPB5" "/A_GPB4" "/A_GPB3" "/A_GPB2" "/A_GPB1" "/A_GPB0" "Net-(U1-Pad11)" "/IO_SCK"
-      "/IO_SDA" "Net-(U1-Pad14)" "Net-(U1-Pad19)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad23)" "Net-(U1-Pad24)"
-      "Net-(U1-Pad25)" "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" +5V "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U2-Pad10)"
-      "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad13)" "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad18)" "Net-(U2-Pad21)" "Net-(U2-Pad22)"
-      "Net-(U2-Pad26)" "Net-(U2-Pad27)" "Net-(U2-Pad28)" "Net-(U2-Pad29)" "Net-(U2-Pad31)" "Net-(U2-Pad32)" "Net-(U2-Pad33)" "Net-(U2-Pad35)"
-      "Net-(U2-Pad36)" "Net-(U2-Pad37)" "Net-(U2-Pad38)" "Net-(U2-Pad40)" "Net-(U3-Pad3)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U3-Pad7)"
-      "Net-(U3-Pad8)" "Net-(U3-Pad10)" "Net-(U3-Pad11)" "Net-(U3-Pad24)" "Net-(U4-Pad3)" "Net-(U4-Pad5)" "Net-(U4-Pad6)" "Net-(U4-Pad7)"
-      "Net-(U4-Pad8)" "Net-(U4-Pad10)" "Net-(U4-Pad11)" "Net-(U4-Pad24)"
-      (clearance_class "kicad_default")
-      (via_rule kicad_default)
-      (rule
-        (width 1000.0)
-      )
-      (circuit 
-        (use_layer F.Cu B.Cu)
+        (width 1000)
+        (clearance 500.1)
       )
     )
   )
   (wiring
-    (wire
-      (polyline_path B.Cu 1000.0
-        125801.0 -48643.4 124460.0 -47302.4 
-        124460.0 -47302.4 124460.0 -46990.0 
-        124460.0 -46990.0 124460.1 -46990.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        129540.0 -46990.0 129540.0 -48664.2 
-        126844.5 -49999.3 126844.4 -49999.4 
-        126844.5 -49030.6 126844.4 -49030.6 
-        125801.0 -48643.4 124460.0 -47302.4 
-        124460.0 -47302.4 124459.9 -47302.5 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        125801.0 -48643.4 124460.0 -47302.4 
-        124460.0 -47302.4 124459.9 -47302.5 
-        122822.7 -50800.0 115202.7 -50800.0 
-        119380.0 -54242.7 119380.0 -54610.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        119380.0 -54242.7 119380.0 -54610.0 
-        122822.7 -50800.0 115202.7 -50800.0 
-        111908.5 -47505.8 111760.0 -47357.3 
-        111760.0 -47357.3 111760.1 -47357.2 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        122822.7 -50800.0 115202.7 -50800.0 
-        119380.0 -54242.7 119380.0 -54610.0 
-        119380.0 -54610.0 119379.9 -54610.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        110110.9 -49006.4 111760.0 -47357.3 
-        111760.0 -47357.3 111760.0 -46990.0 
-        111760.0 -46990.0 111760.1 -46990.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        104140.0 -49006.2 104140.1 -49006.1 
-        104140.0 -49006.2 104140.2 -49006.4 
-        104140.2 -49006.4 110110.9 -49006.4 
-        110110.9 -49006.4 111760.0 -47357.3 
-        111908.5 -47505.8 111760.0 -47357.3 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        104140.0 -48631.1 104140.0 -49006.2 
-        104140.0 -49006.2 102068.9 -51077.3 
-        99060.0 -50800.0 99059.9 -50800.0 
-        99060.0 -50800.0 99060.1 -50799.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        104140.0 -46990.0 104140.1 -46990.0 
-        104140.0 -48631.1 104140.0 -49006.2 
-        104140.0 -49006.2 104140.1 -49006.2 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        96131.1 -114660.8 96131.1 -114660.7 
-        108506.9 -114660.8 108507.0 -114660.8 
-        106566.3 -114660.9 106566.4 -114660.8 
-        109855.0 -116008.9 109855.0 -110490.0 
-        109855.0 -110490.0 109855.1 -110490.0 
-      )
-      (net "/B_SEGG" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        34290.0 -144780.0 34290.1 -144780.0 
-        34290.0 -144780.0 34290.0 -147737.6 
-        34290.0 -147737.6 32273.7 -149753.9 
-        32273.7 -149753.9 32273.7 -152004.6 
-        32273.7 -152004.6 33401.6 -153132.5 
-        33401.6 -153132.5 57659.4 -153132.5 
-        62691.5 -148100.4 96131.1 -114660.8 
-        96131.1 -114660.8 96131.2 -114660.9 
-      )
-      (net "/B_SEGG" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        49530.0 -144780.0 49529.9 -144780.0 
-        49530.0 -144780.0 49530.0 -144401.8 
-        49530.0 -144401.8 51168.2 -142763.6 
-        51168.2 -142763.6 52072.5 -142763.6 
-        52072.5 -142763.6 71755.0 -123081.1 
-        71755.0 -118765.9 71755.0 -110490.0 
-        71755.0 -110490.0 71755.1 -110490.0 
-      )
-      (net "/B_SEGD" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        59055.0 -110490.0 59055.1 -110490.0 
-        59055.0 -110490.0 59055.0 -133657.1 
-        59055.0 -133657.1 53403.7 -139308.4 
-        53403.7 -139308.4 47045.5 -139308.4 
-        47045.5 -139308.4 41910.0 -144443.9 
-        41910.0 -144443.9 41910.0 -144780.0 
-        41910.0 -144780.0 41909.9 -144780.0 
-      )
-      (net "/B_SEGC" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        43815.0 -97790.0 43815.0 -97790.1 
-        43815.0 -97790.0 43814.9 -97790.0 
-        41864.7 0.0 41864.7 -0.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        43815.0 -97790.0 43814.9 -97790.0 
-        41864.7 -97790.0 41864.6 -97789.9 
-        32454.9 -95807.3 31843.1 -95807.3 
-        32724.0 -95945.8 32723.9 -95945.9 
-        31115.0 -96535.4 31115.0 -97790.0 
-        31115.0 -97790.0 31114.9 -97790.0 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        106301.0 -139698.8 106300.9 -139698.7 
-        104140.0 -139175.2 104140.0 -137160.0 
-        104140.0 -137160.0 104140.1 -137160.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        120650.0 -137160.0 120650.1 -137160.1 
-        120650.0 -137160.0 118111.2 -139698.8 
-        105413.9 -139187.2 105413.8 -139187.2 
-        106301.0 -139698.8 106300.9 -139698.7 
-        104140.0 -137537.8 104140.1 -137537.7 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        91440.0 -137160.0 91439.9 -137160.0 
-        91440.0 -138426.1 91440.0 -139176.4 
-        93078.2 -139176.4 93078.3 -139176.5 
-        91440.0 -139176.4 104278.0 -139176.4 
-        104140.0 -137537.8 104140.1 -137537.7 
-        106301.0 -139698.8 106300.9 -139698.7 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        68400.3 -134445.9 68400.4 -134446.0 
-        68400.3 -134446.0 68400.4 -134446.0 
-        89801.6 -135143.5 89801.7 -135143.6 
-        91440.0 -136970.9 91440.0 -137471.3 
-        91440.0 -137160.0 91439.9 -137160.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        115573.7 -138131.7 115573.7 -137510.2 
-        115573.7 -137510.2 88152.5 -110089.0 
-        88152.5 -110089.0 86696.5 -110089.0 
-        86696.5 -110089.0 86696.5 -110088.9 
-      )
-      (net "/A_SEGD" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        109220.0 -144780.0 109219.9 -144780.1 
-        109220.0 -144780.0 109220.0 -144779.9 
-        110519.1 -143145.2 110519.2 -143145.1 
-        109650.5 -142559.0 112850.9 -142559.0 
-        115356.2 -139184.1 115356.3 -139184.0 
-        115573.7 -138131.7 115573.7 -137510.2 
-        115573.7 -137510.2 115573.8 -137510.2 
-      )
-      (net "/A_SEGD" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        94615.0 -97790.0 94615.0 -97790.1 
-        94615.0 -97790.0 94614.9 -97790.0 
-        92664.7 0.0 92664.7 -0.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        94615.0 -97790.0 94614.9 -97790.0 
-        92664.7 -97790.0 92664.6 -97789.9 
-        92614.7 -95789.7 81915.0 -95789.7 
-        81915.0 -95789.7 81915.0 -95789.6 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        107315.0 -99740.2 107315.0 -99740.4 
-        96678.5 -99740.4 96678.4 -99740.4 
-        96321.6 -99740.5 96321.5 -99740.4 
-        94615.0 -101803.9 94615.0 -97790.0 
-        94615.0 -97790.0 94615.1 -97790.0 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        81915.0 -97790.0 81914.9 -97790.0 
-        81915.0 -97790.0 81915.0 -97789.9 
-        0.0 -95789.7 -0.1 -95789.7 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        83820.0 -144780.0 83820.1 -144780.1 
-        83820.0 -144780.0 79755.1 -148844.9 
-        79755.1 -148844.9 27459.9 -148844.9 
-        25021.1 -146038.6 25021.0 -146038.5 
-        24130.0 -145515.0 24130.0 -144780.0 
-        24130.0 -144780.0 24130.1 -144780.0 
-      )
-      (net "/LEDDRIVER_CLK" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        46355.0 -97790.0 46355.1 -97790.0 
-        46355.0 -97790.0 46355.0 -98633.9 
-        46355.0 -98633.9 42698.7 -102290.2 
-        42698.7 -102290.2 35893.0 -102290.2 
-        35893.0 -102290.2 20595.2 -117588.0 
-        20595.2 -117588.0 20595.2 -144102.1 
-        20595.2 -144102.1 29651.7 -153158.6 
-        50333.9 -153158.6 83425.2 -153158.6 
-        83425.2 -153158.6 91440.0 -145143.8 
-        91440.0 -145143.8 91440.0 -144780.0 
-        91440.0 -144780.0 91440.1 -144780.0 
-      )
-      (net "/A_SEGB" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        59055.0 -97790.0 59054.9 -97790.0 
-        59055.0 -97790.0 59055.0 -96902.2 
-        59055.0 -96902.2 56427.5 -94274.7 
-        56427.5 -94274.7 31253.8 -94274.7 
-        31253.8 -94274.7 19052.3 -106476.2 
-        19052.3 -106476.2 19052.3 -144725.3 
-        19052.3 -144725.3 30486.2 -156159.2 
-        30486.2 -154670.8 30486.3 -154670.8 
-        87356.1 -156159.2 94412.2 -149103.1 
-        94412.2 -149103.1 94412.3 -149103.2 
-      )
-      (net "/A_SEGC" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        137160.0 -54610.0 137160.1 -54610.0 
-        137160.0 -54610.0 137160.0 -125556.0 
-        137160.0 -125556.0 128270.0 -134446.0 
-        128270.0 -134446.0 128269.9 -134445.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        126844.4 -49999.4 126844.5 -49999.3 
-        129540.0 -47303.8 129540.1 -47303.9 
-        131157.9 -51600.7 137160.0 -51600.7 
-        134527.0 -51600.7 134527.1 -51600.8 
-        137160.0 -54421.8 137160.0 -54421.9 
-        137160.0 -54610.0 137159.9 -54610.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        106680.0 -144780.0 106680.1 -144780.0 
-        106680.0 -144780.0 106680.0 -145139.0 
-        106680.0 -145139.0 108341.3 -146800.3 
-        108341.3 -146800.3 112592.1 -146800.3 
-        112592.1 -146800.3 117264.6 -142127.8 
-        117080.0 -108489.6 117080.0 -108275.1 
-        121965.4 -104140.0 122555.0 -103550.4 
-        122555.0 -103550.4 122555.0 -97790.0 
-        122555.0 -97790.0 122555.1 -97790.0 
-      )
-      (net "/A_SEGDP" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        120015.0 -97790.0 120015.0 -97790.1 
-        120015.0 -97790.0 120014.9 -97790.0 
-        118064.7 0.0 118064.7 -0.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        107315.0 -99390.2 107315.1 -99390.2 
-        107315.0 -99740.2 107315.0 -99740.4 
-        107315.0 -99740.4 107315.1 -99740.4 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        120015.0 -97790.0 120014.9 -97790.0 
-        118064.7 -97790.0 118064.6 -97790.1 
-        107315.0 -99740.4 107314.9 -99740.4 
-        107315.0 -100520.3 107315.0 -99740.4 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        86696.5 -110089.0 86696.4 -110089.0 
-        86696.5 -110089.0 86696.5 -109866.5 
-        86696.5 -109866.5 74620.0 -97790.0 
-        74620.0 -97790.0 71755.0 -97790.0 
-        71755.0 -97790.0 71755.0 -97789.9 
-      )
-      (net "/A_SEGD" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        101600.0 -144780.0 101600.1 -144780.0 
-        101600.0 -144780.0 101600.0 -145187.3 
-        101600.0 -145187.3 97684.2 -149103.1 
-        97684.2 -149103.1 94412.2 -149103.1 
-        94412.2 -149103.1 94412.2 -149103.0 
-      )
-      (net "/A_SEGC" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        104140.0 -144780.0 104140.1 -144780.0 
-        104140.0 -144780.0 104140.0 -145108.7 
-        104140.0 -145108.7 105827.7 -146796.4 
-        105827.7 -146796.4 113199.0 -146796.4 
-        113199.0 -146796.4 119535.8 -140459.6 
-        119535.8 -140459.6 119777.3 -140459.6 
-        119777.3 -140459.6 124514.2 -135722.7 
-        124514.2 -135722.7 124514.2 -109423.3 
-        124514.2 -109423.3 117320.5 -102229.6 
-        95671.5 -102918.7 89583.7 -102918.7 
-        89583.7 -102918.7 84455.0 -97790.0 
-        84455.0 -97790.0 84455.1 -97789.9 
-      )
-      (net "/A_SEGE" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        91388.5 -107243.3 91388.4 -107243.2 
-        91388.5 -107243.3 91645.5 -106986.3 
-        91645.5 -106986.3 119955.3 -106986.3 
-        119955.3 -106986.3 122555.0 -109586.0 
-        122555.0 -109586.0 122555.0 -110490.0 
-        122555.0 -110490.0 122554.9 -110490.0 
-      )
-      (net "/B_SEGDP" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        107315.0 -97790.0 107315.1 -97790.0 
-        107315.0 -97790.0 107315.0 -97790.1 
-        107315.0 -99390.2 107315.1 -99390.2 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        120015.0 -97790.0 120015.0 -97790.1 
-        120015.0 -97790.0 120014.9 -97790.0 
-        118064.7 0.0 118064.7 -0.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        109220.0 -137160.0 109220.1 -137160.0 
-        109220.0 -137160.0 109220.0 -138068.2 
-        109220.0 -138068.2 110336.1 -139184.3 
-        110336.1 -139184.3 113197.1 -139184.3 
-        113197.1 -139184.3 113975.1 -138406.3 
-        113975.1 -138406.3 113975.1 -136849.7 
-        113975.1 -136849.7 115579.6 -135245.2 
-        115579.6 -135245.2 115579.6 -100275.1 
-        115579.6 -100275.1 118064.7 -97790.0 
-        118064.7 -97790.0 118064.8 -97790.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        93345.0 -63500.0 93344.9 -63500.1 
-        92560.7 -62715.7 92560.6 -62715.6 
-        88900.0 -62715.7 88900.0 -54610.0 
-        88900.0 -54610.0 88900.1 -54610.0 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        95763.0 -78618.0 95763.0 -65918.0 
-        94554.0 -64709.0 93084.3 -63239.3 
-        93345.0 -63500.0 93345.1 -63499.9 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        29210.0 -144780.0 29209.9 -144780.0 
-        29210.0 -144780.0 29210.0 -144401.9 
-        29210.0 -144401.9 24035.0 -139226.9 
-        24035.0 -139226.9 22098.7 -139226.9 
-        23308.8 -139226.9 23308.7 -139226.8 
-        22098.8 -134154.4 22098.8 -134154.3 
-        24271.4 -134154.4 24271.5 -134154.3 
-        27022.3 -129230.8 66569.6 -129230.8 
-        66569.6 -129230.8 84455.0 -111345.4 
-        84455.0 -111345.4 84455.0 -110490.0 
-        84455.0 -110490.0 84455.1 -110490.0 
-      )
-      (net "/B_SEGF" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        44900.4 -149798.9 54193.8 -149798.9 
-        44450.0 -151130.0 44450.0 -151130.1 
-        44450.0 -151130.0 44449.9 -151130.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        39370.0 -144780.0 39370.1 -144780.0 
-        39370.0 -144780.0 39370.0 -145097.5 
-        39370.0 -145097.5 44071.4 -149798.9 
-        44071.4 -149798.9 44450.0 -149798.9 
-        44450.0 -149798.9 44450.0 -149799.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        44450.0 -151130.0 44450.0 -151130.1 
-        44900.4 -149798.9 54193.8 -149798.9 
-        54193.8 -149798.9 59080.1 -144912.6 
-        59080.1 -144912.6 59080.1 -143430.0 
-        59080.1 -143430.0 59080.2 -143430.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        46990.0 -144780.0 46990.1 -144780.0 
-        46990.0 -144780.0 46990.0 -145092.8 
-        46990.0 -145092.8 48695.5 -146798.3 
-        48695.5 -146798.3 52951.0 -146798.3 
-        52951.0 -146798.3 55350.1 -144399.2 
-        55350.1 -144399.2 55350.1 -142212.4 
-        56033.5 -142212.4 56033.6 -142212.3 
-        57333.3 -140229.2 66469.1 -140229.2 
-        65082.7 -140229.2 65082.8 -140229.1 
-        91388.5 -115309.8 91388.5 -107243.3 
-        91388.5 -107243.3 91388.6 -107243.3 
-      )
-      (net "/B_SEGDP" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        81915.0 -110490.0 81914.9 -110490.0 
-        81915.0 -110490.0 81915.0 -110248.8 
-        81915.0 -110248.8 83624.1 -108539.7 
-        83624.1 -108539.7 90563.2 -108539.7 
-        90563.2 -108539.7 92513.5 -110490.0 
-        92513.5 -110490.0 92664.7 -110490.0 
-        92664.7 -110490.0 92664.7 -110490.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        44450.0 -144780.0 44450.1 -144780.0 
-        44450.0 -144780.0 44450.0 -145112.9 
-        44450.0 -145112.9 47635.7 -148298.6 
-        47635.7 -148298.6 53572.4 -148298.6 
-        53572.4 -148298.6 57380.9 -144490.1 
-        57380.9 -144490.1 57380.9 -142998.3 
-        57380.9 -142998.3 58649.6 -141729.6 
-        58649.6 -141729.6 67180.4 -141729.6 
-        66804.8 -141729.6 66804.9 -141729.5 
-        97155.0 -111755.0 97155.0 -110490.0 
-        97155.0 -110490.0 97155.1 -110490.0 
-      )
-      (net "/B_SEGE" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        68400.4 -134446.0 68400.4 -134446.1 
-        68400.4 -134446.0 64764.4 -134446.0 
-        64764.4 -134446.0 60780.4 -138430.0 
-        60780.4 -138430.0 60780.3 -138429.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        128905.0 -81280.1 128905.0 -81280.0 
-        128905.0 -81280.0 128905.1 -81279.9 
-        133985.0 -80854.0 133985.0 -71120.0 
-        133985.0 -71120.0 133985.1 -71120.0 
-      )
-      (net "/LEDDRIVER_CLK" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        83820.1 -144780.0 83820.0 -144780.0 
-        83820.0 -144780.0 83820.0 -151554.4 
-        90800.3 -152077.9 90800.4 -152078.0 
-        85437.6 -153172.0 110575.3 -153172.0 
-        116797.7 -144797.8 116797.8 -144797.7 
-        118949.6 -144797.7 118949.6 -132184.1 
-        118949.6 -132184.1 129164.8 -121968.9 
-        128905.0 -81280.1 128905.0 -81280.0 
-        128904.9 -81280.0 128905.0 -81280.0 
-      )
-      (net "/LEDDRIVER_CLK" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        52070.0 -137160.0 52070.0 -137159.9 
-        52070.0 -137160.0 52070.1 -137160.0 
-        54086.3 0.0 54086.3 0.1 
-      )
-      (net "Net-(U3-Pad24)" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        54086.3 -137160.0 54086.2 -137159.9 
-        54086.3 -137160.0 54530.9 -136715.4 
-        54530.9 -136715.4 62067.4 -136715.4 
-        62067.4 -136715.4 66551.2 -141199.2 
-        66551.2 -141199.2 108561.3 -141199.2 
-        108561.3 -141199.2 111760.0 -144397.9 
-        111760.0 -144397.9 111760.0 -144780.0 
-        111760.0 -144780.0 111759.9 -144780.0 
-      )
-      (net "Net-(U3-Pad24)" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        83820.0 -137160.0 83820.0 -137160.1 
-        83820.0 -137160.0 65694.5 -137160.0 
-        65694.5 -137160.0 63662.2 -135127.7 
-        63662.2 -135127.7 25765.6 -135127.7 
-        25765.6 -135127.7 24130.0 -136763.3 
-        24130.0 -136763.3 24130.0 -137160.0 
-        24130.0 -137160.0 24129.9 -137160.0 
-      )
-      (net "/LEDDRIVER_CS" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        111760.0 -137160.0 111759.9 -137160.0 
-        111760.0 -137160.0 111760.0 -137159.9 
-        0.0 -135143.7 -0.1 -135143.7 
-      )
-      (net "/LEDDRIVER_DIN" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        113665.0 -81280.0 113665.1 -81280.0 
-        113665.0 -81280.0 113665.0 -135255.0 
-        111760.0 -135143.7 111759.9 -135143.8 
-        111760.0 -137159.9 111760.0 -137160.0 
-      )
-      (net "/LEDDRIVER_DIN" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        118745.0 -71120.0 118745.1 -71120.0 
-        118745.0 -71120.0 118745.0 -76459.8 
-        113924.8 -81020.2 113521.6 -81423.4 
-        113665.0 -81280.0 113665.0 -81279.9 
-      )
-      (net "/LEDDRIVER_DIN" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        32906.2 -78814.4 32906.1 -78814.3 
-        32906.2 -78814.4 42545.0 -69175.6 
-        42545.0 -59777.6 42545.0 -54610.0 
-        42545.0 -54610.0 42545.1 -54610.0 
-      )
-      (net "/A_GPB0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        121500.2 -142160.0 121500.1 -142159.9 
-        121500.2 -142160.0 126094.3 -137565.9 
-        126023.4 -137565.9 126023.4 -137565.8 
-        126094.3 -73389.3 123825.0 -71120.0 
-        123825.0 -71120.0 123825.1 -71119.9 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        121500.2 -142160.0 125088.3 -138571.9 
-        120650.0 -142160.0 120650.1 -142160.0 
-        122350.3 0.0 122350.3 0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        120650.0 -142160.0 120650.0 -142159.9 
-        120650.0 -142160.0 120650.1 -142160.0 
-        121500.2 -142160.0 125088.3 -138571.9 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        88900.0 -144780.0 88899.9 -144780.0 
-        88900.0 -144780.0 88900.0 -144434.2 
-        88900.0 -144434.2 85729.0 -141263.2 
-        85729.0 -141263.2 82852.6 -141263.2 
-        82852.6 -141263.2 80255.5 -138666.1 
-        80255.5 -138666.1 80255.5 -134977.6 
-        80255.5 -134977.6 100689.2 -114543.9 
-        100689.2 -114543.9 100689.2 -101324.2 
-        100689.2 -101324.2 97155.0 -97790.0 
-        97155.0 -97790.0 97155.1 -97789.9 
-      )
-      (net "/A_SEGF" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        92330.9 -49006.4 93980.0 -47357.3 
-        93980.0 -47357.3 93980.0 -46990.0 
-        93980.0 -46990.0 93980.1 -46990.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        75565.0 -46990.0 75565.1 -46989.9 
-        75565.0 -46990.0 77581.4 -49006.4 
-        77581.4 -49006.4 92330.9 -49006.4 
-        92330.9 -49006.4 93980.0 -47357.3 
-        94128.5 -47505.8 93980.0 -47357.3 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        99060.0 -50800.0 99060.0 -50800.1 
-        99060.0 -50800.0 97422.7 -50800.0 
-        94128.5 -47505.8 93980.0 -47357.3 
-        93980.0 -47357.3 93980.1 -47357.2 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        102395.5 -50800.0 99060.0 -50800.0 
-        99060.0 -51600.7 99060.0 -54610.0 
-        99060.0 -54610.0 99059.9 -54610.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        86360.0 -144780.0 86359.9 -144780.0 
-        86360.0 -144780.0 86360.0 -144398.1 
-        86360.0 -144398.1 84725.5 -142763.6 
-        84725.5 -142763.6 82145.5 -142763.6 
-        82226.1 -142763.6 82226.0 -142763.5 
-        78755.1 -139373.2 78755.1 -134356.1 
-        78755.1 -134356.1 99138.8 -113972.4 
-        99138.8 -110776.5 99138.8 -109685.2 
-        99138.8 -109685.2 84182.1 -94728.5 
-        41864.6 -95780.9 41864.5 -95780.9 
-        36716.5 -94728.5 33655.0 -97790.0 
-        33655.0 -97790.0 33654.9 -97789.9 
-      )
-      (net "/A_SEGA" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        91440.0 -46990.0 91440.0 -46990.1 
-        91440.0 -46990.0 88900.0 -46990.0 
-        88900.0 -46990.0 88900.0 -46989.9 
-      )
-      (net +5V 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        67945.0 -46990.0 67945.1 -46990.0 
-        67945.0 -46990.0 67945.0 -47392.6 
-        63736.8 -51600.7 63736.7 -51600.8 
-        62865.0 -51600.7 62865.0 -54610.0 
-        62865.0 -54610.0 62864.9 -54610.0 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        96520.0 -144780.0 96520.1 -144780.0 
-        96520.0 -146796.4 96520.0 -151130.0 
-        96520.0 -151130.0 96519.9 -151130.0 
-      )
-      (net "Net-(R1-Pad1)" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        94615.0 -110490.0 94615.0 -110490.1 
-        94615.0 -110490.0 94614.9 -110490.0 
-        92664.7 0.0 92664.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        46082.6 -139176.5 46082.5 -139176.4 
-        44450.0 -140169.3 44450.0 -137160.0 
-        44450.0 -137160.0 44450.1 -137160.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        60780.4 -138430.0 60780.5 -138430.1 
-        60780.4 -138430.0 60034.0 -139176.4 
-        45442.9 -139176.4 45442.8 -139176.4 
-        46082.6 -139176.5 46082.5 -139176.4 
-        44450.0 -137543.9 44450.1 -137543.8 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        31750.0 -137160.0 31750.1 -137160.0 
-        31750.0 -138426.1 31750.0 -139176.4 
-        33388.2 -139176.4 33388.3 -139176.5 
-        31750.0 -139176.4 44581.9 -139176.4 
-        44450.0 -137543.9 44450.1 -137543.8 
-        46082.6 -139176.5 46082.5 -139176.4 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        112395.0 -80010.0 112394.9 -80010.1 
-        112395.0 -80010.0 111003.0 -78618.0 
-        111003.0 -78618.0 111003.0 -65918.0 
-        111003.0 -65918.0 108585.0 -63500.0 
-        108585.0 -63500.0 108585.1 -63499.9 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        60780.4 -143430.0 60780.4 -143430.1 
-        60780.4 -143430.0 60780.3 -143430.0 
-        59080.1 0.0 59080.1 -0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        71006.2 -69416.4 71006.1 -69416.4 
-        71006.2 -69416.4 71006.2 -69416.3 
-        0.0 -67146.1 -0.1 -67146.1 
-      )
-      (net "/A_GPB7" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        71006.2 -69416.4 71006.2 -69416.3 
-        71006.2 -67146.1 71006.1 -67146.0 
-        60325.0 -66622.4 60325.0 -54610.0 
-        60325.0 -54610.0 60325.1 -54610.0 
-      )
-      (net "/A_GPB7" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        79964.7 -110490.0 79964.6 -110490.0 
-        79964.7 -110490.0 79964.6 -110489.9 
-        78906.7 -108489.7 69215.0 -108489.7 
-        69215.0 -108489.7 69215.0 -108489.6 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        43815.0 -97790.0 43815.1 -97790.0 
-        43815.0 -97790.0 43815.0 -97790.1 
-        0.0 -99790.3 0.1 -99790.3 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        56515.0 -97790.0 56515.0 -97790.1 
-        56515.0 -97790.0 56514.9 -97790.0 
-        54564.7 0.0 54564.7 -0.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        54564.7 -97790.0 54564.8 -97790.1 
-        52611.7 -99743.0 52611.6 -99743.1 
-        52611.7 -99790.3 43815.0 -99790.3 
-        43815.0 -99790.3 43815.0 -99790.2 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        43815.0 -110490.0 43815.0 -110490.1 
-        43815.0 -110490.0 43814.9 -110490.0 
-        41864.7 0.0 41864.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        43815.0 -110490.0 43814.9 -110490.0 
-        41864.7 -110490.0 41864.6 -110489.9 
-        32454.9 -108530.7 32454.8 -108530.7 
-        33338.8 -108032.8 33338.7 -108032.9 
-        31115.0 -108622.4 31115.0 -110490.0 
-        31115.0 -110490.0 31114.9 -110490.0 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        128270.0 -134446.0 128270.0 -134446.1 
-        128270.0 -134446.0 128269.9 -134446.0 
-        127809.0 -130001.0 120650.0 -137160.0 
-        120650.0 -137160.0 120649.9 -137159.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        56515.0 -97790.0 56515.1 -97790.0 
-        56515.0 -97790.0 56515.0 -97790.1 
-        0.0 -99790.3 0.1 -99790.3 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        69215.0 -99790.3 69215.0 -99790.4 
-        0.1 -99790.3 0.0 -99790.3 
-        56515.0 -97790.1 56515.0 -97790.0 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        81915.0 -97790.0 81914.9 -97790.0 
-        79964.7 -97790.0 79964.6 -97790.1 
-        73589.7 -99790.3 66507.2 -99790.3 
-        69215.0 -99790.3 69215.0 -99790.2 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        32906.2 -74115.4 32906.2 -74115.3 
-        32906.2 -74115.4 45606.2 -74115.4 
-        45606.2 -74115.4 45606.2 -74115.5 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        106680.0 -149928.5 106680.0 -151130.0 
-        111846.5 -150047.1 111846.6 -150047.1 
-        112304.7 -150505.3 120650.0 -142160.0 
-        120650.0 -142160.0 120650.1 -142160.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        99060.0 -144780.0 99060.1 -144780.0 
-        99060.0 -144780.0 99060.0 -145160.4 
-        99060.0 -145160.4 103946.7 -150047.1 
-        103946.7 -150047.1 106680.0 -150047.1 
-        106680.0 -150047.1 106680.0 -150047.2 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        111846.5 -150047.1 111846.6 -150047.1 
-        106680.0 -149928.5 106680.0 -151130.0 
-        106680.0 -151130.0 106679.9 -151130.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        68400.4 -147146.0 68400.5 -147146.0 
-        70099.1 -147146.1 70099.2 -147146.0 
-        81803.5 -142746.5 81803.6 -142746.5 
-        97271.7 -142613.5 99060.0 -144401.8 
-        99060.0 -144629.9 99060.0 -144630.0 
-        99060.0 -144780.0 99059.9 -144780.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        60780.4 -143430.0 60780.4 -143429.9 
-        60780.4 -143430.0 60780.5 -143430.0 
-        62480.7 0.0 62480.7 0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        62480.7 -143430.0 62480.8 -143430.0 
-        62480.7 -143430.0 62480.8 -143430.1 
-        64496.4 -147146.0 68400.4 -147146.0 
-        68400.4 -147146.0 68400.4 -147146.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        50539.8 -111886.6 50539.7 -111886.5 
-        49530.0 -115524.7 54564.7 -110490.0 
-        54564.7 -110490.0 54564.8 -110490.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        49530.0 -137160.0 49529.9 -137160.0 
-        49530.0 -137160.0 49530.0 -115524.7 
-        49530.0 -115524.7 54564.7 -110490.0 
-        50539.8 -111886.6 50539.7 -111886.5 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        54564.7 -110490.0 49530.0 -115524.7 
-        50539.8 -111886.6 50539.7 -111886.5 
-        52705.1 -108539.6 43815.0 -108539.6 
-        43815.0 -108539.6 43815.0 -108539.5 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        43815.0 -110490.0 43814.9 -110490.0 
-        43815.0 -110490.0 43815.0 -110489.9 
-        52705.1 -108539.6 43815.0 -108539.6 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        56515.0 -110490.0 56515.0 -110490.1 
-        56515.0 -110490.0 56514.9 -110490.0 
-        54564.7 0.0 54564.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        95352.0 -69113.0 93444.2 -69113.0 
-        93444.2 -69113.0 76908.4 -52577.2 
-        76908.4 -52577.2 33377.3 -52577.2 
-        34350.5 -50800.0 34350.4 -50799.9 
-        31600.2 -50800.0 31600.1 -50800.0 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        108585.0 -71120.0 108584.9 -71120.1 
-        108585.0 -71120.0 106578.0 -69113.0 
-        95352.0 -69113.0 93444.2 -69113.0 
-        93444.2 -69113.0 93444.2 -69113.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        95352.0 -69113.0 93444.2 -69113.0 
-        93444.2 -69113.0 93444.2 -69113.1 
-        96930.7 -67534.3 93345.0 -71120.0 
-        93345.0 -71120.0 93344.9 -71119.9 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        31600.1 -50800.0 31600.1 -50799.9 
-        31600.1 -50800.0 31600.2 -50800.0 
-        34350.5 0.0 34350.5 0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        32906.2 -74115.4 32906.1 -74115.5 
-        32906.2 -74115.4 25600.7 -66809.9 
-        25600.7 -52499.3 25600.7 -50800.0 
-        25600.7 -50800.0 25600.8 -50800.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        128795.4 -65598.2 128795.3 -65598.1 
-        128905.0 -68580.0 133985.0 -63500.0 
-        133985.0 -63500.0 133985.1 -63500.1 
-      )
-      (net "/LEDDRIVER_CLK_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        128905.0 -78740.0 128904.9 -78740.0 
-        128905.0 -78740.0 128905.0 -68580.0 
-        128905.0 -68580.0 133985.0 -63500.0 
-        128795.4 -65598.2 128795.3 -65598.1 
-      )
-      (net "/LEDDRIVER_CLK_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        133985.0 -63500.0 128905.0 -68580.0 
-        128795.4 -65598.2 128795.3 -65598.1 
-        125358.8 -59070.2 116840.0 -59070.2 
-        120986.5 -59070.2 120986.4 -59070.1 
-        116840.0 -59070.2 116840.0 -54610.0 
-        116840.0 -54610.0 116840.1 -54610.0 
-      )
-      (net "/LEDDRIVER_CLK_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        123825.0 -63500.0 123825.1 -63500.1 
-        123825.0 -63500.0 120243.2 -67081.8 
-        110493.9 -65510.6 110493.8 -65510.6 
-        109743.6 -64658.6 108585.0 -63500.0 
-        108585.0 -63500.0 108585.1 -63499.9 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        108585.0 -63500.0 108585.0 -63500.1 
-        109220.0 -61498.7 109219.9 -61498.7 
-        95763.0 -65918.0 95762.9 -65918.1 
-        93084.3 -63239.3 94554.0 -64709.0 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        109220.0 -54610.0 109220.1 -54610.0 
-        109220.0 -54610.0 109220.0 -62865.0 
-        108585.0 -61498.7 108584.9 -61498.8 
-        108585.0 -63500.0 108585.0 -63500.1 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        109220.0 -61498.7 109219.9 -61498.7 
-        108585.0 -63500.0 108585.0 -63500.1 
-        108585.0 -63500.0 108584.9 -63499.9 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        97155.0 -80010.0 97154.9 -80010.1 
-        97155.0 -80010.0 95763.0 -78618.0 
-        95763.0 -78618.0 95763.0 -65918.0 
-        95763.0 -65918.0 95762.9 -65918.1 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        123825.0 -71120.0 123824.9 -71120.1 
-        123825.0 -71120.0 120239.3 -67534.3 
-        116745.1 -69103.0 116745.0 -69103.0 
-        112170.7 -67534.3 108585.0 -71120.0 
-        108585.0 -71120.0 108584.9 -71119.9 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        107315.0 -110490.0 107314.9 -110490.0 
-        107315.0 -110490.0 107315.0 -110489.9 
-        0.0 -108489.7 -0.1 -108489.7 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        120015.0 -110490.0 120015.0 -110490.1 
-        120015.0 -110490.0 120014.9 -110490.0 
-        118064.7 0.0 118064.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        118064.7 -110490.0 118064.6 -110490.1 
-        116109.9 -108535.2 116109.8 -108535.1 
-        116109.9 -108489.7 107315.0 -108489.7 
-        107315.0 -108489.7 107315.0 -108489.6 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        107315.0 -110490.0 107315.0 -110490.1 
-        107315.0 -110490.0 107314.9 -110490.0 
-        105364.7 0.0 105364.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        94615.0 -110490.0 94615.1 -110490.0 
-        94615.0 -110490.0 94615.0 -110490.1 
-        0.0 -112490.3 0.1 -112490.3 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        94615.0 -112490.3 94615.0 -112490.2 
-        94615.0 -112490.3 105346.9 -112490.3 
-        105364.7 -110490.0 105364.8 -110489.9 
-        107314.9 -110490.0 107315.0 -110490.0 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        103505.0 -81280.0 103505.1 -81279.9 
-        103505.0 -81280.0 111811.6 -89586.6 
-        111811.6 -89586.6 111811.6 -98926.1 
-        111811.6 -98926.1 105073.7 -105664.0 
-        105073.7 -105664.0 105073.7 -115089.6 
-        104709.0 -115089.6 83820.0 -135978.6 
-        83820.0 -135978.6 83820.0 -137160.0 
-        83820.0 -137160.0 83819.9 -137160.0 
-      )
-      (net "/LEDDRIVER_CS" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        93345.0 -63500.0 93345.0 -63499.9 
-        93345.0 -63500.0 93344.9 -63500.0 
-        90957.7 -64504.6 76452.4 -49999.3 
-        76452.4 -49999.3 67945.0 -49999.3 
-        70578.0 -49999.3 70577.9 -49999.2 
-        67945.0 -49999.3 67945.0 -46990.0 
-        67945.0 -46990.0 67945.1 -46990.0 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        81915.0 -110490.0 81915.0 -110490.1 
-        81915.0 -110490.0 81914.9 -110490.0 
-        79964.7 0.0 79964.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        69215.0 -110490.0 69214.9 -110490.0 
-        69215.0 -110490.0 69215.0 -110489.9 
-        0.0 -108489.7 -0.1 -108489.7 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        93980.0 -144780.0 93979.9 -144780.0 
-        93980.0 -144780.0 93980.0 -144377.3 
-        93980.0 -144377.3 89365.6 -139762.9 
-        89365.6 -139762.9 83537.0 -139762.9 
-        83537.0 -139762.9 81781.3 -138007.2 
-        81781.3 -138007.2 81781.3 -135573.7 
-        81781.3 -135573.7 102644.5 -114710.5 
-        102644.5 -114710.5 102644.5 -105894.0 
-        102644.5 -105894.0 109855.0 -98683.5 
-        109855.0 -98683.5 109855.0 -97790.0 
-        109855.0 -97790.0 109855.1 -97790.0 
-      )
-      (net "/A_SEGG" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        71006.2 -78814.4 71006.1 -78814.5 
-        71006.2 -78814.4 63904.6 -71712.8 
-        63904.6 -67146.0 63904.6 -65832.5 
-        58308.6 -60986.2 57785.0 -60462.6 
-        57785.0 -60462.6 57785.0 -54610.0 
-        57785.0 -54610.0 57785.1 -54610.0 
-      )
-      (net "/A_GPB6" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        81915.0 -97790.0 81915.0 -97790.1 
-        81915.0 -97790.0 81914.9 -97790.0 
-        79964.7 0.0 79964.7 -0.1 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        69215.0 -97790.0 69215.1 -97790.0 
-        69215.0 -97790.0 69215.0 -97790.1 
-        0.0 -99790.3 0.1 -99790.3 
-      )
-      (net "/A_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        45606.2 -78814.4 45606.1 -78814.3 
-        45606.2 -78814.4 47876.6 -76544.0 
-        47876.6 -76544.0 47876.6 -54861.6 
-        47876.6 -54861.6 47625.0 -54610.0 
-        47625.0 -54610.0 47625.1 -54609.9 
-      )
-      (net "/A_GPB2" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        31750.0 -144780.0 31749.9 -144780.0 
-        31750.0 -144780.0 31750.0 -144447.2 
-        31750.0 -144447.2 27154.7 -139851.9 
-        27154.7 -139851.9 23935.7 -139851.9 
-        22863.9 -138780.1 22080.9 -137997.1 
-        22080.9 -137997.1 22080.9 -136302.8 
-        41806.0 -116577.8 41806.1 -116577.7 
-        46355.0 -116577.8 46355.0 -110490.0 
-        46355.0 -110490.0 46355.1 -110490.0 
-      )
-      (net "/B_SEGB" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        129540.0 -46990.0 129540.1 -46990.0 
-        129540.0 -46990.0 129540.0 -48664.2 
-        129540.0 -47303.8 129540.1 -47303.9 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        123825.0 -63500.0 123825.1 -63499.9 
-        123825.0 -63500.0 126705.0 -66380.0 
-        126174.5 -78131.8 126174.5 -78549.5 
-        126174.5 -78549.5 127635.0 -80010.0 
-        127635.0 -80010.0 127634.9 -80010.1 
-      )
-      (net +3V3 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        120650.0 -142160.0 120650.1 -142160.0 
-        122350.3 0.1 122350.3 0.0 
-        121585.2 -142160.0 126571.2 -147146.0 
-        126571.2 -147146.0 126571.1 -147146.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        128270.0 -147146.0 128270.0 -147146.1 
-        128270.0 -147146.0 128269.9 -147146.0 
-        126571.2 0.0 126571.2 -0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        103505.1 -71120.0 103505.0 -71120.0 
-        103505.0 -76200.0 103505.0 -83071.1 
-        98425.0 -81280.0 98425.1 -81280.0 
-      )
-      (net "/LEDDRIVER_CS" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        98425.0 -81280.0 98424.9 -81279.9 
-        98425.0 -81280.0 98425.1 -81280.0 
-        103505.0 -76200.0 103505.0 -83071.1 
-      )
-      (net "/LEDDRIVER_CS" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        73025.0 -46990.0 73025.0 -46990.1 
-        74295.0 -46990.0 80224.0 -46990.0 
-        75565.0 -46990.0 75565.0 -46990.1 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        93980.0 -54610.0 93979.9 -54610.0 
-        93980.0 -54610.0 93980.0 -54082.1 
-        93980.0 -54082.1 88904.3 -49006.4 
-        71477.9 -51077.1 71008.6 -51077.1 
-        73641.7 -51077.1 73641.6 -51077.2 
-        70485.0 -51600.7 70485.0 -54610.0 
-        70485.0 -54610.0 70484.9 -54610.0 
-      )
-      (net "/IO_SCK" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        45606.2 -74115.4 45606.2 -74115.5 
-        39256.2 -74115.4 58306.2 -74115.4 
-        58306.2 -74115.4 58306.2 -74115.5 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        58306.2 -78814.4 58306.2 -78814.5 
-        58306.2 -78814.4 58306.1 -78814.3 
-        52705.0 -74495.9 52705.0 -54610.0 
-        52705.0 -54610.0 52705.1 -54610.0 
-      )
-      (net "/A_GPB4" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        56515.0 -110490.0 56514.9 -110490.0 
-        56515.0 -110490.0 56515.0 -110489.9 
-        0.0 -108489.7 -0.1 -108489.7 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        69215.0 -110490.0 69215.0 -110490.1 
-        69215.0 -110490.0 69214.9 -110490.0 
-        67264.7 0.0 67264.7 -0.1 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        67264.7 -110490.0 67264.6 -110490.1 
-        65288.5 -108513.8 65288.4 -108513.7 
-        65288.5 -108489.7 56515.0 -108489.7 
-        56515.0 -108489.7 56515.0 -108489.6 
-      )
-      (net "/B_DIG0" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        26670.0 -144780.0 26669.9 -144780.0 
-        26670.0 -144780.0 26670.0 -144411.9 
-        26670.0 -144411.9 24509.6 -142251.5 
-        24509.6 -142251.5 21942.9 -142251.5 
-        18525.1 -136597.9 18525.0 -136597.8 
-        20547.8 -136067.4 20547.8 -136067.3 
-        33065.4 -116998.3 33655.0 -116408.7 
-        33655.0 -116408.7 33655.0 -110490.0 
-        33655.0 -110490.0 33655.1 -110490.0 
-      )
-      (net "/B_SEGA" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        68400.4 -147146.0 68400.4 -147145.9 
-        68400.4 -147146.0 68400.5 -147146.0 
-        70099.2 0.0 70099.2 0.1 
-      )
-      (net VCC 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        70485.0 -46990.0 70485.1 -46989.9 
-        70485.0 -46990.0 70485.0 -46990.1 
-        65928.6 -51890.2 65405.0 -52413.8 
-        65405.0 -52413.8 65405.0 -54610.0 
-        65405.0 -54610.0 65404.9 -54610.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        70485.0 -46990.0 70485.0 -46989.9 
-        71755.0 -46990.0 75565.0 -46990.0 
-        73025.0 -46990.0 73025.0 -46990.1 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        91440.0 -54610.0 91439.9 -54610.0 
-        91440.0 -54610.0 91440.0 -53664.2 
-        91440.0 -53664.2 90363.2 -52587.4 
-        90363.2 -52587.4 74673.9 -52587.4 
-        74673.9 -52587.4 73025.0 -54236.3 
-        73025.0 -54236.3 73025.0 -54610.0 
-        73025.0 -54610.0 73024.9 -54610.0 
-      )
-      (net "/IO_SDA" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        111760.0 -54610.0 111760.1 -54610.1 
-        111760.0 -54610.0 111760.0 -54610.1 
-        118745.0 -63500.0 118745.1 -63500.1 
-        113665.0 -68580.0 118745.0 -63500.0 
-      )
-      (net "/LEDDRIVER_DIN_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        113665.0 -78740.0 113664.9 -78740.0 
-        113665.0 -78740.0 113665.0 -68580.0 
-        113665.0 -68580.0 118745.0 -63500.0 
-        118745.0 -63500.0 118745.1 -63500.1 
-      )
-      (net "/LEDDRIVER_DIN_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        103505.0 -63500.0 103504.9 -63500.1 
-        103505.0 -63500.0 99259.1 -59254.1 
-        99259.1 -59254.1 90039.8 -59254.1 
-        90039.8 -59254.1 86883.6 -56097.9 
-        86883.6 -56097.9 86883.6 -53143.4 
-        86883.6 -53143.4 89359.0 -50668.0 
-        89359.0 -50668.0 113483.8 -50668.0 
-        113483.8 -50668.0 116840.0 -47311.8 
-        116840.0 -47311.8 116840.0 -46990.0 
-        116840.0 -46990.0 116840.1 -46990.0 
-      )
-      (net "/LEDDRIVER_CS_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        36830.0 -144780.0 36830.1 -144780.0 
-        36830.0 -144780.0 36830.0 -148590.0 
-        36830.0 -148590.0 34290.0 -151130.0 
-        34290.0 -151130.0 34289.9 -151129.9 
-      )
-      (net "Net-(R2-Pad1)" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        98425.0 -78740.0 98424.9 -78740.0 
-        98425.0 -78740.0 98425.0 -68580.0 
-        98425.0 -68580.0 103505.0 -63500.0 
-        103505.0 -63500.0 103505.1 -63500.1 
-      )
-      (net "/LEDDRIVER_CS_TTL" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        71006.2 -74115.4 71006.1 -74115.5 
-        71006.2 -74115.4 65405.0 -68514.2 
-        65405.0 -68514.2 65405.0 -54610.0 
-        65405.0 -54610.0 65405.1 -54610.0 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        58306.2 -69416.4 58306.1 -69416.4 
-        58306.2 -69416.4 58306.2 -69416.3 
-        0.0 -67146.1 -0.1 -67146.1 
-      )
-      (net "/A_GPB5" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path B.Cu 1000.0
-        58306.2 -69416.4 58306.2 -69416.3 
-        58306.2 -67146.1 58306.1 -67146.0 
-        55245.0 -66355.2 55245.0 -54610.0 
-        55245.0 -54610.0 55245.1 -54610.0 
-      )
-      (net "/A_GPB5" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        58306.2 -74115.4 58306.2 -74115.5 
-        51956.2 -74115.4 71006.2 -74115.4 
-        71006.2 -74115.4 71006.2 -74115.5 
-      )
-      (net GND 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        45606.2 -69416.4 45606.1 -69416.4 
-        45606.2 -69416.4 45606.2 -69416.3 
-        0.0 -67146.1 -0.1 -67146.1 
-      )
-      (net "/A_GPB3" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        45606.2 -67146.1 45606.2 -67146.0 
-        45606.2 -67146.1 45606.3 -67146.0 
-        50165.0 -64857.6 50165.0 -54610.0 
-        50165.0 -54610.0 50165.1 -54610.0 
-      )
-      (net "/A_GPB3" 1)
-      (clearance_class "kicad_default")
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        32906.2 -69416.4 32906.1 -69416.4 
-        32906.2 -69416.4 32906.2 -69416.3 
-        0.0 -67146.1 -0.1 -67146.1 
-      )
-      (net "/A_GPB1" 1)
-      (clearance_class "kicad_default")
-      (type shove_fixed)
-    )
-    (wire
-      (polyline_path F.Cu 1000.0
-        32906.2 -67146.1 32906.2 -67146.0 
-        32906.2 -67146.1 35176.5 -67146.1 
-        33473.8 -67146.1 33473.9 -67146.0 
-        45085.0 -57237.6 45085.0 -54610.0 
-        45085.0 -54610.0 45085.1 -54610.0 
-      )
-      (net "/A_GPB1" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_1000:600_um" 96131.1 -114660.8
-      (net "/B_SEGG" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_1000:600_um" 86696.5 -110089.0
-      (net "/A_SEGD" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_1000:600_um" 115573.7 -137510.2
-      (net "/A_SEGD" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_1000:600_um" 94412.2 -149103.1
-      (net "/A_SEGC" 1)
-      (clearance_class "kicad_default")
-    )
-    (via "Via[0-1]_1000:600_um" 91388.5 -107243.3
-      (net "/B_SEGDP" 1)
-      (clearance_class "kicad_default")
-    )
+    (wire (path B.Cu 1000  126174 -78549.5  127635 -80010)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  126174 -65849.5  126174 -78549.5)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  123825 -63500  126174 -65849.5)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  67945 -47366.3  67945 -46990)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  70578 -49999.3  67945 -47366.3)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  76452.4 -49999.3  70578 -49999.3)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  89953.1 -63500  76452.4 -49999.3)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  93345 -63500  89953.1 -63500)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  95763 -78618  95763 -65918)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  97155 -80010  95763 -78618)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  108585 -61498.7  108585 -63500)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  100182 -61498.7  95763 -65918)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  108585 -61498.7  100182 -61498.7)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  110596 -65510.6  108585 -63500)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  121814 -65510.6  110596 -65510.6)(net +3V3)(type protect))
+    (wire (path F.Cu 1000  123825 -63500  121814 -65510.6)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  111003 -65918  108585 -63500)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  111003 -78618  111003 -65918)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  112395 -80010  111003 -78618)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  62865 -52472.5  62865 -54610)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  67945 -47392.5  62865 -52472.5)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  67945 -46990  67945 -47392.5)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  95763 -65918  93345 -63500)(net +3V3)(type protect))
+    (wire (path B.Cu 1000  98425 -68580  103505 -63500)(net /LEDDRIVER_CS_TTL)(type protect))
+    (wire (path B.Cu 1000  98425 -78740  98425 -68580)(net /LEDDRIVER_CS_TTL)(type protect))
+    (wire (path F.Cu 1000  68400.4 -147146  70099.2 -147146)(net VCC)(type protect))
+    (wire (path F.Cu 1000  128270 -147146  126571 -147146)(net VCC)(type protect))
+    (wire (path F.Cu 1000  122350 -142925  126571 -147146)(net VCC)(type protect))
+    (wire (path F.Cu 1000  122350 -142160  122350 -142925)(net VCC)(type protect))
+    (wire (path F.Cu 1000  110602 -69103  108585 -71120)(net VCC)(type protect))
+    (wire (path F.Cu 1000  121808 -69103  110602 -69103)(net VCC)(type protect))
+    (wire (path F.Cu 1000  123825 -71120  121808 -69103)(net VCC)(type protect))
+    (wire (path F.Cu 1000  31600.1 -50800  34350.5 -50800)(net VCC)(type protect))
+    (wire (path F.Cu 1000  93444.2 -71020.8  93345 -71120)(net VCC)(type protect))
+    (wire (path F.Cu 1000  93444.2 -69113  93444.2 -71020.8)(net VCC)(type protect))
+    (wire (path F.Cu 1000  106578 -69113  93444.2 -69113)(net VCC)(type protect))
+    (wire (path F.Cu 1000  108585 -71120  106578 -69113)(net VCC)(type protect))
+    (wire (path F.Cu 1000  36127.7 -52577.2  34350.5 -50800)(net VCC)(type protect))
+    (wire (path F.Cu 1000  76908.4 -52577.2  36127.7 -52577.2)(net VCC)(type protect))
+    (wire (path F.Cu 1000  93444.2 -69113  76908.4 -52577.2)(net VCC)(type protect))
+    (wire (path F.Cu 1000  66196.7 -147146  68400.4 -147146)(net VCC)(type protect))
+    (wire (path F.Cu 1000  62480.7 -143430  66196.7 -147146)(net VCC)(type protect))
+    (wire (path F.Cu 1000  60780.4 -143430  62480.7 -143430)(net VCC)(type protect))
+    (wire (path F.Cu 1000  99060 -144402  99060 -144780)(net VCC)(type protect))
+    (wire (path F.Cu 1000  97404.7 -142746  99060 -144402)(net VCC)(type protect))
+    (wire (path F.Cu 1000  74498.7 -142746  97404.7 -142746)(net VCC)(type protect))
+    (wire (path F.Cu 1000  70099.2 -147146  74498.7 -142746)(net VCC)(type protect))
+    (wire (path F.Cu 1000  106680 -150047  106680 -151130)(net VCC)(type protect))
+    (wire (path F.Cu 1000  103947 -150047  106680 -150047)(net VCC)(type protect))
+    (wire (path F.Cu 1000  99060 -145160  103947 -150047)(net VCC)(type protect))
+    (wire (path F.Cu 1000  99060 -144780  99060 -145160)(net VCC)(type protect))
+    (wire (path F.Cu 1000  112763 -150047  120650 -142160)(net VCC)(type protect))
+    (wire (path F.Cu 1000  106680 -150047  112763 -150047)(net VCC)(type protect))
+    (wire (path B.Cu 1000  60780.4 -143430  59080.1 -143430)(net VCC)(type protect))
+    (wire (path F.Cu 1000  120650 -142160  121500 -142160  122350 -142160)(net VCC)(type protect))
+    (wire (path F.Cu 1000  126023 -73318.4  123825 -71120)(net VCC)(type protect))
+    (wire (path F.Cu 1000  126023 -137637  126023 -73318.4)(net VCC)(type protect))
+    (wire (path F.Cu 1000  121500 -142160  126023 -137637)(net VCC)(type protect))
+    (wire (path B.Cu 1000  59080.1 -144913  59080.1 -143430)(net VCC)(type protect))
+    (wire (path B.Cu 1000  54193.8 -149799  59080.1 -144913)(net VCC)(type protect))
+    (wire (path B.Cu 1000  44450 -149799  54193.8 -149799)(net VCC)(type protect))
+    (wire (path B.Cu 1000  44071.4 -149799  44450 -149799)(net VCC)(type protect))
+    (wire (path B.Cu 1000  39370 -145098  44071.4 -149799)(net VCC)(type protect))
+    (wire (path B.Cu 1000  39370 -144780  39370 -145098)(net VCC)(type protect))
+    (wire (path B.Cu 1000  44450 -149799  44450 -151130)(net VCC)(type protect))
+    (wire (path B.Cu 1000  98425 -81280  103505 -81280)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  103505 -71120  103505 -81280)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  83820 -135979  83820 -137160)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  105074 -114725  83820 -135979)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  105074 -105664  105074 -114725)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  111812 -98926.1  105074 -105664)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  111812 -89586.6  111812 -98926.1)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  103505 -81280  111812 -89586.6)(net /LEDDRIVER_CS)(type protect))
+    (wire (path F.Cu 1000  24130 -136763  24130 -137160)(net /LEDDRIVER_CS)(type protect))
+    (wire (path F.Cu 1000  25765.6 -135128  24130 -136763)(net /LEDDRIVER_CS)(type protect))
+    (wire (path F.Cu 1000  63662.2 -135128  25765.6 -135128)(net /LEDDRIVER_CS)(type protect))
+    (wire (path F.Cu 1000  65694.5 -137160  63662.2 -135128)(net /LEDDRIVER_CS)(type protect))
+    (wire (path F.Cu 1000  83820 -137160  65694.5 -137160)(net /LEDDRIVER_CS)(type protect))
+    (wire (path B.Cu 1000  128905 -68580  133985 -63500)(net /LEDDRIVER_CLK_TTL)(type protect))
+    (wire (path B.Cu 1000  128905 -78740  128905 -68580)(net /LEDDRIVER_CLK_TTL)(type protect))
+    (wire (path B.Cu 1000  128905 -122229  128905 -81280)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  118950 -132184  128905 -122229)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  118950 -142646  118950 -132184)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  108424 -153172  118950 -142646)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  91894.4 -153172  108424 -153172)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  83820 -145098  91894.4 -153172)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  83820 -144780  83820 -145098)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  133985 -76200  133985 -71120)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  128905 -81280  133985 -76200)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path F.Cu 1000  24130 -145148  24130 -144780)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path F.Cu 1000  27827.4 -148845  24130 -145148)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path F.Cu 1000  79755.1 -148845  27827.4 -148845)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path F.Cu 1000  83820 -144780  79755.1 -148845)(net /LEDDRIVER_CLK)(type protect))
+    (wire (path B.Cu 1000  113665 -68580  118745 -63500)(net /LEDDRIVER_DIN_TTL)(type protect))
+    (wire (path B.Cu 1000  113665 -78740  113665 -68580)(net /LEDDRIVER_DIN_TTL)(type protect))
+    (wire (path B.Cu 1000  118745 -76200  113665 -81280)(net /LEDDRIVER_DIN)(type protect))
+    (wire (path B.Cu 1000  118745 -71120  118745 -76200)(net /LEDDRIVER_DIN)(type protect))
+    (wire (path B.Cu 1000  113665 -133239  111760 -135144)(net /LEDDRIVER_DIN)(type protect))
+    (wire (path B.Cu 1000  113665 -81280  113665 -133239)(net /LEDDRIVER_DIN)(type protect))
+    (wire (path B.Cu 1000  111760 -137160  111760 -135144)(net /LEDDRIVER_DIN)(type protect))
+    (wire (path F.Cu 1000  69215 -97790  69215 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  81915 -97790  79964.7 -97790)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  77964.4 -99790.3  69215 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  79964.7 -97790  77964.4 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  69215 -99790.3  56515 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  56515 -97790  56515 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  52564.4 -99790.3  43815 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  54564.7 -97790  52564.4 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  56515 -97790  54564.7 -97790)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  43815 -97790  43815 -99790.3)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  115580 -100275  118065 -97790)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  115580 -135245  115580 -100275)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  113975 -136850  115580 -135245)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  113975 -138406  113975 -136850)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  113197 -139184  113975 -138406)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  110336 -139184  113197 -139184)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  109220 -138068  110336 -139184)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  109220 -137160  109220 -138068)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  120015 -97790  118065 -97790)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  107315 -97790  107315 -99740.4)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  116114 -99740.4  107315 -99740.4)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  118065 -97790  116114 -99740.4)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  120015 -97790  118065 -97790)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  81915 -97790  81915 -95789.7)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  94615 -98033.9  94615 -97790)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  96321.5 -99740.4  94615 -98033.9)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  107315 -99740.4  96321.5 -99740.4)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  90664.4 -95789.7  81915 -95789.7)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  92664.7 -97790  90664.4 -95789.7)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  94615 -97790  92664.7 -97790)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  31115 -97554.8  31115 -97790)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  32862.5 -95807.3  31115 -97554.8)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  39882 -95807.3  32862.5 -95807.3)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  41864.7 -97790  39882 -95807.3)(net /A_DIG0)(type protect))
+    (wire (path F.Cu 1000  43815 -97790  41864.7 -97790)(net /A_DIG0)(type protect))
+    (wire (path B.Cu 1000  35664.1 -95780.9  33655 -97790)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  85234.5 -95780.9  35664.1 -95780.9)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  99138.8 -109685  85234.5 -95780.9)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  99138.8 -113972  99138.8 -109685)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  78755.1 -134356  99138.8 -113972)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  78755.1 -139293  78755.1 -134356)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  82226.1 -142764  78755.1 -139293)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  84725.5 -142764  82226.1 -142764)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  86360 -144398  84725.5 -142764)(net /A_SEGA)(type protect))
+    (wire (path B.Cu 1000  86360 -144780  86360 -144398)(net /A_SEGA)(type protect))
+    (wire (path F.Cu 1000  65264.4 -108490  56515 -108490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  67264.7 -110490  65264.4 -108490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  69215 -110490  67264.7 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  56515 -110490  56515 -108490)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  69215 -110490  69215 -108490)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  81915 -110490  79964.7 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  103364 -112490  105365 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  94615 -112490  103364 -112490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  94615 -110490  94615 -112490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  107315 -110490  105365 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  116064 -108490  107315 -108490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  118065 -110490  116064 -108490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  120015 -110490  118065 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  107315 -110490  107315 -108490)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  56515 -110490  54564.7 -110490)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  43815 -110490  43815 -108540)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  47192.8 -108540  43815 -108540)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  51854 -113201  47192.8 -108540)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  49530 -115525  51854 -113201)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  49530 -137160  49530 -115525)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  51854 -113201  54564.7 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  31115 -110257  31115 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  32840.9 -108531  31115 -110257)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  39905.4 -108531  32840.9 -108531)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  41864.7 -110490  39905.4 -108531)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  43815 -110490  41864.7 -110490)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  77964.4 -108490  69215 -108490)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  79964.7 -110490  77964.4 -108490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  94615 -110490  92513.5 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  90563.2 -108540  92513.5 -110490)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  83624.1 -108540  90563.2 -108540)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  81915 -110249  83624.1 -108540)(net /B_DIG0)(type protect))
+    (wire (path F.Cu 1000  81915 -110490  81915 -110249)(net /B_DIG0)(type protect))
+    (wire (path B.Cu 1000  33655 -116409  33655 -110490)(net /B_SEGA)(type protect))
+    (wire (path B.Cu 1000  20547.8 -129516  33655 -116409)(net /B_SEGA)(type protect))
+    (wire (path B.Cu 1000  20547.8 -138621  20547.8 -129516)(net /B_SEGA)(type protect))
+    (wire (path B.Cu 1000  24178.7 -142252  20547.8 -138621)(net /B_SEGA)(type protect))
+    (wire (path B.Cu 1000  24509.6 -142252  24178.7 -142252)(net /B_SEGA)(type protect))
+    (wire (path B.Cu 1000  26670 -144412  24509.6 -142252)(net /B_SEGA)(type protect))
+    (wire (path B.Cu 1000  26670 -144780  26670 -144412)(net /B_SEGA)(type protect))
+    (wire (path F.Cu 1000  91440 -145144  91440 -144780)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  83425.2 -153159  91440 -145144)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  29651.7 -153159  83425.2 -153159)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  20595.2 -144102  29651.7 -153159)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  20595.2 -117588  20595.2 -144102)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  35893 -102290  20595.2 -117588)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  42698.7 -102290  35893 -102290)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  46355 -98633.9  42698.7 -102290)(net /A_SEGB)(type protect))
+    (wire (path F.Cu 1000  46355 -97790  46355 -98633.9)(net /A_SEGB)(type protect))
+    (wire (path B.Cu 1000  46355 -112029  46355 -110490)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  22080.9 -136303  46355 -112029)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  22080.9 -137997  22080.9 -136303)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  23935.7 -139852  22080.9 -137997)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  27154.7 -139852  23935.7 -139852)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  31750 -144447  27154.7 -139852)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  31750 -144780  31750 -144447)(net /B_SEGB)(type protect))
+    (wire (path B.Cu 1000  97684.2 -149103  94412.2 -149103)(net /A_SEGC)(type protect))
+    (wire (path B.Cu 1000  101600 -145187  97684.2 -149103)(net /A_SEGC)(type protect))
+    (wire (path B.Cu 1000  101600 -144780  101600 -145187)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  88844.5 -154671  94412.2 -149103)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  28997.8 -154671  88844.5 -154671)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  19052.3 -144725  28997.8 -154671)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  19052.3 -106476  19052.3 -144725)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  31253.8 -94274.7  19052.3 -106476)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  56427.5 -94274.7  31253.8 -94274.7)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  59055 -96902.2  56427.5 -94274.7)(net /A_SEGC)(type protect))
+    (wire (path F.Cu 1000  59055 -97790  59055 -96902.2)(net /A_SEGC)(type protect))
+    (wire (path B.Cu 1000  41910 -144444  41910 -144780)(net /B_SEGC)(type protect))
+    (wire (path B.Cu 1000  47045.5 -139308  41910 -144444)(net /B_SEGC)(type protect))
+    (wire (path B.Cu 1000  53403.7 -139308  47045.5 -139308)(net /B_SEGC)(type protect))
+    (wire (path B.Cu 1000  59055 -133657  53403.7 -139308)(net /B_SEGC)(type protect))
+    (wire (path B.Cu 1000  59055 -110490  59055 -133657)(net /B_SEGC)(type protect))
+    (wire (path B.Cu 1000  74620 -97790  71755 -97790)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  86696.5 -109866  74620 -97790)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  86696.5 -110089  86696.5 -109866)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  115574 -138967  115574 -137510)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  111981 -142559  115574 -138967)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  111105 -142559  111981 -142559)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  109220 -144444  111105 -142559)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  109220 -144780  109220 -144444)(net /A_SEGD)(type protect))
+    (wire (path F.Cu 1000  88152.5 -110089  86696.5 -110089)(net /A_SEGD)(type protect))
+    (wire (path F.Cu 1000  115574 -137510  88152.5 -110089)(net /A_SEGD)(type protect))
+    (wire (path B.Cu 1000  71755 -123081  71755 -110490)(net /B_SEGD)(type protect))
+    (wire (path B.Cu 1000  52072.5 -142764  71755 -123081)(net /B_SEGD)(type protect))
+    (wire (path B.Cu 1000  51168.2 -142764  52072.5 -142764)(net /B_SEGD)(type protect))
+    (wire (path B.Cu 1000  49530 -144402  51168.2 -142764)(net /B_SEGD)(type protect))
+    (wire (path B.Cu 1000  49530 -144780  49530 -144402)(net /B_SEGD)(type protect))
+    (wire (path F.Cu 1000  89583.7 -102919  84455 -97790)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  118010 -102919  89583.7 -102919)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  124514 -109423  118010 -102919)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  124514 -135723  124514 -109423)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  119777 -140460  124514 -135723)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  119536 -140460  119777 -140460)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  113199 -146796  119536 -140460)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  105828 -146796  113199 -146796)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  104140 -145109  105828 -146796)(net /A_SEGE)(type protect))
+    (wire (path F.Cu 1000  104140 -144780  104140 -145109)(net /A_SEGE)(type protect))
+    (wire (path B.Cu 1000  97155 -111379  97155 -110490)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  66804.8 -141730  97155 -111379)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  58649.6 -141730  66804.8 -141730)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  57380.9 -142998  58649.6 -141730)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  57380.9 -144490  57380.9 -142998)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  53572.4 -148299  57380.9 -144490)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  47635.7 -148299  53572.4 -148299)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  44450 -145113  47635.7 -148299)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  44450 -144780  44450 -145113)(net /B_SEGE)(type protect))
+    (wire (path B.Cu 1000  100689 -101324  97155 -97790)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  100689 -114544  100689 -101324)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  80255.5 -134978  100689 -114544)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  80255.5 -138666  80255.5 -134978)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  82852.6 -141263  80255.5 -138666)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  85729 -141263  82852.6 -141263)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  88900 -144434  85729 -141263)(net /A_SEGF)(type protect))
+    (wire (path B.Cu 1000  88900 -144780  88900 -144434)(net /A_SEGF)(type protect))
+    (wire (path F.Cu 1000  84455 -111345  84455 -110490)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  66569.6 -129231  84455 -111345)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  29195 -129231  66569.6 -129231)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  22098.8 -136327  29195 -129231)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  22098.8 -138017  22098.8 -136327)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  23308.8 -139227  22098.8 -138017)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  24035 -139227  23308.8 -139227)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  29210 -144402  24035 -139227)(net /B_SEGF)(type protect))
+    (wire (path F.Cu 1000  29210 -144780  29210 -144402)(net /B_SEGF)(type protect))
+    (wire (path B.Cu 1000  109855 -98683.5  109855 -97790)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  102644 -105894  109855 -98683.5)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  102644 -114710  102644 -105894)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  81781.3 -135574  102644 -114710)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  81781.3 -138007  81781.3 -135574)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  83537 -139763  81781.3 -138007)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  89365.6 -139763  83537 -139763)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  93980 -144377  89365.6 -139763)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  93980 -144780  93980 -144377)(net /A_SEGG)(type protect))
+    (wire (path B.Cu 1000  57659.4 -153132  96131.1 -114661)(net /B_SEGG)(type protect))
+    (wire (path B.Cu 1000  33401.6 -153132  57659.4 -153132)(net /B_SEGG)(type protect))
+    (wire (path B.Cu 1000  32273.7 -152005  33401.6 -153132)(net /B_SEGG)(type protect))
+    (wire (path B.Cu 1000  32273.7 -149754  32273.7 -152005)(net /B_SEGG)(type protect))
+    (wire (path B.Cu 1000  34290 -147738  32273.7 -149754)(net /B_SEGG)(type protect))
+    (wire (path B.Cu 1000  34290 -144780  34290 -147738)(net /B_SEGG)(type protect))
+    (wire (path F.Cu 1000  109855 -111372  109855 -110490)(net /B_SEGG)(type protect))
+    (wire (path F.Cu 1000  106566 -114661  109855 -111372)(net /B_SEGG)(type protect))
+    (wire (path F.Cu 1000  96131.1 -114661  106566 -114661)(net /B_SEGG)(type protect))
+    (wire (path B.Cu 1000  122555 -103550  122555 -97790)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  117080 -109025  122555 -103550)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  117080 -142312  117080 -109025)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  112592 -146800  117080 -142312)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  108341 -146800  112592 -146800)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  106680 -145139  108341 -146800)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  106680 -144780  106680 -145139)(net /A_SEGDP)(type protect))
+    (wire (path B.Cu 1000  91388.5 -113923  91388.5 -107243)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  65082.7 -140229  91388.5 -113923)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  58016.7 -140229  65082.7 -140229)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  55350.1 -142896  58016.7 -140229)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  55350.1 -144399  55350.1 -142896)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  52951 -146798  55350.1 -144399)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  48695.5 -146798  52951 -146798)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  46990 -145093  48695.5 -146798)(net /B_SEGDP)(type protect))
+    (wire (path B.Cu 1000  46990 -144780  46990 -145093)(net /B_SEGDP)(type protect))
+    (wire (path F.Cu 1000  122555 -109586  122555 -110490)(net /B_SEGDP)(type protect))
+    (wire (path F.Cu 1000  119955 -106986  122555 -109586)(net /B_SEGDP)(type protect))
+    (wire (path F.Cu 1000  91645.5 -106986  119955 -106986)(net /B_SEGDP)(type protect))
+    (wire (path F.Cu 1000  91388.5 -107243  91645.5 -106986)(net /B_SEGDP)(type protect))
+    (wire (path F.Cu 1000  96520 -144780  96520 -151130)(net "Net-(R1-Pad1)")(type protect))
+    (wire (path B.Cu 1000  36830 -148590  34290 -151130)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path B.Cu 1000  36830 -144780  36830 -148590)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path F.Cu 1000  60325 -56464.9  60325 -54610)(net /A_GPB7)(type protect))
+    (wire (path F.Cu 1000  71006.2 -67146.1  60325 -56464.9)(net /A_GPB7)(type protect))
+    (wire (path F.Cu 1000  71006.2 -69416.4  71006.2 -67146.1)(net /A_GPB7)(type protect))
+    (wire (path B.Cu 1000  57785 -60462.6  57785 -54610)(net /A_GPB6)(type protect))
+    (wire (path B.Cu 1000  63904.6 -66582.2  57785 -60462.6)(net /A_GPB6)(type protect))
+    (wire (path B.Cu 1000  63904.6 -71712.8  63904.6 -66582.2)(net /A_GPB6)(type protect))
+    (wire (path B.Cu 1000  71006.2 -78814.4  63904.6 -71712.8)(net /A_GPB6)(type protect))
+    (wire (path B.Cu 1000  55245 -64084.9  55245 -54610)(net /A_GPB5)(type protect))
+    (wire (path B.Cu 1000  58306.2 -67146.1  55245 -64084.9)(net /A_GPB5)(type protect))
+    (wire (path B.Cu 1000  58306.2 -69416.4  58306.2 -67146.1)(net /A_GPB5)(type protect))
+    (wire (path B.Cu 1000  52705 -73213.2  52705 -54610)(net /A_GPB4)(type protect))
+    (wire (path B.Cu 1000  58306.2 -78814.4  52705 -73213.2)(net /A_GPB4)(type protect))
+    (wire (path F.Cu 1000  50165 -62587.3  50165 -54610)(net /A_GPB3)(type protect))
+    (wire (path F.Cu 1000  45606.2 -67146.1  50165 -62587.3)(net /A_GPB3)(type protect))
+    (wire (path F.Cu 1000  45606.2 -69416.4  45606.2 -67146.1)(net /A_GPB3)(type protect))
+    (wire (path B.Cu 1000  47876.6 -54861.6  47625 -54610)(net /A_GPB2)(type protect))
+    (wire (path B.Cu 1000  47876.6 -76544  47876.6 -54861.6)(net /A_GPB2)(type protect))
+    (wire (path B.Cu 1000  45606.2 -78814.4  47876.6 -76544)(net /A_GPB2)(type protect))
+    (wire (path F.Cu 1000  45085 -55534.9  45085 -54610)(net /A_GPB1)(type protect))
+    (wire (path F.Cu 1000  33473.8 -67146.1  45085 -55534.9)(net /A_GPB1)(type protect))
+    (wire (path F.Cu 1000  32906.2 -67146.1  33473.8 -67146.1)(net /A_GPB1)(type protect))
+    (wire (path F.Cu 1000  32906.2 -69416.4  32906.2 -67146.1)(net /A_GPB1)(type protect))
+    (wire (path B.Cu 1000  42545 -69175.6  42545 -54610)(net /A_GPB0)(type protect))
+    (wire (path B.Cu 1000  32906.2 -78814.4  42545 -69175.6)(net /A_GPB0)(type protect))
+    (wire (path B.Cu 1000  70485 -54233.8  70485 -54610)(net /IO_SCK)(type protect))
+    (wire (path B.Cu 1000  73025 -54236.3  73025 -54610)(net /IO_SDA)(type protect))
+    (wire (path F.Cu 1000  111760 -144398  111760 -144780)(net "Net-(U3-Pad24)")(type protect))
+    (wire (path F.Cu 1000  108561 -141199  111760 -144398)(net "Net-(U3-Pad24)")(type protect))
+    (wire (path F.Cu 1000  66551.2 -141199  108561 -141199)(net "Net-(U3-Pad24)")(type protect))
+    (wire (path F.Cu 1000  62067.4 -136715  66551.2 -141199)(net "Net-(U3-Pad24)")(type protect))
+    (wire (path F.Cu 1000  54530.9 -136715  62067.4 -136715)(net "Net-(U3-Pad24)")(type protect))
+    (wire (path F.Cu 1000  54086.3 -137160  54530.9 -136715)(net "Net-(U3-Pad24)")(type protect))
+    (wire (path F.Cu 1000  52070 -137160  54086.3 -137160)(net "Net-(U3-Pad24)")(type protect))
+    (via "Via[0-1]_1000:600_um"  94412.2 -149103 (net /A_SEGC)(type protect))
+    (via "Via[0-1]_1000:600_um"  115574 -137510 (net /A_SEGD)(type protect))
+    (via "Via[0-1]_1000:600_um"  86696.5 -110089 (net /A_SEGD)(type protect))
+    (via "Via[0-1]_1000:600_um"  96131.1 -114661 (net /B_SEGG)(type protect))
+    (via "Via[0-1]_1000:600_um"  91388.5 -107243 (net /B_SEGDP)(type protect))
   )
 )
