@@ -8,6 +8,15 @@ schematics to organize the circuit into logical blocks. Some nested schematics
 a root, and these are then used to make the individual pcbs. Some PCBs will be
 made multiple times.
 
+### Design Rules for PCB
+
+Track width 0.4mm, clearance 0.3mm
+
+Hole diameter 1.0mm
+
+Via diameter 1.6mm
+
+
 ### Top Level Schematic (not a board)
 
 

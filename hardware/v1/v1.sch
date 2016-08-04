@@ -96,7 +96,7 @@ $EndSheet
 $Sheet
 S 6200 650  600  1300
 U 57A49D32
-F0 "lamps-16" 60
+F0 "lamps-16_OS1" 60
 F1 "lamps-16.sch" 60
 F2 "SEG0" I L 6200 750 60 
 F3 "SEG1" I L 6200 850 60 
@@ -152,7 +152,7 @@ Wire Wire Line
 $Sheet
 S 7550 650  600  1300
 U 57A54838
-F0 "lamps-16" 60
+F0 "lamps-16_OS2" 60
 F1 "lamps-16.sch" 60
 F2 "SEG0" I L 7550 750 60 
 F3 "SEG1" I L 7550 850 60 
@@ -208,7 +208,7 @@ Wire Wire Line
 $Sheet
 S 8900 650  600  1300
 U 57A56102
-F0 "lamps-16" 60
+F0 "lamps-16_ID1" 60
 F1 "lamps-16.sch" 60
 F2 "SEG0" I L 8900 750 60 
 F3 "SEG1" I L 8900 850 60 
@@ -264,7 +264,7 @@ Wire Wire Line
 $Sheet
 S 10250 650  600  1300
 U 57A56122
-F0 "lamps-16" 60
+F0 "lamps-16_ID2" 60
 F1 "lamps-16.sch" 60
 F2 "SEG0" I L 10250 750 60 
 F3 "SEG1" I L 10250 850 60 
