@@ -1,0 +1,567 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MAX7221
+LIBS:MCP23S17
+LIBS:MCP23017
+LIBS:Pi2_Connector
+LIBS:v1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3700 2450 1100 600 
+U 57A33FAE
+F0 "sheet57A33FA6" 60
+F1 "mosfet_level_shifter.sch" 60
+F2 "TTL_IN" I L 3700 2950 60 
+F3 "CMOS_OUT" O R 4800 2950 60 
+F4 "3V3" I L 3700 2700 60 
+F5 "5V" I L 3700 2550 60 
+$EndSheet
+$Sheet
+S 3700 1550 1100 600 
+U 57A33FC0
+F0 "sheet57A33FA7" 60
+F1 "mosfet_level_shifter.sch" 60
+F2 "TTL_IN" I L 3700 2050 60 
+F3 "CMOS_OUT" O R 4800 2050 60 
+F4 "3V3" I L 3700 1800 60 
+F5 "5V" I L 3700 1650 60 
+$EndSheet
+$Sheet
+S 3700 650  1100 600 
+U 57A33FD2
+F0 "sheet57A33FA8" 60
+F1 "mosfet_level_shifter.sch" 60
+F2 "TTL_IN" I L 3700 1150 60 
+F3 "CMOS_OUT" O R 4800 1150 60 
+F4 "3V3" I L 3700 900 60 
+F5 "5V" I L 3700 750 60 
+$EndSheet
+$Sheet
+S 6800 1150 1100 2350
+U 57A5CF2B
+F0 "sheet57A5CF13" 60
+F1 "ledcontroller.sch" 60
+F2 "DIN_5V" I L 6800 1550 60 
+F3 "DOUT_5V" O L 6800 2000 60 
+F4 "VCC" I L 6800 1250 60 
+F5 "CLK_5V" I L 6800 1700 60 
+F6 "CS_5V" I L 6800 1850 60 
+F7 "GND" I L 6800 1400 60 
+F8 "DIG0" O R 7900 1250 60 
+F9 "DIG4" O R 7900 1650 60 
+F10 "DIG6" O R 7900 1850 60 
+F11 "DIG2" O R 7900 1450 60 
+F12 "DIG3" O R 7900 1550 60 
+F13 "DIG7" O R 7900 1950 60 
+F14 "DIG5" O R 7900 1750 60 
+F15 "DIG1" O R 7900 1350 60 
+F16 "SEGD" O R 7900 2800 60 
+F17 "SEGDP" O R 7900 3200 60 
+F18 "SEGE" O R 7900 2900 60 
+F19 "SEGC" O R 7900 2700 60 
+F20 "SEGG" O R 7900 3100 60 
+F21 "SEGB" O R 7900 2600 60 
+F22 "SEGF" O R 7900 3000 60 
+F23 "SEGA" O R 7900 2500 60 
+$EndSheet
+$Sheet
+S 6800 4050 1100 2350
+U 57A5D8B0
+F0 "sheet57A5D898" 60
+F1 "ledcontroller.sch" 60
+F2 "DIN_5V" I L 6800 4450 60 
+F3 "DOUT_5V" O L 6800 4900 60 
+F4 "VCC" I L 6800 4150 60 
+F5 "CLK_5V" I L 6800 4600 60 
+F6 "CS_5V" I L 6800 4750 60 
+F7 "GND" I L 6800 4300 60 
+F8 "DIG0" O R 7900 4150 60 
+F9 "DIG4" O R 7900 4550 60 
+F10 "DIG6" O R 7900 4750 60 
+F11 "DIG2" O R 7900 4350 60 
+F12 "DIG3" O R 7900 4450 60 
+F13 "DIG7" O R 7900 4850 60 
+F14 "DIG5" O R 7900 4650 60 
+F15 "DIG1" O R 7900 4250 60 
+F16 "SEGD" O R 7900 5700 60 
+F17 "SEGDP" O R 7900 6100 60 
+F18 "SEGE" O R 7900 5800 60 
+F19 "SEGC" O R 7900 5600 60 
+F20 "SEGG" O R 7900 6000 60 
+F21 "SEGB" O R 7900 5500 60 
+F22 "SEGF" O R 7900 5900 60 
+F23 "SEGA" O R 7900 5400 60 
+$EndSheet
+Wire Wire Line
+	6800 2000 6350 2000
+Wire Wire Line
+	6350 2000 6350 4450
+Wire Wire Line
+	6350 4450 6800 4450
+Wire Wire Line
+	4800 1150 5150 1150
+Wire Wire Line
+	5150 1150 5150 1550
+Wire Wire Line
+	5150 1550 6800 1550
+Wire Wire Line
+	4800 2050 5050 2050
+Wire Wire Line
+	5050 2050 5050 1700
+Wire Wire Line
+	5050 1700 6800 1700
+Wire Wire Line
+	4800 2950 5200 2950
+Wire Wire Line
+	5200 2950 5200 1850
+Wire Wire Line
+	5200 1850 6800 1850
+Wire Wire Line
+	6250 1700 6250 4600
+Wire Wire Line
+	6250 4600 6800 4600
+Connection ~ 6250 1700
+Wire Wire Line
+	6800 4750 6150 4750
+Wire Wire Line
+	6150 4750 6150 1850
+Connection ~ 6150 1850
+$Comp
+L VCC #PWR?
+U 1 1 57A60478
+P 3350 700
+F 0 "#PWR?" H 3350 550 50  0001 C CNN
+F 1 "VCC" H 3350 850 50  0000 C CNN
+F 2 "" H 3350 700 50  0000 C CNN
+F 3 "" H 3350 700 50  0000 C CNN
+	1    3350 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 57A60684
+P 2950 700
+F 0 "#PWR?" H 2950 550 50  0001 C CNN
+F 1 "VDD" H 2950 850 50  0000 C CNN
+F 2 "" H 2950 700 50  0000 C CNN
+F 3 "" H 2950 700 50  0000 C CNN
+	1    2950 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 700  3350 2550
+Wire Wire Line
+	3350 750  3700 750 
+Wire Wire Line
+	3350 1650 3700 1650
+Connection ~ 3350 750 
+Wire Wire Line
+	3350 2550 3700 2550
+Connection ~ 3350 1650
+Wire Wire Line
+	2950 700  2950 2700
+Wire Wire Line
+	2950 900  3700 900 
+Wire Wire Line
+	2950 2700 3700 2700
+Connection ~ 2950 900 
+Wire Wire Line
+	3700 1800 2950 1800
+Connection ~ 2950 1800
+NoConn ~ 6800 4900
+$Comp
+L VCC #PWR?
+U 1 1 57A68689
+P 6650 1150
+F 0 "#PWR?" H 6650 1000 50  0001 C CNN
+F 1 "VCC" H 6650 1300 50  0000 C CNN
+F 2 "" H 6650 1150 50  0000 C CNN
+F 3 "" H 6650 1150 50  0000 C CNN
+	1    6650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 57A687E4
+P 6650 4000
+F 0 "#PWR?" H 6650 3850 50  0001 C CNN
+F 1 "VCC" H 6650 4150 50  0000 C CNN
+F 2 "" H 6650 4000 50  0000 C CNN
+F 3 "" H 6650 4000 50  0000 C CNN
+	1    6650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4000 6650 4150
+Wire Wire Line
+	6650 4150 6800 4150
+Wire Wire Line
+	6800 1250 6650 1250
+Wire Wire Line
+	6650 1250 6650 1150
+$Comp
+L GND #PWR?
+U 1 1 57A68AD3
+P 6650 1400
+F 0 "#PWR?" H 6650 1150 50  0001 C CNN
+F 1 "GND" H 6650 1250 50  0000 C CNN
+F 2 "" H 6650 1400 50  0000 C CNN
+F 3 "" H 6650 1400 50  0000 C CNN
+	1    6650 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 1400 6650 1400
+$Comp
+L GND #PWR?
+U 1 1 57A691A3
+P 6700 4300
+F 0 "#PWR?" H 6700 4050 50  0001 C CNN
+F 1 "GND" H 6700 4150 50  0000 C CNN
+F 2 "" H 6700 4300 50  0000 C CNN
+F 3 "" H 6700 4300 50  0000 C CNN
+	1    6700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 4300 6700 4300
+NoConn ~ 7900 4850
+NoConn ~ 7900 4750
+NoConn ~ 7900 4650
+NoConn ~ 7900 4550
+NoConn ~ 7900 4450
+Text Label 8000 2500 0    60   ~ 0
+A_SEGA
+Text Label 8000 2600 0    60   ~ 0
+A_SEGB
+Text Label 8000 2700 0    60   ~ 0
+A_SEGC
+Text Label 8000 2800 0    60   ~ 0
+A_SEGD
+Text Label 8000 2900 0    60   ~ 0
+A_SEGE
+Text Label 8000 3000 0    60   ~ 0
+A_SEGF
+Text Label 8000 3100 0    60   ~ 0
+A_SEGG
+Text Label 8000 3200 0    60   ~ 0
+A_SEGDP
+Wire Wire Line
+	8000 2500 7900 2500
+Wire Wire Line
+	7900 2600 8000 2600
+Wire Wire Line
+	8000 2700 7900 2700
+Wire Wire Line
+	7900 2800 8000 2800
+Wire Wire Line
+	8000 2900 7900 2900
+Wire Wire Line
+	7900 3000 8000 3000
+Wire Wire Line
+	8000 3100 7900 3100
+Wire Wire Line
+	7900 3200 8000 3200
+Text Label 8000 1450 0    60   ~ 0
+A_DIG2
+Text Label 8000 1550 0    60   ~ 0
+A_DIG3
+Wire Wire Line
+	8000 1450 7900 1450
+Wire Wire Line
+	7900 1550 8000 1550
+Text Label 8000 1250 0    60   ~ 0
+A_DIG0
+Text Label 8000 1350 0    60   ~ 0
+A_DIG1
+Wire Wire Line
+	8000 1250 7900 1250
+Wire Wire Line
+	7900 1350 8000 1350
+Text Label 8000 1850 0    60   ~ 0
+A_DIG6
+Text Label 8000 1950 0    60   ~ 0
+A_DIG7
+Wire Wire Line
+	8000 1850 7900 1850
+Wire Wire Line
+	7900 1950 8000 1950
+Text Label 8000 1650 0    60   ~ 0
+A_DIG4
+Text Label 8000 1750 0    60   ~ 0
+A_DIG5
+Wire Wire Line
+	8000 1650 7900 1650
+Wire Wire Line
+	7900 1750 8000 1750
+Text Label 8000 5400 0    60   ~ 0
+B_SEGA
+Text Label 8000 5500 0    60   ~ 0
+B_SEGB
+Text Label 8000 5600 0    60   ~ 0
+B_SEGC
+Text Label 8000 5700 0    60   ~ 0
+B_SEGD
+Text Label 8000 5800 0    60   ~ 0
+B_SEGE
+Text Label 8000 5900 0    60   ~ 0
+B_SEGF
+Text Label 8000 6000 0    60   ~ 0
+B_SEGG
+Text Label 8000 6100 0    60   ~ 0
+B_SEGDP
+Wire Wire Line
+	8000 5400 7900 5400
+Wire Wire Line
+	7900 5500 8000 5500
+Wire Wire Line
+	8000 5600 7900 5600
+Wire Wire Line
+	7900 5700 8000 5700
+Wire Wire Line
+	8000 5800 7900 5800
+Wire Wire Line
+	7900 5900 8000 5900
+Wire Wire Line
+	8000 6000 7900 6000
+Wire Wire Line
+	7900 6100 8000 6100
+Text Label 8000 4350 0    60   ~ 0
+B_DIG2
+Wire Wire Line
+	8000 4350 7900 4350
+Text Label 8000 4150 0    60   ~ 0
+B_DIG0
+Text Label 8000 4250 0    60   ~ 0
+B_DIG1
+Wire Wire Line
+	8000 4150 7900 4150
+Wire Wire Line
+	7900 4250 8000 4250
+$Comp
+L CONN_02X05 P?
+U 1 1 57A6EF47
+P 9900 1500
+F 0 "P?" H 9900 1800 50  0000 C CNN
+F 1 "CONN_02X05" H 9900 1200 50  0000 C CNN
+F 2 "" H 9900 300 50  0000 C CNN
+F 3 "" H 9900 300 50  0000 C CNN
+	1    9900 1500
+	1    0    0    -1  
+$EndComp
+Text Label 9650 1300 2    60   ~ 0
+A_SEGA
+Text Label 10150 1300 0    60   ~ 0
+A_SEGB
+Text Label 9650 1400 2    60   ~ 0
+A_SEGC
+Text Label 10150 1400 0    60   ~ 0
+A_SEGD
+Text Label 9650 1500 2    60   ~ 0
+A_SEGE
+Text Label 10150 1500 0    60   ~ 0
+A_SEGF
+Text Label 9650 1600 2    60   ~ 0
+A_SEGG
+Text Label 10150 1600 0    60   ~ 0
+A_SEGDP
+Text Label 9650 1700 2    60   ~ 0
+A_DIG0
+Text Label 10150 1700 0    60   ~ 0
+A_DIG1
+$Comp
+L CONN_02X05 P?
+U 1 1 57A709A7
+P 9900 2250
+F 0 "P?" H 9900 2550 50  0000 C CNN
+F 1 "CONN_02X05" H 9900 1950 50  0000 C CNN
+F 2 "" H 9900 1050 50  0000 C CNN
+F 3 "" H 9900 1050 50  0000 C CNN
+	1    9900 2250
+	1    0    0    -1  
+$EndComp
+Text Label 9650 2050 2    60   ~ 0
+A_SEGA
+Text Label 10150 2050 0    60   ~ 0
+A_SEGB
+Text Label 9650 2150 2    60   ~ 0
+A_SEGC
+Text Label 10150 2150 0    60   ~ 0
+A_SEGD
+Text Label 9650 2250 2    60   ~ 0
+A_SEGE
+Text Label 10150 2250 0    60   ~ 0
+A_SEGF
+Text Label 9650 2350 2    60   ~ 0
+A_SEGG
+Text Label 10150 2350 0    60   ~ 0
+A_SEGDP
+Text Label 9650 2450 2    60   ~ 0
+A_DIG2
+Text Label 10150 2450 0    60   ~ 0
+A_DIG3
+$Comp
+L CONN_02X05 P?
+U 1 1 57A70B37
+P 9900 3000
+F 0 "P?" H 9900 3300 50  0000 C CNN
+F 1 "CONN_02X05" H 9900 2700 50  0000 C CNN
+F 2 "" H 9900 1800 50  0000 C CNN
+F 3 "" H 9900 1800 50  0000 C CNN
+	1    9900 3000
+	1    0    0    -1  
+$EndComp
+Text Label 9650 2800 2    60   ~ 0
+A_SEGA
+Text Label 10150 2800 0    60   ~ 0
+A_SEGB
+Text Label 9650 2900 2    60   ~ 0
+A_SEGC
+Text Label 10150 2900 0    60   ~ 0
+A_SEGD
+Text Label 9650 3000 2    60   ~ 0
+A_SEGE
+Text Label 10150 3000 0    60   ~ 0
+A_SEGF
+Text Label 9650 3100 2    60   ~ 0
+A_SEGG
+Text Label 10150 3100 0    60   ~ 0
+A_SEGDP
+Text Label 9650 3200 2    60   ~ 0
+A_DIG4
+Text Label 10150 3200 0    60   ~ 0
+A_DIG5
+$Comp
+L CONN_02X05 P?
+U 1 1 57A7120E
+P 9900 3700
+F 0 "P?" H 9900 4000 50  0000 C CNN
+F 1 "CONN_02X05" H 9900 3400 50  0000 C CNN
+F 2 "" H 9900 2500 50  0000 C CNN
+F 3 "" H 9900 2500 50  0000 C CNN
+	1    9900 3700
+	1    0    0    -1  
+$EndComp
+Text Label 9650 3500 2    60   ~ 0
+A_SEGA
+Text Label 10150 3500 0    60   ~ 0
+A_SEGB
+Text Label 9650 3600 2    60   ~ 0
+A_SEGC
+Text Label 10150 3600 0    60   ~ 0
+A_SEGD
+Text Label 9650 3700 2    60   ~ 0
+A_SEGE
+Text Label 10150 3700 0    60   ~ 0
+A_SEGF
+Text Label 9650 3800 2    60   ~ 0
+A_SEGG
+Text Label 10150 3800 0    60   ~ 0
+A_SEGDP
+Text Label 9650 3900 2    60   ~ 0
+A_DIG6
+Text Label 10150 3900 0    60   ~ 0
+A_DIG7
+$Comp
+L CONN_02X05 P?
+U 1 1 57A720A7
+P 9900 4700
+F 0 "P?" H 9900 5000 50  0000 C CNN
+F 1 "CONN_02X05" H 9900 4400 50  0000 C CNN
+F 2 "" H 9900 3500 50  0000 C CNN
+F 3 "" H 9900 3500 50  0000 C CNN
+	1    9900 4700
+	1    0    0    -1  
+$EndComp
+Text Label 9650 4500 2    60   ~ 0
+B_SEGA
+Text Label 10150 4500 0    60   ~ 0
+B_SEGB
+Text Label 9650 4600 2    60   ~ 0
+B_SEGC
+Text Label 10150 4600 0    60   ~ 0
+B_SEGD
+Text Label 9650 4700 2    60   ~ 0
+B_SEGE
+Text Label 10150 4700 0    60   ~ 0
+B_SEGF
+Text Label 9650 4800 2    60   ~ 0
+B_SEGG
+Text Label 10150 4800 0    60   ~ 0
+B_SEGDP
+Text Label 9650 4900 2    60   ~ 0
+B_DIG0
+Text Label 10150 4900 0    60   ~ 0
+B_DIG1
+$Comp
+L CONN_02X05 P?
+U 1 1 57A720B7
+P 9900 5450
+F 0 "P?" H 9900 5750 50  0000 C CNN
+F 1 "CONN_02X05" H 9900 5150 50  0000 C CNN
+F 2 "" H 9900 4250 50  0000 C CNN
+F 3 "" H 9900 4250 50  0000 C CNN
+	1    9900 5450
+	1    0    0    -1  
+$EndComp
+Text Label 9650 5250 2    60   ~ 0
+B_SEGA
+Text Label 10150 5250 0    60   ~ 0
+B_SEGB
+Text Label 9650 5350 2    60   ~ 0
+B_SEGC
+Text Label 10150 5350 0    60   ~ 0
+B_SEGD
+Text Label 9650 5450 2    60   ~ 0
+B_SEGE
+Text Label 10150 5450 0    60   ~ 0
+B_SEGF
+Text Label 9650 5550 2    60   ~ 0
+B_SEGG
+Text Label 10150 5550 0    60   ~ 0
+B_SEGDP
+Text Label 9650 5650 2    60   ~ 0
+B_DIG2
+NoConn ~ 10150 5650
+$EndSCHEMATC
