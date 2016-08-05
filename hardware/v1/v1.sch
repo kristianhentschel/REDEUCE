@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 25
+Sheet 1 26
 Title ""
 Date ""
 Rev ""
@@ -374,9 +374,15 @@ F10 "DIGITA" I L 6200 3400 60
 F11 "DIGITB" I L 6200 3500 60 
 $EndSheet
 $Sheet
-S 3300 5000 700  750 
+S 3200 4650 700  750 
 U 57A4FF98
 F0 "switches-16" 60
 F1 "switches-16.sch" 60
+$EndSheet
+$Sheet
+S 3250 5650 650  700 
+U 57A4B894
+F0 "keys-8" 60
+F1 "keys-8.sch" 60
 $EndSheet
 $EndSCHEMATC
