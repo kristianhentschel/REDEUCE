@@ -22,8 +22,7 @@ Via diameter 1.6mm
 
 ### Boards to be produced
 
-LEDs and Switches are always on the *front* side. All other components, but
-especially connectors, should be placed on the *back* side.
+All components may be on the front side providing spacers are used for the LEDs.
 
 * 1x **pi-connect**: Main board that connects to Raspberry Pi and Power supply
   and houses some of the logic ICs and supplementary components. Has spare

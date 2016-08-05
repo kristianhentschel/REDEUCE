@@ -28,19 +28,20 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:lamps-16-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "LAMPS-16"
+Date "2016-08-05"
+Rev "1.0.0"
+Comp "University of Glasgow"
+Comment1 "Kristian Hentschel"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "REDEUCE Control Panel"
 $EndDescr
 $Sheet
 S 3100 700  550  1200
@@ -120,38 +121,22 @@ Text Label 3100 3100 2    60   ~ 0
 SEG6
 Text Label 3100 3200 2    60   ~ 0
 SEG7
-Text Label 950  800  2    60   ~ 0
-SEG0
 Text Label 1450 800  0    60   ~ 0
+SEG0
+Text Label 950  800  2    60   ~ 0
 SEG1
 Text Label 950  900  2    60   ~ 0
 SEG2
-Text Label 1450 900  0    60   ~ 0
-SEG3
 Text Label 950  1000 2    60   ~ 0
-SEG4
-Text Label 1450 1000 0    60   ~ 0
-SEG5
+SEG3
 Text Label 950  1100 2    60   ~ 0
+SEG4
+Text Label 950  1200 2    60   ~ 0
+SEG5
+Text Label 1450 1200 0    60   ~ 0
 SEG6
 Text Label 1450 1100 0    60   ~ 0
 SEG7
-Wire Wire Line
-	3100 800  1850 800 
-Wire Wire Line
-	600  1200 950  1200
-Wire Wire Line
-	600  1200 600  600 
-Wire Wire Line
-	600  600  1850 600 
-Wire Wire Line
-	1850 600  1850 800 
-Wire Wire Line
-	1450 1200 1850 1200
-Wire Wire Line
-	1850 1200 1850 2250
-Wire Wire Line
-	1850 2250 3100 2250
 Text Label 1000 2100 2    60   ~ 0
 SEG0
 Text Label 1000 2200 2    60   ~ 0
@@ -168,9 +153,9 @@ Text Label 1000 2700 2    60   ~ 0
 SEG6
 Text Label 1000 2800 2    60   ~ 0
 SEG7
-Text Label 2800 800  2    60   ~ 0
+Text Label 3100 800  2    60   ~ 0
 DIGITA
-Text Label 2800 2250 2    60   ~ 0
+Text Label 3100 2250 2    60   ~ 0
 DIGITB
 Text Label 1000 3050 2    60   ~ 0
 DIGITA
@@ -256,4 +241,8 @@ Wire Wire Line
 	1100 3150 1100 3200
 Wire Wire Line
 	1100 3200 1000 3200
+Text Label 1450 900  0    60   ~ 0
+DIGITA
+Text Label 1450 1000 0    60   ~ 0
+DIGITB
 $EndSCHEMATC
