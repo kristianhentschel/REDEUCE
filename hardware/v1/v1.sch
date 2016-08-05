@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 22
+Sheet 1 24
 Title ""
 Date ""
 Rev ""
@@ -357,4 +357,10 @@ Wire Wire Line
 	6100 3400 6200 3400
 Wire Wire Line
 	6200 3500 6100 3500
+$Sheet
+S 6650 2250 800  1750
+U 57A699EE
+F0 "lamps-13_3a" 60
+F1 "lamps-13_3a.sch" 60
+$EndSheet
 $EndSCHEMATC

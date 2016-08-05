@@ -16,7 +16,6 @@ Hole diameter 1.0mm
 
 Via diameter 1.6mm
 
-
 ### Top Level Schematic (not a board)
 
 
