@@ -28,12 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:lamps-16-cache
+LIBS:MAX7221
+LIBS:MCP23S17
+LIBS:MCP23017
+LIBS:Pi2_Connector
+LIBS:v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 11 22
 Title "LAMPS-16"
 Date "2016-08-05"
 Rev "1.0.0"
@@ -82,7 +86,7 @@ AR Path="/57A54838/57A3FFF5" Ref="P8"  Part="1"
 AR Path="/57A56102/57A3FFF5" Ref="P9"  Part="1" 
 AR Path="/57A56122/57A3FFF5" Ref="P10"  Part="1" 
 AR Path="/57A3FFF5" Ref="P10"  Part="1" 
-F 0 "P10" H 1200 1300 50  0000 C CNN
+F 0 "P7" H 1200 1300 50  0000 C CNN
 F 1 "CONN_02X05" H 1200 700 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x05" H 1200 -200 50  0001 C CNN
 F 3 "" H 1200 -200 50  0000 C CNN

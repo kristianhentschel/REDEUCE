@@ -28,12 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:lamps-16-cache
+LIBS:MAX7221
+LIBS:MCP23S17
+LIBS:MCP23017
+LIBS:Pi2_Connector
+LIBS:v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 22
 Title ""
 Date ""
 Rev ""
