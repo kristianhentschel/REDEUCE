@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Sunday, 07 August 2016 'pmt' 13:01:04
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../kicad_libs
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/Users/kristian/repositories/redeuce/hardware/kicad_libs/Pi2_Connector
+LibName31=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MAX7221
+LibName32=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MCP23S17
+LibName33=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MCP23017

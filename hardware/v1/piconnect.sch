@@ -28,16 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Pi2_Connector
 LIBS:MAX7221
 LIBS:MCP23S17
 LIBS:MCP23017
-LIBS:Pi2_Connector
-LIBS:v1-cache
+LIBS:piconnect-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 26
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -97,7 +97,7 @@ F13 "DIG7" O R 9250 1950 60
 F14 "DIG5" O R 9250 1750 60 
 F15 "DIG1" O R 9250 1350 60 
 F16 "SEGD" O R 9250 2800 60 
-F17 "SEGDP" O R 9250 3200 60 
+F17 "SEGDP" O R 9250 2400 60 
 F18 "SEGE" O R 9250 2900 60 
 F19 "SEGC" O R 9250 2700 60 
 F20 "SEGG" O R 9250 3100 60 
@@ -125,7 +125,7 @@ F13 "DIG7" O R 9250 4850 60
 F14 "DIG5" O R 9250 4650 60 
 F15 "DIG1" O R 9250 4250 60 
 F16 "SEGD" O R 9250 5700 60 
-F17 "SEGDP" O R 9250 6100 60 
+F17 "SEGDP" O R 9250 5300 60 
 F18 "SEGE" O R 9250 5800 60 
 F19 "SEGC" O R 9250 5600 60 
 F20 "SEGG" O R 9250 6000 60 
@@ -232,6 +232,8 @@ NoConn ~ 9250 4750
 NoConn ~ 9250 4650
 NoConn ~ 9250 4550
 NoConn ~ 9250 4450
+Text Label 9350 2400 0    60   ~ 0
+A_SEGDP
 Text Label 9350 2500 0    60   ~ 0
 A_SEGA
 Text Label 9350 2600 0    60   ~ 0
@@ -246,24 +248,22 @@ Text Label 9350 3000 0    60   ~ 0
 A_SEGF
 Text Label 9350 3100 0    60   ~ 0
 A_SEGG
-Text Label 9350 3200 0    60   ~ 0
-A_SEGDP
 Wire Wire Line
-	9350 2500 9250 2500
+	9350 2400 9250 2400
 Wire Wire Line
-	9250 2600 9350 2600
+	9250 2500 9350 2500
 Wire Wire Line
-	9350 2700 9250 2700
+	9350 2600 9250 2600
 Wire Wire Line
-	9250 2800 9350 2800
+	9250 2700 9350 2700
 Wire Wire Line
-	9350 2900 9250 2900
+	9350 2800 9250 2800
 Wire Wire Line
-	9250 3000 9350 3000
+	9250 2900 9350 2900
 Wire Wire Line
-	9350 3100 9250 3100
+	9350 3000 9250 3000
 Wire Wire Line
-	9250 3200 9350 3200
+	9250 3100 9350 3100
 Text Label 9350 1450 0    60   ~ 0
 A_DIG2
 Text Label 9350 1550 0    60   ~ 0
@@ -296,6 +296,8 @@ Wire Wire Line
 	9350 1650 9250 1650
 Wire Wire Line
 	9250 1750 9350 1750
+Text Label 9350 5300 0    60   ~ 0
+B_SEGDP
 Text Label 9350 5400 0    60   ~ 0
 B_SEGA
 Text Label 9350 5500 0    60   ~ 0
@@ -310,24 +312,22 @@ Text Label 9350 5900 0    60   ~ 0
 B_SEGF
 Text Label 9350 6000 0    60   ~ 0
 B_SEGG
-Text Label 9350 6100 0    60   ~ 0
-B_SEGDP
 Wire Wire Line
-	9350 5400 9250 5400
+	9350 5300 9250 5300
 Wire Wire Line
-	9250 5500 9350 5500
+	9250 5400 9350 5400
 Wire Wire Line
-	9350 5600 9250 5600
+	9350 5500 9250 5500
 Wire Wire Line
-	9250 5700 9350 5700
+	9250 5600 9350 5600
 Wire Wire Line
-	9350 5800 9250 5800
+	9350 5700 9250 5700
 Wire Wire Line
-	9250 5900 9350 5900
+	9250 5800 9350 5800
 Wire Wire Line
-	9350 6000 9250 6000
+	9350 5900 9250 5900
 Wire Wire Line
-	9250 6100 9350 6100
+	9250 6000 9350 6000
 Text Label 9350 4350 0    60   ~ 0
 B_DIG2
 Wire Wire Line
@@ -352,21 +352,21 @@ F 3 "" H 10500 -350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10750 650  0    60   ~ 0
-A_SEGA
-Text Label 10250 650  2    60   ~ 0
-A_SEGB
-Text Label 10250 750  2    60   ~ 0
-A_SEGC
-Text Label 10250 850  2    60   ~ 0
-A_SEGD
-Text Label 10250 950  2    60   ~ 0
-A_SEGE
-Text Label 10250 1050 2    60   ~ 0
-A_SEGF
-Text Label 10750 950  0    60   ~ 0
-A_SEGG
-Text Label 10750 1050 0    60   ~ 0
 A_SEGDP
+Text Label 10250 650  2    60   ~ 0
+A_SEGA
+Text Label 10250 750  2    60   ~ 0
+A_SEGB
+Text Label 10250 850  2    60   ~ 0
+A_SEGC
+Text Label 10250 950  2    60   ~ 0
+A_SEGD
+Text Label 10250 1050 2    60   ~ 0
+A_SEGE
+Text Label 10750 950  0    60   ~ 0
+A_SEGF
+Text Label 10750 1050 0    60   ~ 0
+A_SEGG
 Text Label 10750 750  0    60   ~ 0
 A_DIG0
 Text Label 10750 850  0    60   ~ 0
@@ -383,21 +383,21 @@ F 3 "" H 10500 500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10750 1500 0    60   ~ 0
-A_SEGA
-Text Label 10250 1500 2    60   ~ 0
-A_SEGB
-Text Label 10250 1600 2    60   ~ 0
-A_SEGC
-Text Label 10250 1700 2    60   ~ 0
-A_SEGD
-Text Label 10250 1800 2    60   ~ 0
-A_SEGE
-Text Label 10250 1900 2    60   ~ 0
-A_SEGF
-Text Label 10750 1800 0    60   ~ 0
-A_SEGG
-Text Label 10750 1900 0    60   ~ 0
 A_SEGDP
+Text Label 10250 1500 2    60   ~ 0
+A_SEGA
+Text Label 10250 1600 2    60   ~ 0
+A_SEGB
+Text Label 10250 1700 2    60   ~ 0
+A_SEGC
+Text Label 10250 1800 2    60   ~ 0
+A_SEGD
+Text Label 10250 1900 2    60   ~ 0
+A_SEGE
+Text Label 10750 1800 0    60   ~ 0
+A_SEGF
+Text Label 10750 1900 0    60   ~ 0
+A_SEGG
 Text Label 10750 1600 0    60   ~ 0
 A_DIG2
 Text Label 10750 1700 0    60   ~ 0
@@ -414,21 +414,21 @@ F 3 "" H 10500 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10750 2300 0    60   ~ 0
-A_SEGA
-Text Label 10250 2300 2    60   ~ 0
-A_SEGB
-Text Label 10250 2400 2    60   ~ 0
-A_SEGC
-Text Label 10250 2500 2    60   ~ 0
-A_SEGD
-Text Label 10250 2600 2    60   ~ 0
-A_SEGE
-Text Label 10250 2700 2    60   ~ 0
-A_SEGF
-Text Label 10750 2600 0    60   ~ 0
-A_SEGG
-Text Label 10750 2700 0    60   ~ 0
 A_SEGDP
+Text Label 10250 2300 2    60   ~ 0
+A_SEGA
+Text Label 10250 2400 2    60   ~ 0
+A_SEGB
+Text Label 10250 2500 2    60   ~ 0
+A_SEGC
+Text Label 10250 2600 2    60   ~ 0
+A_SEGD
+Text Label 10250 2700 2    60   ~ 0
+A_SEGE
+Text Label 10750 2600 0    60   ~ 0
+A_SEGF
+Text Label 10750 2700 0    60   ~ 0
+A_SEGG
 Text Label 10750 2400 0    60   ~ 0
 A_DIG4
 Text Label 10750 2500 0    60   ~ 0
@@ -445,21 +445,21 @@ F 3 "" H 10500 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10750 3150 0    60   ~ 0
-A_SEGA
-Text Label 10250 3150 2    60   ~ 0
-A_SEGB
-Text Label 10250 3250 2    60   ~ 0
-A_SEGC
-Text Label 10250 3350 2    60   ~ 0
-A_SEGD
-Text Label 10250 3450 2    60   ~ 0
-A_SEGE
-Text Label 10250 3550 2    60   ~ 0
-A_SEGF
-Text Label 10750 3450 0    60   ~ 0
-A_SEGG
-Text Label 10750 3550 0    60   ~ 0
 A_SEGDP
+Text Label 10250 3150 2    60   ~ 0
+A_SEGA
+Text Label 10250 3250 2    60   ~ 0
+A_SEGB
+Text Label 10250 3350 2    60   ~ 0
+A_SEGC
+Text Label 10250 3450 2    60   ~ 0
+A_SEGD
+Text Label 10250 3550 2    60   ~ 0
+A_SEGE
+Text Label 10750 3450 0    60   ~ 0
+A_SEGF
+Text Label 10750 3550 0    60   ~ 0
+A_SEGG
 Text Label 10750 3250 0    60   ~ 0
 A_DIG6
 Text Label 10750 3350 0    60   ~ 0
@@ -476,21 +476,21 @@ F 3 "" H 10500 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10750 4050 0    60   ~ 0
-B_SEGA
-Text Label 10250 4050 2    60   ~ 0
-B_SEGB
-Text Label 10250 4150 2    60   ~ 0
-B_SEGC
-Text Label 10250 4250 2    60   ~ 0
-B_SEGD
-Text Label 10250 4350 2    60   ~ 0
-B_SEGE
-Text Label 10250 4450 2    60   ~ 0
-B_SEGF
-Text Label 10750 4350 0    60   ~ 0
-B_SEGG
-Text Label 10750 4450 0    60   ~ 0
 B_SEGDP
+Text Label 10250 4050 2    60   ~ 0
+B_SEGA
+Text Label 10250 4150 2    60   ~ 0
+B_SEGB
+Text Label 10250 4250 2    60   ~ 0
+B_SEGC
+Text Label 10250 4350 2    60   ~ 0
+B_SEGD
+Text Label 10250 4450 2    60   ~ 0
+B_SEGE
+Text Label 10750 4350 0    60   ~ 0
+B_SEGF
+Text Label 10750 4450 0    60   ~ 0
+B_SEGG
 Text Label 10750 4150 0    60   ~ 0
 B_DIG0
 Text Label 10750 4250 0    60   ~ 0
@@ -507,21 +507,21 @@ F 3 "" H 10500 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10750 4900 0    60   ~ 0
-B_SEGA
-Text Label 10250 4900 2    60   ~ 0
-B_SEGB
-Text Label 10250 5000 2    60   ~ 0
-B_SEGC
-Text Label 10250 5100 2    60   ~ 0
-B_SEGD
-Text Label 10250 5200 2    60   ~ 0
-B_SEGE
-Text Label 10250 5300 2    60   ~ 0
-B_SEGF
-Text Label 10750 5200 0    60   ~ 0
-B_SEGG
-Text Label 10750 5300 0    60   ~ 0
 B_SEGDP
+Text Label 10250 4900 2    60   ~ 0
+B_SEGA
+Text Label 10250 5000 2    60   ~ 0
+B_SEGB
+Text Label 10250 5100 2    60   ~ 0
+B_SEGC
+Text Label 10250 5200 2    60   ~ 0
+B_SEGD
+Text Label 10250 5300 2    60   ~ 0
+B_SEGE
+Text Label 10750 5200 0    60   ~ 0
+B_SEGF
+Text Label 10750 5300 0    60   ~ 0
+B_SEGG
 Text Label 10750 5000 0    60   ~ 0
 B_DIG2
 NoConn ~ 10750 5100
