@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="680.71135"
-     inkscape:cy="599.98433"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="588.21618"
+     inkscape:cy="677.38246"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
@@ -298,7 +298,7 @@
     </g>
     <g
        id="g7812"
-       transform="matrix(0.009,0,0,0.009,-21.590249,352.21607)">
+       transform="matrix(0.009,0,0,0.009,-21.590249,332.21607)">
       <g
          id="g7718"
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
@@ -451,7 +451,8 @@
       </g>
     </g>
     <g
-       id="g5742">
+       id="g5742"
+       transform="translate(0,1.0395229e-6)">
       <g
          transform="matrix(-0.009,0,0,-0.009,1481.8506,785.1117)"
          id="g7464">
@@ -2173,7 +2174,7 @@
     </g>
     <g
        id="g5824"
-       transform="translate(0,-17.857143)">
+       transform="translate(0,-17.857133)">
       <g
          transform="matrix(0.009,0,0,0.009,-14.94878,572.17797)"
          id="g7136">
@@ -2522,7 +2523,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.009,0,0,0.009,189.7876,352.21607)"
+       transform="matrix(0.009,0,0,0.009,288.5376,352.21607)"
        id="g5280">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
@@ -2590,7 +2591,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.00899997,0,0,0.00899997,32.336675,148.566)"
+       transform="matrix(0.00899997,0,0,0.00899997,4.2554546,86.798233)"
        id="g5378">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
@@ -2924,7 +2925,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.00899997,0,0,0.00899997,985.60175,419.50924)"
+       transform="matrix(0.00899997,0,0,0.00899997,1084.3518,419.50924)"
        id="g5534">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
@@ -3091,7 +3092,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.009,0,0,0.009,4.6737172,74.42412)"
+       transform="matrix(0.009,0,0,0.009,-23.407503,2.656353)"
        id="g5906">
       <g
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
@@ -3249,4 +3250,1369 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="TEMP LABELS" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="engrave">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="37.274662"
+       y="674.2691"
+       id="text4075"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4077"
+         x="37.274662"
+         y="674.2691"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4085"
+       y="674.41193"
+       x="82.27269"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.41193"
+         x="82.27269"
+         id="tspan4087"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="127.27071"
+       y="674.28009"
+       id="text4089"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4091"
+         x="127.27071"
+         y="674.28009"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4093"
+       y="674.90082"
+       x="172.26874"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.90082"
+         x="172.26874"
+         id="tspan4095"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="217.26675"
+       y="674.13177"
+       id="text4097"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4099"
+         x="217.26675"
+         y="674.13177"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">5</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4101"
+       y="674.42841"
+       x="262.26477"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.42841"
+         x="262.26477"
+         id="tspan4103"
+         sodipodi:role="line">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="307.26282"
+       y="673.97797"
+       id="text4105"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4107"
+         x="307.26282"
+         y="673.97797"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">7</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4109"
+       y="674.2746"
+       x="352.26083"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.2746"
+         x="352.26083"
+         id="tspan4111"
+         sodipodi:role="line">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="397.25885"
+       y="674.12079"
+       id="text4113"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4115"
+         x="397.25885"
+         y="674.12079"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">9</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4117"
+       y="674.2746"
+       x="442.25687"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.2746"
+         x="442.25687"
+         id="tspan4119"
+         sodipodi:role="line">10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="487.25488"
+       y="674.2691"
+       id="text4121"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4123"
+         x="487.25488"
+         y="674.2691"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">11</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4125"
+       y="674.41193"
+       x="532.25293"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.41193"
+         x="532.25293"
+         id="tspan4127"
+         sodipodi:role="line">12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="577.25098"
+       y="674.28009"
+       id="text4129"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4131"
+         x="577.25098"
+         y="674.28009"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">13</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4133"
+       y="674.90082"
+       x="622.24896"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.90082"
+         x="622.24896"
+         id="tspan4135"
+         sodipodi:role="line">14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="667.24701"
+       y="674.13177"
+       id="text4137"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4139"
+         x="667.24701"
+         y="674.13177"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">15</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4141"
+       y="674.42841"
+       x="712.245"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.42841"
+         x="712.245"
+         id="tspan4143"
+         sodipodi:role="line">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="757.24304"
+       y="673.97797"
+       id="text4145"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4147"
+         x="757.24304"
+         y="673.97797"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">17</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4149"
+       y="674.2746"
+       x="802.24109"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.2746"
+         x="802.24109"
+         id="tspan4151"
+         sodipodi:role="line">18</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="847.23907"
+       y="674.12079"
+       id="text4153"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4155"
+         x="847.23907"
+         y="674.12079"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">19</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4157"
+       y="674.2746"
+       x="892.23712"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.2746"
+         x="892.23712"
+         id="tspan4159"
+         sodipodi:role="line">20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="937.23511"
+       y="674.41193"
+       id="text4161"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4163"
+         x="937.23511"
+         y="674.41193"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">21</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4165"
+       y="674.41193"
+       x="982.23315"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.41193"
+         x="982.23315"
+         id="tspan4167"
+         sodipodi:role="line">22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1027.2312"
+       y="674.28009"
+       id="text4169"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4171"
+         x="1027.2312"
+         y="674.28009"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">23</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4173"
+       y="674.90082"
+       x="1072.2292"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.90082"
+         x="1072.2292"
+         id="tspan4175"
+         sodipodi:role="line">24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1117.2273"
+       y="674.2746"
+       id="text4177"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4179"
+         x="1117.2273"
+         y="674.2746"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">25</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4181"
+       y="674.42841"
+       x="1162.2252"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.42841"
+         x="1162.2252"
+         id="tspan4183"
+         sodipodi:role="line">26</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1207.2233"
+       y="674.12079"
+       id="text4185"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4187"
+         x="1207.2233"
+         y="674.12079"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">27</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4189"
+       y="674.2746"
+       x="1252.2213"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.2746"
+         x="1252.2213"
+         id="tspan4191"
+         sodipodi:role="line">28</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1297.2194"
+       y="674.12079"
+       id="text4193"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4195"
+         x="1297.2194"
+         y="674.12079"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">29</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4197"
+       y="674.28009"
+       x="1342.2174"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.28009"
+         x="1342.2174"
+         id="tspan4199"
+         sodipodi:role="line">30</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1387.2153"
+       y="674.28009"
+       id="text4201"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4203"
+         x="1387.2153"
+         y="674.28009"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">31</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4205"
+       y="674.28009"
+       x="1431.4883"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="674.28009"
+         x="1431.4883"
+         id="tspan4207"
+         sodipodi:role="line">32</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="125.72229"
+       y="795.67816"
+       id="text4329"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4331"
+         x="125.72229"
+         y="795.67816"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">NIS</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4399"
+       y="818.73212"
+       x="81.634537"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="81.634537"
+         id="tspan4401"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="126.60982"
+       y="818.73212"
+       id="text4424"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4426"
+         x="126.60982"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4428"
+       y="818.73212"
+       x="171.63454"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="171.63454"
+         id="tspan4430"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4440"
+       y="795.6507"
+       x="306.03357"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="795.6507"
+         x="306.03357"
+         id="tspan4442"
+         sodipodi:role="line">SOURCE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="215.92024"
+       y="818.73212"
+       id="text4446"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4448"
+         x="215.92024"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4450"
+       y="818.73212"
+       x="260.9834"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="260.9834"
+         id="tspan4452"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="306.09598"
+       y="818.73212"
+       id="text4454"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4456"
+         x="306.09598"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4464"
+       y="818.57953"
+       x="351.11517"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.57953"
+         x="351.11517"
+         id="tspan4466"
+         sodipodi:role="line">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="395.56311"
+       y="818.57953"
+       id="text4468"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4470"
+         x="395.56311"
+         y="818.57953"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="530.99695"
+       y="795.67816"
+       id="text4484"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4486"
+         x="530.99695"
+         y="795.67816"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">DESTINATION</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4490"
+       y="818.73212"
+       x="441.27737"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="441.27737"
+         id="tspan4492"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="486.34055"
+       y="818.73212"
+       id="text4494"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4496"
+         x="486.34055"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4498"
+       y="818.73212"
+       x="531.45312"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="531.45312"
+         id="tspan4500"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="576.47229"
+       y="818.57953"
+       id="text4502"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4504"
+         x="576.47229"
+         y="818.57953"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">8</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4506"
+       y="818.57953"
+       x="620.92023"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.57953"
+         x="620.92023"
+         id="tspan4508"
+         sodipodi:role="line">16</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4660"
+       y="795.63849"
+       x="846.05798"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="795.63849"
+         x="846.05798"
+         id="tspan4662"
+         sodipodi:role="line">WAIT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="754.84882"
+       y="818.73212"
+       id="text4667"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4669"
+         x="754.84882"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4671"
+       y="818.73212"
+       x="799.91199"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="799.91199"
+         id="tspan4673"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="845.02454"
+       y="818.73212"
+       id="text4675"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4677"
+         x="845.02454"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4679"
+       y="818.57953"
+       x="890.04376"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.57953"
+         x="890.04376"
+         id="tspan4681"
+         sodipodi:role="line">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="934.4917"
+       y="818.57953"
+       id="text4683"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4685"
+         x="934.4917"
+         y="818.57953"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1251.2563"
+       y="795.71173"
+       id="text4689"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4691"
+         x="1251.2563"
+         y="795.71173"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">TIMING</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4695"
+       y="818.73212"
+       x="1162.2773"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="1162.2773"
+         id="tspan4697"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1207.3406"
+       y="818.73212"
+       id="text4699"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4701"
+         x="1207.3406"
+         y="818.73212"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4703"
+       y="818.73212"
+       x="1252.4531"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.73212"
+         x="1252.4531"
+         id="tspan4705"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1297.4723"
+       y="818.57953"
+       id="text4707"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4709"
+         x="1297.4723"
+         y="818.57953"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">8</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4711"
+       y="818.57953"
+       x="1341.9203"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="818.57953"
+         x="1341.9203"
+         id="tspan4713"
+         sodipodi:role="line">16</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4866"
+       y="63.756073"
+       x="821.46234"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="63.756073"
+         x="821.46234"
+         id="tspan4868"
+         sodipodi:role="line">ONE SHOTS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="35.634537"
+       y="467.95551"
+       id="text4874"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4876"
+         x="35.634537"
+         y="467.95551"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4878"
+       y="467.95551"
+       x="80.609818"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="467.95551"
+         x="80.609818"
+         id="tspan4880"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="125.63454"
+       y="467.95551"
+       id="text4882"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4884"
+         x="125.63454"
+         y="467.95551"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4890"
+       y="467.95551"
+       x="169.92024"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="467.95551"
+         x="169.92024"
+         id="tspan4892"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="214.9834"
+       y="467.95551"
+       id="text4894"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4896"
+         x="214.9834"
+         y="467.95551"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4898"
+       y="467.95551"
+       x="260.09598"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="467.95551"
+         x="260.09598"
+         id="tspan4900"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="305.11517"
+       y="467.80292"
+       id="text4902"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4904"
+         x="305.11517"
+         y="467.80292"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">8</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4906"
+       y="467.80292"
+       x="349.56311"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="467.80292"
+         x="349.56311"
+         id="tspan4908"
+         sodipodi:role="line">16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="395.27737"
+       y="467.95551"
+       id="text4914"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4916"
+         x="395.27737"
+         y="467.95551"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4918"
+       y="467.95551"
+       x="440.34055"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="467.95551"
+         x="440.34055"
+         id="tspan4920"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="485.45312"
+       y="467.95551"
+       id="text4922"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4924"
+         x="485.45312"
+         y="467.95551"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4926"
+       y="467.80292"
+       x="530.47229"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="467.80292"
+         x="530.47229"
+         id="tspan4928"
+         sodipodi:role="line">8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="574.92023"
+       y="467.80292"
+       id="text4930"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4932"
+         x="574.92023"
+         y="467.80292"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">16</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4934"
+       y="465.14081"
+       x="1115.189"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="465.14081"
+         x="1115.189"
+         id="tspan4936"
+         sodipodi:role="line">ALARM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1160.2817"
+       y="543.4281"
+       id="text4938"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4940"
+         x="1160.2817"
+         y="543.4281"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">SPEC</tspan><tspan
+         sodipodi:role="line"
+         x="1160.2817"
+         y="559.0531"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         id="tspan4954">WORD</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4942"
+       y="543.83704"
+       x="1204.9747"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="543.83704"
+         x="1204.9747"
+         sodipodi:role="line"
+         id="tspan4956">CLEAR</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="559.46204"
+         x="1204.9747"
+         sodipodi:role="line"
+         id="tspan4960">I.D.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1250.1866"
+       y="543.4281"
+       id="text4946"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4948"
+         x="1250.1866"
+         y="543.4281"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">STOP</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4950"
+       y="543.88586"
+       x="1295.2977"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="543.88586"
+         x="1295.2977"
+         id="tspan4952"
+         sodipodi:role="line">ONE</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="559.51086"
+         x="1295.2977"
+         sodipodi:role="line"
+         id="tspan4962">SHOT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1340.5461"
+       y="543.83704"
+       id="text4964"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4966"
+         x="1340.5461"
+         y="543.83704"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">CLEAR</tspan><tspan
+         id="tspan4968"
+         sodipodi:role="line"
+         x="1340.5461"
+         y="559.46204"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">O.P.S.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1086.0818"
+       y="260.38156"
+       id="text4970"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4972"
+         x="1086.0818"
+         y="260.38156"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">TIL</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4974"
+       y="259.85666"
+       x="1131.1746"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan4978"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="259.85666"
+         x="1131.1746"
+         sodipodi:role="line">DISC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1175.8676"
+       y="260.26559"
+       id="text4980"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4984"
+         sodipodi:role="line"
+         x="1175.8676"
+         y="260.26559"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">CLEAR</tspan><tspan
+         sodipodi:role="line"
+         x="1175.8676"
+         y="275.89059"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         id="tspan5006">STORE</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4986"
+       y="259.85666"
+       x="1221.0795"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="259.85666"
+         x="1221.0795"
+         id="tspan4988"
+         sodipodi:role="line">CONT</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="275.48166"
+         x="1221.0795"
+         sodipodi:role="line"
+         id="tspan5008">T.C.I.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1266.1906"
+       y="260.31442"
+       id="text4990"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan4994"
+         sodipodi:role="line"
+         x="1266.1906"
+         y="260.31442"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">EXT</tspan><tspan
+         sodipodi:role="line"
+         x="1266.1906"
+         y="275.93942"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         id="tspan5012">TREE</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4996"
+       y="260.26559"
+       x="1311.439"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="260.26559"
+         x="1311.439"
+         id="tspan4998"
+         sodipodi:role="line">CONT</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="275.89059"
+         x="1311.439"
+         sodipodi:role="line"
+         id="tspan5000">T.T.</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5014"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion5016"><rect
+           id="rect5018"
+           width="1710"
+           height="62.999996"
+           x="-90"
+           y="782.36218" /></flowRegion><flowPara
+         id="flowPara5020"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5022"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion5024"><rect
+           id="rect5026"
+           width="1530"
+           height="62.999996"
+           x="0"
+           y="782.36218" /></flowRegion><flowPara
+         id="flowPara5028"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1072.7625"
+       y="465.14081"
+       id="text5030"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5032"
+         x="1072.7625"
+         y="465.14081"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">B?</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5034"
+       y="464.38318"
+       x="1025.5378"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="464.38318"
+         x="1025.5378"
+         id="tspan5036"
+         sodipodi:role="line">A?</tspan></text>
+    <g
+       id="g5174"
+       transform="translate(-28.08122,-61.767767)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5038"
+         y="175.0802"
+         x="265.09717"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+           y="175.0802"
+           x="265.09717"
+           id="tspan5040"
+           sodipodi:role="line">REQUEST STOP</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="198.67023"
+         y="196.34784"
+         id="text5042"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5044"
+           x="198.67023"
+           y="196.34784"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">NIS</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="215.59184"
+       y="134.12231"
+       id="text5046"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5048"
+         x="215.59184"
+         y="134.12231"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">SOURCE</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5050"
+       y="134.12231"
+       x="259.76767"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="134.12231"
+         x="259.76767"
+         id="tspan5052"
+         sodipodi:role="line">DEST</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="304.71252"
+       y="134.12231"
+       id="text5054"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5056"
+         x="304.71252"
+         y="134.12231"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">DISC</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5058"
+       y="124.12325"
+       x="352.55331"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="124.12325"
+         x="352.55331"
+         id="tspan5060"
+         sodipodi:role="line">???</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="33.509384"
+       y="124.12325"
+       id="text5062"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5064"
+         x="33.509384"
+         y="124.12325"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">???</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5066"
+       y="124.43758"
+       x="78.572548"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="124.43758"
+         x="78.572548"
+         id="tspan5068"
+         sodipodi:role="line">READ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="123.68515"
+       y="124.17513"
+       id="text5070"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5072"
+         x="123.68515"
+         y="124.17513"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">PUNCH</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 81,790.93267 27,0"
+       id="path5092"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 144,790.93267 27,0"
+       id="path5094"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 342,790.93267 54,0"
+       id="path5098"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 441,790.93267 45,0"
+       id="path5100"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1161,790.93267 63,0"
+       id="path5108"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 270,790.93267 -54,0 0,0"
+       id="path5116"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 576,790.93267 45,0"
+       id="path5118"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 828,790.93267 -72,0"
+       id="path5128"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 864,790.93267 72,0"
+       id="path5130"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1278,790.93267 63,0"
+       id="path5132"
+       inkscape:connector-curvature="0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5134"
+       y="445.42053"
+       x="80.805229"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="445.42053"
+         x="80.805229"
+         id="tspan5136"
+         sodipodi:role="line">NIS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="261.11652"
+       y="445.26682"
+       id="text5138"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5140"
+         x="261.11652"
+         y="445.26682"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'">SOURCE</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5142"
+       y="445.28531"
+       x="485.99695"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FUtura;-inkscape-font-specification:'FUtura Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.5px;font-family:FUtura;-inkscape-font-specification:'FUtura Medium'"
+         y="445.28531"
+         x="485.99695"
+         id="tspan5144"
+         sodipodi:role="line">DESTINATION</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5150"
+       d="m 36.082941,440.67506 27,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5152"
+       d="m 99.082941,440.67506 26.999999,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5154"
+       d="m 297.08294,440.54879 54,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5156"
+       d="m 396,440.53981 45,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5158"
+       d="m 225.08294,440.54879 -54,0 0,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5160"
+       d="m 531,440.53981 45,0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 304.91878,108.59442 -18,0"
+       id="path5168"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 169.91878,108.59442 18,0"
+       id="path5172"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.9992126;stroke-miterlimit:4;stroke-dasharray:2.9976378,2.9976378;stroke-dashoffset:0"
+       id="path5180"
+       cx="821.50507"
+       cy="251.51189"
+       r="175.5" />
+  </g>
 </svg>
