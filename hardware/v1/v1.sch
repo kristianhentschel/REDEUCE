@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 26
+Sheet 1 27
 Title ""
 Date ""
 Rev ""
@@ -384,5 +384,11 @@ S 3250 5650 650  700
 U 57A4B894
 F0 "keys-8" 60
 F1 "keys-8.sch" 60
+$EndSheet
+$Sheet
+S 8500 4900 500  150 
+U 57A8A6F5
+F0 "delaylineselect" 60
+F1 "delaylineselect.sch" 60
 $EndSheet
 $EndSCHEMATC

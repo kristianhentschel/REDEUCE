@@ -1,0 +1,264 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MAX7221
+LIBS:MCP23S17
+LIBS:MCP23017
+LIBS:Pi2_Connector
+LIBS:delaylineselect-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Coded_Switch SW2
+U 1 1 57A8A7D6
+P 4800 2250
+F 0 "SW2" H 4900 2600 50  0000 C CNN
+F 1 "Coded_Switch" H 4800 1901 50  0000 C CNN
+F 2 "myparts:ROTARY_BCK1002-custom" H 4800 2250 50  0001 C CNN
+F 3 "" H 4800 2250 50  0000 C CNN
+	1    4800 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L MCP23017 U1
+U 1 1 57A8A9AF
+P 2300 2250
+F 0 "U1" H 2300 2150 50  0000 C CNN
+F 1 "MCP23017" H 2300 2350 50  0000 C CNN
+F 2 "DIL28:DIL28" H 2300 2250 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2300 2250 50  0001 C CNN
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2000 3050 2000
+Wire Wire Line
+	3050 2100 4200 2100
+Wire Wire Line
+	4200 2200 3050 2200
+Wire Wire Line
+	3050 2300 4200 2300
+Text Label 3050 2300 0    60   ~ 0
+SELECT_A
+Text Label 4200 2500 0    60   ~ 0
+E
+Text Label 3050 2200 0    60   ~ 0
+SELECT_B
+Text Label 3050 2100 0    60   ~ 0
+SELECT_C
+Text Label 3050 2000 0    60   ~ 0
+SELECT_D
+NoConn ~ 1550 1600
+NoConn ~ 3050 1700
+NoConn ~ 3050 1800
+NoConn ~ 3050 1900
+NoConn ~ 1550 1700
+NoConn ~ 1550 1800
+NoConn ~ 1550 1900
+NoConn ~ 1550 2000
+NoConn ~ 1550 2100
+NoConn ~ 1550 2200
+NoConn ~ 1550 2300
+$Comp
+L VDD #PWR01
+U 1 1 57A8ABB1
+P 1200 2400
+F 0 "#PWR01" H 1200 2250 50  0001 C CNN
+F 1 "VDD" H 1200 2550 50  0000 C CNN
+F 2 "" H 1200 2400 50  0000 C CNN
+F 3 "" H 1200 2400 50  0000 C CNN
+	1    1200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57A8ABCB
+P 1200 2550
+F 0 "#PWR02" H 1200 2300 50  0001 C CNN
+F 1 "GND" H 1200 2400 50  0000 C CNN
+F 2 "" H 1200 2550 50  0000 C CNN
+F 3 "" H 1200 2550 50  0000 C CNN
+	1    1200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 57A8ABF5
+P 4200 2600
+F 0 "#PWR03" H 4200 2350 50  0001 C CNN
+F 1 "GND" H 4200 2450 50  0000 C CNN
+F 2 "" H 4200 2600 50  0000 C CNN
+F 3 "" H 4200 2600 50  0000 C CNN
+	1    4200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2500 4200 2600
+NoConn ~ 1550 2600
+NoConn ~ 1550 2900
+$Comp
+L CONN_02X02 P1
+U 1 1 57A8B1C9
+P 2400 3950
+F 0 "P1" H 2400 4100 50  0000 C CNN
+F 1 "CONN_02X02" H 2400 3800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x02" H 2400 2750 50  0001 C CNN
+F 3 "" H 2400 2750 50  0000 C CNN
+	1    2400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR04
+U 1 1 57A8B1D0
+P 1650 3850
+F 0 "#PWR04" H 1650 3700 50  0001 C CNN
+F 1 "VDD" H 1650 4000 50  0000 C CNN
+F 2 "" H 1650 3850 50  0000 C CNN
+F 3 "" H 1650 3850 50  0000 C CNN
+	1    1650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 57A8B1D6
+P 1850 3750
+F 0 "#PWR05" H 1850 3500 50  0001 C CNN
+F 1 "GND" H 1850 3600 50  0000 C CNN
+F 2 "" H 1850 3750 50  0000 C CNN
+F 3 "" H 1850 3750 50  0000 C CNN
+	1    1850 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3750 2150 3750
+Wire Wire Line
+	2150 3750 2150 3900
+Wire Wire Line
+	2150 4000 1650 4000
+Wire Wire Line
+	1650 4000 1650 3850
+Text Label 1550 2800 2    60   ~ 0
+SDA
+Text Label 2650 3900 0    60   ~ 0
+SCK
+Text Label 1550 2700 2    60   ~ 0
+SCK
+Wire Wire Line
+	1200 2400 1550 2400
+Wire Wire Line
+	1550 2500 1200 2500
+Wire Wire Line
+	1200 2500 1200 2550
+NoConn ~ 3050 2400
+NoConn ~ 3050 2500
+$Comp
+L VDD #PWR06
+U 1 1 57A8B7E3
+P 3250 2600
+F 0 "#PWR06" H 3250 2450 50  0001 C CNN
+F 1 "VDD" H 3250 2750 50  0000 C CNN
+F 2 "" H 3250 2600 50  0000 C CNN
+F 3 "" H 3250 2600 50  0000 C CNN
+	1    3250 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2600 3050 2600
+$Comp
+L GND #PWR07
+U 1 1 57A8B81A
+P 3250 3000
+F 0 "#PWR07" H 3250 2750 50  0001 C CNN
+F 1 "GND" H 3250 2850 50  0000 C CNN
+F 2 "" H 3250 3000 50  0000 C CNN
+F 3 "" H 3250 3000 50  0000 C CNN
+	1    3250 3000
+	1    0    0    -1  
+$EndComp
+Text Notes 2700 3250 0    60   ~ 0
+ADDR 010\n
+Wire Wire Line
+	3050 2800 3250 2800
+Wire Wire Line
+	3250 2800 3250 2600
+Wire Wire Line
+	3050 2700 3150 2700
+Wire Wire Line
+	3150 2700 3150 2900
+Wire Wire Line
+	3050 2900 3250 2900
+Wire Wire Line
+	3250 2900 3250 3000
+Connection ~ 3150 2900
+$Comp
+L SW_PUSH SW1
+U 1 1 57A8BC2B
+P 4800 1600
+F 0 "SW1" H 4950 1710 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 1520 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH" H 4800 1600 50  0001 C CNN
+F 3 "" H 4800 1600 50  0000 C CNN
+	1    4800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1600 3050 1600
+Wire Wire Line
+	5100 1600 5250 1600
+Wire Wire Line
+	5250 1600 5250 1750
+$Comp
+L GND #PWR08
+U 1 1 57A8BCDC
+P 5250 1750
+F 0 "#PWR08" H 5250 1500 50  0001 C CNN
+F 1 "GND" H 5250 1600 50  0000 C CNN
+F 2 "" H 5250 1750 50  0000 C CNN
+F 3 "" H 5250 1750 50  0000 C CNN
+	1    5250 1750
+	1    0    0    -1  
+$EndComp
+Text Label 3050 1600 0    60   ~ 0
+MCSLIP
+Text Label 2650 4000 0    60   ~ 0
+SDA
+$EndSCHEMATC

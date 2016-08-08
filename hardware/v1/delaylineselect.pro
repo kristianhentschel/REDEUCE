@@ -1,6 +1,10 @@
-update=Monday, 08 August 2016 'pmt' 16:16:10
+update=Monday, 08 August 2016 'pmt' 16:19:03
 version=1
-last_client=kicad
+last_client=eeschema
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -60,5 +64,3 @@ LibName30=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MAX7221
 LibName31=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MCP23S17
 LibName32=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MCP23017
 LibName33=/Users/kristian/repositories/redeuce/hardware/kicad_libs/Pi2_Connector
-[general]
-version=1
