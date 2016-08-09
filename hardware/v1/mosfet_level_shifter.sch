@@ -28,16 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Pi2_Connector
 LIBS:MAX7221
 LIBS:MCP23S17
 LIBS:MCP23017
-LIBS:Pi2_Connector
-LIBS:v1-cache
+LIBS:piconnect-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 27
+Sheet 7 6
 Title ""
 Date ""
 Rev ""

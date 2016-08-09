@@ -28,16 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Pi2_Connector
 LIBS:MAX7221
 LIBS:MCP23S17
 LIBS:MCP23017
-LIBS:Pi2_Connector
-LIBS:v1-cache
+LIBS:piconnect-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 27
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -809,4 +809,271 @@ NoConn ~ 1700 2350
 NoConn ~ 1700 2250
 NoConn ~ 1700 2150
 NoConn ~ 1700 1950
+Text Label 1650 5850 2    60   ~ 0
+I2C2_SDA
+Text Label 1650 5950 2    60   ~ 0
+I2C2_SCL
+Text Label 1650 5250 2    60   ~ 0
+I2C1_SDA
+Text Label 1650 5350 2    60   ~ 0
+I2C1_SCL
+$Comp
+L VDD #PWR?
+U 1 1 57A9D16C
+P 850 5000
+F 0 "#PWR?" H 850 4850 50  0001 C CNN
+F 1 "VDD" H 850 5150 50  0000 C CNN
+F 2 "" H 850 5000 50  0000 C CNN
+F 3 "" H 850 5000 50  0000 C CNN
+	1    850  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57A9D2DF
+P 1050 4900
+F 0 "#PWR?" H 1050 4650 50  0001 C CNN
+F 1 "GND" H 1050 4750 50  0000 C CNN
+F 2 "" H 1050 4900 50  0000 C CNN
+F 3 "" H 1050 4900 50  0000 C CNN
+	1    1050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 57A9D44C
+P 2050 5200
+F 0 "P?" H 2050 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 2150 5200 50  0000 C CNN
+F 2 "" H 2050 5200 50  0000 C CNN
+F 3 "" H 2050 5200 50  0000 C CNN
+	1    2050 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 5250
+Connection ~ 1850 5350
+Wire Wire Line
+	1200 5050 1200 4900
+Wire Wire Line
+	1200 4900 1050 4900
+Connection ~ 1850 5050
+Wire Wire Line
+	850  5000 850  5150
+Connection ~ 1850 5150
+Wire Wire Line
+	1200 5050 5350 5050
+Wire Wire Line
+	850  5150 5350 5150
+Wire Wire Line
+	1650 5250 5350 5250
+Wire Wire Line
+	1650 5350 5350 5350
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA06F6
+P 2550 5200
+F 0 "P?" H 2550 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 5200 50  0000 C CNN
+F 2 "" H 2550 5200 50  0000 C CNN
+F 3 "" H 2550 5200 50  0000 C CNN
+	1    2550 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 5250
+Connection ~ 2350 5350
+Connection ~ 2350 5050
+Connection ~ 2350 5150
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA0A11
+P 3050 5200
+F 0 "P?" H 3050 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 3150 5200 50  0000 C CNN
+F 2 "" H 3050 5200 50  0000 C CNN
+F 3 "" H 3050 5200 50  0000 C CNN
+	1    3050 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 5250
+Connection ~ 2850 5350
+Connection ~ 2850 5050
+Connection ~ 2850 5150
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA0A1F
+P 3550 5200
+F 0 "P?" H 3550 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 3650 5200 50  0000 C CNN
+F 2 "" H 3550 5200 50  0000 C CNN
+F 3 "" H 3550 5200 50  0000 C CNN
+	1    3550 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 5250
+Connection ~ 3350 5350
+Connection ~ 3350 5050
+Connection ~ 3350 5150
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA0C2D
+P 4050 5200
+F 0 "P?" H 4050 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 4150 5200 50  0000 C CNN
+F 2 "" H 4050 5200 50  0000 C CNN
+F 3 "" H 4050 5200 50  0000 C CNN
+	1    4050 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 5250
+Connection ~ 3850 5350
+Connection ~ 3850 5050
+Connection ~ 3850 5150
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA0C3B
+P 4550 5200
+F 0 "P?" H 4550 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 4650 5200 50  0000 C CNN
+F 2 "" H 4550 5200 50  0000 C CNN
+F 3 "" H 4550 5200 50  0000 C CNN
+	1    4550 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 5250
+Connection ~ 4350 5350
+Connection ~ 4350 5050
+Connection ~ 4350 5150
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA0C49
+P 5050 5200
+F 0 "P?" H 5050 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 5150 5200 50  0000 C CNN
+F 2 "" H 5050 5200 50  0000 C CNN
+F 3 "" H 5050 5200 50  0000 C CNN
+	1    5050 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 5250
+Connection ~ 4850 5350
+Connection ~ 4850 5050
+Connection ~ 4850 5150
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA0C57
+P 5550 5200
+F 0 "P?" H 5550 5450 50  0000 C CNN
+F 1 "CONN_01X04" V 5650 5200 50  0000 C CNN
+F 2 "" H 5550 5200 50  0000 C CNN
+F 3 "" H 5550 5200 50  0000 C CNN
+	1    5550 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 5250
+Connection ~ 5350 5350
+Connection ~ 5350 5050
+Connection ~ 5350 5150
+$Comp
+L VDD #PWR?
+U 1 1 57AA1B7B
+P 850 5600
+F 0 "#PWR?" H 850 5450 50  0001 C CNN
+F 1 "VDD" H 850 5750 50  0000 C CNN
+F 2 "" H 850 5600 50  0000 C CNN
+F 3 "" H 850 5600 50  0000 C CNN
+	1    850  5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57AA1B81
+P 1050 5500
+F 0 "#PWR?" H 1050 5250 50  0001 C CNN
+F 1 "GND" H 1050 5350 50  0000 C CNN
+F 2 "" H 1050 5500 50  0000 C CNN
+F 3 "" H 1050 5500 50  0000 C CNN
+	1    1050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA1B87
+P 2050 5800
+F 0 "P?" H 2050 6050 50  0000 C CNN
+F 1 "CONN_01X04" V 2150 5800 50  0000 C CNN
+F 2 "" H 2050 5800 50  0000 C CNN
+F 3 "" H 2050 5800 50  0000 C CNN
+	1    2050 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 5850
+Connection ~ 1850 5950
+Wire Wire Line
+	1200 5650 1200 5500
+Wire Wire Line
+	1200 5500 1050 5500
+Connection ~ 1850 5650
+Wire Wire Line
+	850  5600 850  5750
+Connection ~ 1850 5750
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA1B98
+P 2550 5800
+F 0 "P?" H 2550 6050 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 5800 50  0000 C CNN
+F 2 "" H 2550 5800 50  0000 C CNN
+F 3 "" H 2550 5800 50  0000 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 5850
+Connection ~ 2350 5950
+Connection ~ 2350 5650
+Connection ~ 2350 5750
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA1BA2
+P 3050 5800
+F 0 "P?" H 3050 6050 50  0000 C CNN
+F 1 "CONN_01X04" V 3150 5800 50  0000 C CNN
+F 2 "" H 3050 5800 50  0000 C CNN
+F 3 "" H 3050 5800 50  0000 C CNN
+	1    3050 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 5850
+Connection ~ 2850 5950
+Connection ~ 2850 5650
+Connection ~ 2850 5750
+$Comp
+L CONN_01X04 P?
+U 1 1 57AA1BAC
+P 3550 5800
+F 0 "P?" H 3550 6050 50  0000 C CNN
+F 1 "CONN_01X04" V 3650 5800 50  0000 C CNN
+F 2 "" H 3550 5800 50  0000 C CNN
+F 3 "" H 3550 5800 50  0000 C CNN
+	1    3550 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3350 5850
+Connection ~ 3350 5950
+Connection ~ 3350 5650
+Connection ~ 3350 5750
+Wire Wire Line
+	1200 5650 3350 5650
+Wire Wire Line
+	850  5750 3350 5750
+Wire Wire Line
+	1650 5850 3350 5850
+Wire Wire Line
+	3350 5950 1650 5950
+NoConn ~ 3200 3450
+NoConn ~ 3200 3550
+NoConn ~ 1700 3350
+Text Notes 2650 850  0    60   ~ 0
+5V 1A LED Supply\ncenter positive.
+Text Notes 600  4250 0    60   ~ 0
+Raspberry Pi must be supplied by 5V 2A micro USB, provides 3v3 power for the switches,\nand enough USB current for the screen and possibly WiFi dongle.\n\nCHECK IO expander power requirements and pullup resistance to ensure the 3v3 supply is not overloaded.\n
 $EndSCHEMATC
