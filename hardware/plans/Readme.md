@@ -52,21 +52,21 @@ board via 4 wires (I2C SDA, SCL and 3v3 power). They all have configurable
 addresses, the three address pins for the controller must be set with jumper
 wires for each of them.
 
-* [x] [ ] 2x **switches-16**: one 16-input IC and 16 on-off only switches (special word
+* [x] [ ] 2x **switches-16** (jumper address, i2c1): one 16-input IC and 16 on-off only switches (special word
   switches).
-* [x] [ ] 6x **keys-8**: one 16-input IC and eight on-off-on switches (two inputs each).
+* [x] [ ] 6x **keys-8** (jumper address, i2c1): one 16-input IC and eight on-off-on switches (two inputs each).
   4 of these for the ID keys, two for the IS keys
-* [ ] [ ] 1x **keys-3-3**: 3 horizontally aligned and 3 vertically aligned switches on
+* [-] [ ] 1x **keys-3-3** (addr 000, i2c2): 3 horizontally aligned and 3 vertically aligned switches on
   two separate boards, with a wire interface between them. horizontally:
   Release, Stop, Alarm. vertically: clear OS, clear ID, SW.
-* [ ] [ ] 1x **keys-6**: NIS, Source, Dest, Discrimination, TT, TCI
-* [ ] [ ] 1x **keys-9**: Read, Single Read, Punch, Program Display, TIL, Initial
+* [-] [ ] 1x **keys-6** (addr 001, i2c2): NIS, Source, Dest, Discrimination, TT, TCI
+* [-] [ ] 1x **keys-9**: (addr 010, i2c2): Read, Single Read, Punch, Program Display, TIL, Initial
   Input, Clear Store, EXT Tree, Single shot. two of these must be single input:
   Single read and Initial Input?
   
 #### Monitor
 
-* [x] [ ] 1x **delay-line-select**: one input IC and a 16-position dial and a push button.
+* [x] [ ] 1x **delay-line-select** (addr 011, i2c2): one input IC and a 16-position dial and a push button.
 
 
 #### One-shot-dial

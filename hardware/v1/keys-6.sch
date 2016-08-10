@@ -1,0 +1,316 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MAX7221
+LIBS:MCP23S17
+LIBS:MCP23017
+LIBS:Pi2_Connector
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SWITCH_INV SW36
+U 1 1 57AB8288
+P 9150 3500
+F 0 "SW36" H 8950 3650 50  0000 C CNN
+F 1 "SWITCH_INV" H 9000 3350 50  0000 C CNN
+F 2 "myparts:SW_SPDT-custom" H 9150 3500 50  0001 C CNN
+F 3 "" H 9150 3500 50  0000 C CNN
+	1    9150 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW37
+U 1 1 57AB828F
+P 9150 4000
+F 0 "SW37" H 8950 4150 50  0000 C CNN
+F 1 "SWITCH_INV" H 9000 3850 50  0000 C CNN
+F 2 "myparts:SW_SPDT-custom" H 9150 4000 50  0001 C CNN
+F 3 "" H 9150 4000 50  0000 C CNN
+	1    9150 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW38
+U 1 1 57AB8296
+P 9150 4500
+F 0 "SW38" H 8950 4650 50  0000 C CNN
+F 1 "SWITCH_INV" H 9000 4350 50  0000 C CNN
+F 2 "myparts:SW_SPDT-custom" H 9150 4500 50  0001 C CNN
+F 3 "" H 9150 4500 50  0000 C CNN
+	1    9150 4500
+	-1   0    0    1   
+$EndComp
+Connection ~ 9650 3500
+NoConn ~ 6250 3050
+NoConn ~ 6250 2950
+$Comp
+L GND #PWR54
+U 1 1 57AB82F0
+P 3450 3900
+F 0 "#PWR54" H 3450 3650 50  0001 C CNN
+F 1 "GND" H 3450 3750 50  0000 C CNN
+F 2 "" H 3450 3900 50  0000 C CNN
+F 3 "" H 3450 3900 50  0000 C CNN
+	1    3450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 3900
+NoConn ~ 4750 3950
+NoConn ~ 6250 3750
+NoConn ~ 6250 3850
+NoConn ~ 4750 4250
+$Comp
+L VDD #PWR53
+U 1 1 57AB82FC
+P 3450 3700
+F 0 "#PWR53" H 3450 3550 50  0001 C CNN
+F 1 "VDD" H 3450 3850 50  0000 C CNN
+F 2 "" H 3450 3700 50  0000 C CNN
+F 3 "" H 3450 3700 50  0000 C CNN
+	1    3450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3750 3450 3750
+Wire Wire Line
+	3450 3750 3450 3700
+NoConn ~ 4750 3650
+NoConn ~ 4750 3550
+$Comp
+L VDD #PWR52
+U 1 1 57AB8306
+P 1600 4000
+F 0 "#PWR52" H 1600 3850 50  0001 C CNN
+F 1 "VDD" H 1600 4150 50  0000 C CNN
+F 2 "" H 1600 4000 50  0000 C CNN
+F 3 "" H 1600 4000 50  0000 C CNN
+	1    1600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR51
+U 1 1 57AB830C
+P 1600 3600
+F 0 "#PWR51" H 1600 3350 50  0001 C CNN
+F 1 "GND" H 1600 3450 50  0000 C CNN
+F 2 "" H 1600 3600 50  0000 C CNN
+F 3 "" H 1600 3600 50  0000 C CNN
+	1    1600 3600
+	1    0    0    -1  
+$EndComp
+Text Label 1800 4100 2    60   ~ 0
+SDA
+Text Label 1800 4200 2    60   ~ 0
+SCK
+$Comp
+L CONN_01X04 P38
+U 1 1 57AB8314
+P 2000 4050
+F 0 "P38" H 2000 4300 50  0000 C CNN
+F 1 "CONN_01X04" V 2100 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04" H 2000 3750 50  0000 C CNN
+F 3 "" H 2000 4050 50  0000 C CNN
+	1    2000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4000 1800 4000
+Wire Wire Line
+	1600 3600 1800 3600
+Wire Wire Line
+	1800 3600 1800 3900
+Text Label 4750 4150 2    60   ~ 0
+SDA
+Text Label 4750 4050 2    60   ~ 0
+SCK
+$Comp
+L VDD #PWR56
+U 1 1 57AB8320
+P 6650 3900
+F 0 "#PWR56" H 6650 3750 50  0001 C CNN
+F 1 "VDD" H 6650 4050 50  0000 C CNN
+F 2 "" H 6650 3900 50  0000 C CNN
+F 3 "" H 6650 3900 50  0000 C CNN
+	1    6650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3900 6650 4250
+Wire Wire Line
+	6650 3950 6250 3950
+$Comp
+L GND #PWR55
+U 1 1 57AB832B
+P 6450 4400
+F 0 "#PWR55" H 6450 4150 50  0001 C CNN
+F 1 "GND" H 6450 4250 50  0000 C CNN
+F 2 "" H 6450 4400 50  0000 C CNN
+F 3 "" H 6450 4400 50  0000 C CNN
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+Text Notes 6200 4850 0    60   ~ 0
+ADDR 001\nI2C 2
+Wire Wire Line
+	9650 1950 9650 5100
+Connection ~ 9650 4000
+$Comp
+L SWITCH_INV SW33
+U 1 1 57AB8A36
+P 9150 1950
+F 0 "SW33" H 8950 2100 50  0000 C CNN
+F 1 "SWITCH_INV" H 9000 1800 50  0000 C CNN
+F 2 "myparts:SW_SPDT-custom" H 9150 1950 50  0001 C CNN
+F 3 "" H 9150 1950 50  0000 C CNN
+	1    9150 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW34
+U 1 1 57AB8A3C
+P 9150 2450
+F 0 "SW34" H 8950 2600 50  0000 C CNN
+F 1 "SWITCH_INV" H 9000 2300 50  0000 C CNN
+F 2 "myparts:SW_SPDT-custom" H 9150 2450 50  0001 C CNN
+F 3 "" H 9150 2450 50  0000 C CNN
+	1    9150 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW35
+U 1 1 57AB8A42
+P 9150 2950
+F 0 "SW35" H 8950 3100 50  0000 C CNN
+F 1 "SWITCH_INV" H 9000 2800 50  0000 C CNN
+F 2 "myparts:SW_SPDT-custom" H 9150 2950 50  0001 C CNN
+F 3 "" H 9150 2950 50  0000 C CNN
+	1    9150 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 9650 1950
+Connection ~ 9650 2450
+Connection ~ 9650 2950
+Connection ~ 9650 4500
+$Comp
+L GND #PWR57
+U 1 1 57AB8B4E
+P 9650 5100
+F 0 "#PWR57" H 9650 4850 50  0001 C CNN
+F 1 "GND" H 9650 4950 50  0000 C CNN
+F 2 "" H 9650 5100 50  0000 C CNN
+F 3 "" H 9650 5100 50  0000 C CNN
+	1    9650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP23017 U10
+U 1 1 57AB82CD
+P 5500 3600
+F 0 "U10" H 5500 3500 50  0000 C CNN
+F 1 "MCP23017" H 5500 3700 50  0000 C CNN
+F 2 "DIL28:DIL28" H 5500 3600 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4250 6250 4250
+Connection ~ 6650 3950
+Wire Wire Line
+	6250 4050 6250 4150
+Wire Wire Line
+	6250 4150 6450 4150
+Wire Wire Line
+	6450 4150 6450 4400
+Connection ~ 6250 4150
+Text Label 8650 1850 2    60   ~ 0
+NIS_B
+Text Label 8650 2850 2    60   ~ 0
+DEST_B
+Text Label 8650 2350 2    60   ~ 0
+SRC_B
+Text Label 8650 3400 2    60   ~ 0
+DISCRIM_B
+Text Label 8650 3600 2    60   ~ 0
+DISCRIM_A
+Text Label 8650 2050 2    60   ~ 0
+NIS_A
+Text Label 8650 2550 2    60   ~ 0
+SRC_A
+Text Label 8650 3050 2    60   ~ 0
+DEST_A
+Text Label 8650 4100 2    60   ~ 0
+TT_A
+Text Label 8650 3900 2    60   ~ 0
+TT_B
+Text Label 8650 4400 2    60   ~ 0
+TCI_B
+Text Label 8650 4600 2    60   ~ 0
+TCI_A
+Text Label 4750 2950 2    60   ~ 0
+NIS_B
+Text Label 4750 3350 2    60   ~ 0
+DEST_B
+Text Label 4750 3150 2    60   ~ 0
+SRC_B
+Text Label 6250 3150 0    60   ~ 0
+DISCRIM_B
+Text Label 6250 3250 0    60   ~ 0
+DISCRIM_A
+Text Label 4750 3050 2    60   ~ 0
+NIS_A
+Text Label 4750 3250 2    60   ~ 0
+SRC_A
+Text Label 4750 3450 2    60   ~ 0
+DEST_A
+Text Label 6250 3450 0    60   ~ 0
+TT_A
+Text Label 6250 3350 0    60   ~ 0
+TT_B
+Text Label 6250 3550 0    60   ~ 0
+TCI_B
+Text Label 6250 3650 0    60   ~ 0
+TCI_A
+$EndSCHEMATC
