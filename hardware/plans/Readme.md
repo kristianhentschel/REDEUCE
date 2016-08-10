@@ -23,31 +23,55 @@ Via diameter 1.6mm
 
 All components may be on the front side providing spacers are used for the LEDs.
 
-* 1x **pi-connect**: Main board that connects to Raspberry Pi and Power supply
-  and houses some of the logic ICs and supplementary components. Has spare
-  connection points e.g. for serial printer.
-* 4x **lamps-16**: Made from two `led-row` blocks. Two of these each make the OS
+[] Design finished and included in panel SVG if applicable [] board produced.
+
+#### Main board
+
+* [] [] 1x **pi-connect**: Main board that connects to Raspberry Pi and Power supply
+  and houses some of the logic ICs and supplementary components. Has lots of
+  spare connection points e.g. for serial printer.
+  
+#### Lamps
+
+The display drivers for the lamps sit on the main board. Each board has a
+ten-wire IDC connector and can support up to 16 LEDs, i.e. two digits (2 digit
+cathodes, 8 segment anodes).
+
+* [x] [] 4x **lamps-16**: Made from two `led-row` blocks. Two of these each make the OS
   and ID lamp rows.
-* 1x **lamps-13**: first 13 IS lamps. Has a connector for connecting the `lamps-3-a`.
-* 1x **lamps-3-a**: three unidentified lamps in a row, to be connected to `lamps-13`
-* 2x **switches-16**: one 16-input IC and 16 on-off only switches (special word
+* [x] [] 1x **lamps-13-3a**: first 13 IS lamps, and on a separate board (4 wires) 3
+  more lamps (TCA TCB TCI).
+* [] [] 1x **lamps-4-3b**: 4 + 3 lamps to match up with `keys-6` (4) and the (3) part
+  of `keys-3-4`, with the third lamp on it being the go lamp. (Read, Punch,
+  Program Display, TIL; Stop, Alarm, Go)
+
+#### Switches
+
+The switch rows each have a controller on the board, connecting to the main
+board via 4 wires (I2C SDA, SCL and 3v3 power). They all have configurable
+addresses, the three address pins for the controller must be set with jumper
+wires for each of them.
+
+* [x] [] 2x **switches-16**: one 16-input IC and 16 on-off only switches (special word
   switches).
-* 6x **keys-8**: one 16-input IC and eight on-off-on switches (two inputs each).
-  4 of these make the ID keys, one is used for the first 8 IS keys, the last one is for the
-  top left row of unidentified switches.
-* 1x **keys-5**: The remaining five on-off-on switches for the IS row and 
+* [x] [] 6x **keys-8**: one 16-input IC and eight on-off-on switches (two inputs each).
+  4 of these for the ID keys, two for the IS keys
+* [] [] 1x **keys-3-3**: 3 horizontally aligned and 3 vertically aligned switches on
+  two separate boards, with a wire interface between them. horizontally:
+  Release, Stop, Alarm. vertically: clear OS, clear ID, SW.
+* [] [] 1x **keys-6**: NIS, Source, Dest, Discrimination, TT, TCI
+* [] [] 1x **keys-9**: Read, Single Read, Punch, Program Display, TIL, Initial
+  Input, Clear Store, EXT Tree, Single shot. two of these must be single input:
+  Single read and Initial Input?
+  
+#### Monitor
 
-#### Not yet identified
+* [x] [] 1x **delay-line-select**: one input IC and a 16-position dial and a push button.
 
-* 1x **lamps-3-b**: three lamps in a row, connected to `lamps-1`
-* 1x **lamps-3-c**: three lamps in a row with an empty space, connected to
-  `lamps-1`
-* 1x **lamps-1**: just one lamp and a connector for eight segments going to the
-  main board, and connectors for `lamps-3-b` and `lamps-3-c`.
-* *tbd*: remaining switches (grouped as horizontal 3, 4, 2, 1, 1, 1), will depend
-  on whether they are on-off or on-off-on.
-* *tbd*: monitor delay line select and mc slip button. - 1 input IC for 16 inputs.
-* *tbd*: One shot dial. - likely a single input sending a sequence of pulses.
+
+#### One-shot-dial
+
+The one-shot dial will be connected directly to the main board.
 
 ### Smaller building blocks
 
