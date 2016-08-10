@@ -56,7 +56,7 @@ wires for each of them.
   switches).
 * [x] [ ] 6x **keys-8** (jumper address, i2c1): one 16-input IC and eight on-off-on switches (two inputs each).
   4 of these for the ID keys, two for the IS keys
-* [-] [ ] 1x **keys-3-3** (addr 000, i2c2): 3 horizontally aligned and 3 vertically aligned switches on
+* [x] [ ] 1x **keys-3-3** (addr 000, i2c2): 3 horizontally aligned and 3 vertically aligned switches on
   two separate boards, with a wire interface between them. horizontally:
   Release, Stop, Alarm. vertically: clear OS, clear ID, SW.
 * [-] [ ] 1x **keys-6** (addr 001, i2c2): NIS, Source, Dest, Discrimination, TT, TCI
