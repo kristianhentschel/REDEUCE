@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 30
+Sheet 1 31
 Title ""
 Date ""
 Rev ""
@@ -408,5 +408,11 @@ S 950  6250 750  450
 U 57AB4094
 F0 "keys-9" 60
 F1 "keys-9.sch" 60
+$EndSheet
+$Sheet
+S 6850 5250 500  150 
+U 57AB6737
+F0 "lamps-4-3" 60
+F1 "lamps-4-3.sch" 60
 $EndSheet
 $EndSCHEMATC

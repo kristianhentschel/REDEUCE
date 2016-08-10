@@ -32,12 +32,12 @@ LIBS:MAX7221
 LIBS:MCP23S17
 LIBS:MCP23017
 LIBS:Pi2_Connector
-LIBS:keys-6-cache
+LIBS:v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 31
 Title ""
 Date ""
 Rev ""

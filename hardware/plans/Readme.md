@@ -41,7 +41,7 @@ cathodes, 8 segment anodes).
   and ID lamp rows.
 * [x] [ ] 1x **lamps-13-3a**: first 13 IS lamps, and on a separate board (4 wires) 3
   more lamps (TCA TCB TCI).
-* [ ] [ ] 1x **lamps-4-3b**: 4 + 3 lamps to match up with `keys-6` (4) and the (3) part
+* [x] [ ] 1x **lamps-4-3b**: 4 + 3 lamps to match up with `keys-6` (4) and the (3) part
   of `keys-3-4`, with the third lamp on it being the go lamp. (Read, Punch,
   Program Display, TIL; Stop, Alarm, Go)
 
