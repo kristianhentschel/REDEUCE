@@ -59,8 +59,8 @@ wires for each of them.
 * [x] [ ] 1x **keys-3-3** (addr 000, i2c2): 3 horizontally aligned and 3 vertically aligned switches on
   two separate boards, with a wire interface between them. horizontally:
   Release, Stop, Alarm. vertically: clear OS, clear ID, SW.
-* [-] [ ] 1x **keys-6** (addr 001, i2c2): NIS, Source, Dest, Discrimination, TT, TCI
-* [-] [ ] 1x **keys-9**: (addr 010, i2c2): Read, Single Read, Punch, Program Display, TIL, Initial
+* [x] [ ] 1x **keys-6** (addr 001, i2c2): NIS, Source, Dest, Discrimination, TT, TCI
+* [x] [ ] 1x **keys-9**: (addr 010, i2c2): Read, Single Read, Punch, Program Display, TIL, Initial
   Input, Clear Store, EXT Tree, Single shot. two of these must be single input:
   Single read and Initial Input?
   
