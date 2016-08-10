@@ -23,11 +23,11 @@ Via diameter 1.6mm
 
 All components may be on the front side providing spacers are used for the LEDs.
 
-[] Design finished and included in panel SVG if applicable [] board produced.
+[ ] Design finished and included in panel SVG if applicable [ ] board produced.
 
 #### Main board
 
-* [] [] 1x **pi-connect**: Main board that connects to Raspberry Pi and Power supply
+* [ ] [ ] 1x **pi-connect**: Main board that connects to Raspberry Pi and Power supply
   and houses some of the logic ICs and supplementary components. Has lots of
   spare connection points e.g. for serial printer.
   
@@ -37,11 +37,11 @@ The display drivers for the lamps sit on the main board. Each board has a
 ten-wire IDC connector and can support up to 16 LEDs, i.e. two digits (2 digit
 cathodes, 8 segment anodes).
 
-* [x] [] 4x **lamps-16**: Made from two `led-row` blocks. Two of these each make the OS
+* [x] [ ] 4x **lamps-16**: Made from two `led-row` blocks. Two of these each make the OS
   and ID lamp rows.
-* [x] [] 1x **lamps-13-3a**: first 13 IS lamps, and on a separate board (4 wires) 3
+* [x] [ ] 1x **lamps-13-3a**: first 13 IS lamps, and on a separate board (4 wires) 3
   more lamps (TCA TCB TCI).
-* [] [] 1x **lamps-4-3b**: 4 + 3 lamps to match up with `keys-6` (4) and the (3) part
+* [ ] [ ] 1x **lamps-4-3b**: 4 + 3 lamps to match up with `keys-6` (4) and the (3) part
   of `keys-3-4`, with the third lamp on it being the go lamp. (Read, Punch,
   Program Display, TIL; Stop, Alarm, Go)
 
@@ -52,21 +52,21 @@ board via 4 wires (I2C SDA, SCL and 3v3 power). They all have configurable
 addresses, the three address pins for the controller must be set with jumper
 wires for each of them.
 
-* [x] [] 2x **switches-16**: one 16-input IC and 16 on-off only switches (special word
+* [x] [ ] 2x **switches-16**: one 16-input IC and 16 on-off only switches (special word
   switches).
-* [x] [] 6x **keys-8**: one 16-input IC and eight on-off-on switches (two inputs each).
+* [x] [ ] 6x **keys-8**: one 16-input IC and eight on-off-on switches (two inputs each).
   4 of these for the ID keys, two for the IS keys
-* [] [] 1x **keys-3-3**: 3 horizontally aligned and 3 vertically aligned switches on
+* [ ] [ ] 1x **keys-3-3**: 3 horizontally aligned and 3 vertically aligned switches on
   two separate boards, with a wire interface between them. horizontally:
   Release, Stop, Alarm. vertically: clear OS, clear ID, SW.
-* [] [] 1x **keys-6**: NIS, Source, Dest, Discrimination, TT, TCI
-* [] [] 1x **keys-9**: Read, Single Read, Punch, Program Display, TIL, Initial
+* [ ] [ ] 1x **keys-6**: NIS, Source, Dest, Discrimination, TT, TCI
+* [ ] [ ] 1x **keys-9**: Read, Single Read, Punch, Program Display, TIL, Initial
   Input, Clear Store, EXT Tree, Single shot. two of these must be single input:
   Single read and Initial Input?
   
 #### Monitor
 
-* [x] [] 1x **delay-line-select**: one input IC and a 16-position dial and a push button.
+* [x] [ ] 1x **delay-line-select**: one input IC and a 16-position dial and a push button.
 
 
 #### One-shot-dial
