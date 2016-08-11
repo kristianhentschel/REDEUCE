@@ -1,0 +1,40 @@
+Digikey
+
+Shared basket: http://www.digikey.co.uk/short/3mfpft
+
+13 line items, subtotal 203.45 exc. VAT, free shipping.
+Total 244.14
+
+
+RS
+
+1x   http://uk.rs-online.com/web/p/products/6553235/ Rotary Switch
+1x   http://uk.rs-online.com/web/p/products/2140661/ 10-way Flat Ribbon Cable
+16x http://uk.rs-online.com/web/p/products/6257252/ Through Hole IDC Connector
+16x http://uk.rs-online.com/web/p/products/6257369/ Cable Mount IDC Connector
+10x http://uk.rs-online.com/web/p/products/7390224/ 2N7000TA MOSFET Transistor
+
+26.39 exc. VAT, free shipping.
+Total 31.67
+
+
+Cool Components
+
+1x https://www.coolcomponents.co.uk/thermal-printer.html Printer
+2x https://www.coolcomponents.co.uk/thermal-printer-paper-34ft.html Paper
+
+41.18 exc. VAT, plus 6.05 shipping 
+Total 56.67
+
+
+Amazon
+
+1x http://www.amazon.co.uk/dp/B017YW26YE Micro USB Power Supply 5V 2A
+1x http://www.amazon.co.uk/dp/B015E8EDYQ Waveshare 7inch 1024x600 LCD Display
+1x http://www.amazon.co.uk/dp/B013P1M49A SanDisk 16GB MicroSD Card
+1x http://www.amazon.co.uk/dp/B01CCOXV34 Raspberry Pi 3
+1x https://www.amazon.co.uk/dp/B015A38FUS M3x20 machine screws
+1x https://www.amazon.co.uk/dp/B00GYS1SXU M3 hex nuts
+
+Free shipping.
+Total 102.45
