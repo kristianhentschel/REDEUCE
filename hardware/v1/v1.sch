@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 31
+Sheet 1 36
 Title ""
 Date ""
 Rev ""
@@ -414,5 +414,17 @@ S 6850 5250 500  150
 U 57AB6737
 F0 "lamps-4-3" 60
 F1 "lamps-4-3.sch" 60
+$EndSheet
+$Sheet
+S 5500 5700 650  600 
+U 57AC6001
+F0 "lamps-12-mag" 60
+F1 "lamps-12-mag.sch" 60
+$EndSheet
+$Sheet
+S 5500 6550 650  600 
+U 57AC60DC
+F0 "lamps-16-mag" 60
+F1 "lamps-16-mag.sch" 60
 $EndSheet
 $EndSCHEMATC

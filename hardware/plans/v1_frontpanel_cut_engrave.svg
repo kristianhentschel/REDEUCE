@@ -33,11 +33,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="687.52338"
-     inkscape:cy="1232.5505"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1093.3843"
+     inkscape:cy="700.83537"
      inkscape:document-units="mm"
-     inkscape:current-layer="g10047"
+     inkscape:current-layer="g9810"
      showgrid="true"
      inkscape:window-width="1920"
      inkscape:window-height="1031"
@@ -99,7 +99,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -732,7 +732,8 @@
     <g
        id="g9810">
       <g
-         id="g9788">
+         id="g9788"
+         transform="translate(0,56.000004)">
         <rect
            style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.70866144;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="rect7609"
@@ -6667,6 +6668,308 @@
              r="590.55103"
              cy="3251.7559"
              cx="18066.143" />
+          <g
+             id="g11209"
+             transform="translate(524.83334,-200.10098)">
+            <g
+               transform="matrix(0,-1,1,0,95220.66,-6292.286)"
+               id="g10428">
+              <g
+                 style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10358" />
+              <g
+                 style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:-0.0003937;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10360" />
+              <g
+                 style="fill:#840000;fill-opacity:0;stroke:#840000;stroke-width:-0.0003937;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10362" />
+              <g
+                 style="fill:#840000;fill-opacity:0;stroke:#840000;stroke-width:59.05509949;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10364">
+                <circle
+                   cx="10368.4"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10366" />
+                <circle
+                   cx="15368.4"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10368" />
+                <circle
+                   cx="20368.4"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10370" />
+                <circle
+                   cx="25368.4"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10372" />
+                <circle
+                   cx="30368.4"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10374" />
+                <circle
+                   cx="35368.398"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10376" />
+                <circle
+                   cx="40368.398"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10378" />
+                <circle
+                   cx="45368.398"
+                   cy="5019.6899"
+                   r="984.25201"
+                   id="circle10380" />
+                <circle
+                   cx="10368.4"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10382" />
+                <circle
+                   cx="15368.4"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10384" />
+                <circle
+                   cx="20368.4"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10386" />
+                <circle
+                   cx="25368.4"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10388" />
+                <circle
+                   cx="30368.4"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10390" />
+                <circle
+                   cx="35368.398"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10392" />
+                <circle
+                   cx="40368.398"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10394" />
+                <circle
+                   cx="45368.398"
+                   cy="15019.7"
+                   r="984.25201"
+                   id="circle10396" />
+                <circle
+                   cx="42868.398"
+                   cy="10019.7"
+                   r="590.55103"
+                   id="circle10398" />
+                <circle
+                   cx="12868.4"
+                   cy="10019.7"
+                   r="590.55103"
+                   id="circle10400" />
+              </g>
+              <g
+                 style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:59.05509949;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10402" />
+              <g
+                 style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:59.05509949;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10404" />
+              <g
+                 style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:39.37009811;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g10406">
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 47368,16519 -41000,0"
+                   id="path10408" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 47368,2019 0,14500"
+                   id="path10410" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 24368,2019 23000,0"
+                   id="path10412" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 22368,19 2000,2000"
+                   id="path10414" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 11868,19 10500,0"
+                   id="path10416" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="M 6368,5519 11868,19"
+                   id="path10418" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 6368,16519 0,-11000"
+                   id="path10420" />
+              </g>
+            </g>
+            <g
+               transform="matrix(0,-1,1,0,81221.085,-16564.048)"
+               id="g11172">
+              <g
+                 style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11096" />
+              <g
+                 style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:-0.0003937;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11098" />
+              <g
+                 style="fill:#840000;fill-opacity:0;stroke:#840000;stroke-width:-0.0003937;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11100" />
+              <g
+                 style="fill:#840000;fill-opacity:0;stroke:#840000;stroke-width:59.05509949;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11102">
+                <circle
+                   cx="10019.7"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11104" />
+                <circle
+                   cx="15019.7"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11106" />
+                <circle
+                   cx="20019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11108" />
+                <circle
+                   cx="25019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11110" />
+                <circle
+                   cx="30019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11112" />
+                <circle
+                   cx="35019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11114" />
+                <circle
+                   cx="40019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11116" />
+                <circle
+                   cx="45019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11118" />
+                <circle
+                   cx="50019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11120" />
+                <circle
+                   cx="55019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11122" />
+                <circle
+                   cx="60019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11124" />
+                <circle
+                   cx="65019.699"
+                   cy="4787.3999"
+                   r="984.25201"
+                   id="circle11126" />
+                <circle
+                   cx="12519.7"
+                   cy="7787.3999"
+                   r="590.55103"
+                   id="circle11128" />
+                <circle
+                   cx="62519.699"
+                   cy="7787.3999"
+                   r="590.55103"
+                   id="circle11130" />
+              </g>
+              <g
+                 style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:59.05509949;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11132" />
+              <g
+                 style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:59.05509949;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11134" />
+              <g
+                 style="fill:#c2c200;fill-opacity:0;stroke:#c2c200;stroke-width:39.37009811;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+                 id="g11136">
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 29519,287 -19500,0"
+                   id="path11138" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="M 30519,1287 29519,287"
+                   id="path11140" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 65019,1287 -34500,0"
+                   id="path11142" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="M 67019,3287 65019,1287"
+                   id="path11144" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 67019,7287 0,-4000"
+                   id="path11146" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="M 65019,9287 67019,7287"
+                   id="path11148" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 26019,9287 39000,0"
+                   id="path11150" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 5519,9287 20500,0"
+                   id="path11152" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="M 4019,10787 5519,9287"
+                   id="path11154" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 2019,10787 2000,0"
+                   id="path11156" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 19,8787 2000,2000"
+                   id="path11158" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 19,2287 0,6500"
+                   id="path11160" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="M 2019,287 19,2287"
+                   id="path11162" />
+                <path
+                   inkscape:connector-curvature="0"
+                   d="m 10019,287 -8000,0"
+                   id="path11164" />
+              </g>
+            </g>
+          </g>
         </g>
         <g
            id="g10097"
