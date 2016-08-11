@@ -1,18 +1,23 @@
 package uk.ac.glasgow.redeuce.processor;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.BitSet;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 
 import uk.ac.glasgow.redeuce.DeuceConstants;
 import uk.ac.glasgow.redeuce.memory.Memory;
 import uk.ac.glasgow.redeuce.memory.Word;
-import uk.ac.glasgow.redeuce.peripherals.memory.Card;
-import uk.ac.glasgow.redeuce.peripherals.memory.CardLine;
-import uk.ac.glasgow.redeuce.peripherals.memory.DEUCECardPuncher;
-import uk.ac.glasgow.redeuce.peripherals.memory.DEUCECardReader;
-import uk.ac.glasgow.redeuce.peripherals.memory.FixedCardDeck;
-import uk.ac.glasgow.redeuce.peripherals.memory.OutOfCardsException;
-import uk.ac.glasgow.redeuce.peripherals.memory.Triad;
+import uk.ac.glasgow.redeuce.peripherals.Card;
+import uk.ac.glasgow.redeuce.peripherals.CardLine;
+import uk.ac.glasgow.redeuce.peripherals.DEUCECardPuncher;
+import uk.ac.glasgow.redeuce.peripherals.DEUCECardReader;
+import uk.ac.glasgow.redeuce.peripherals.FixedCardDeck;
+import uk.ac.glasgow.redeuce.peripherals.OutOfCardsException;
+import uk.ac.glasgow.redeuce.peripherals.Triad;
 
 
 // Make just about everything that isn't called from outside Private
@@ -25,11 +30,15 @@ public class Processor {
 	boolean go;
 	Memory deuceMemory; //For testing purposes I suppose? I guess we'll have a large object later where the processor can just read memory?
 	boolean tcb;
+	boolean tca;
+	
 	
 	public Processor(){
 		this.reader = new DEUCECardReader();
 		this.deuceMemory = new Memory();
 		this.puncher = new DEUCECardPuncher();
+		this.tcb = false;
+		this.tca = false;
 	}
 	
 	public Processor(DEUCECardReader reader, Memory deuceMemory, DEUCECardPuncher puncher) throws IOException{
@@ -166,7 +175,7 @@ public class Processor {
 		return operand;
 	}
 	
-	public void executeInstruction() throws InterruptedException, IOException{
+	public void executeInstruction() throws IOException{
 		// Huge nasty switch statement, or at least something which defines the types?
 	
 		for (int i=0; i<currentInstruction.getWait(); i++){
@@ -336,7 +345,19 @@ public class Processor {
 			int dest = instruction.getDest();
 			switch(dest){
 			case(DeuceConstants.DEST_INPUT_OUTPUT):
-				if(instruction.getSource() == 9){
+				if(instruction.getSource() == 7){
+					try {
+						AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("ANALOG_A.WAV").getAbsoluteFile());
+					    Clip clip = AudioSystem.getClip();
+					    clip.open(audioInputStream);
+					    System.out.println("buzz!");
+					    clip.start();
+					} catch(Exception ex) {
+					    System.out.println("Error with playing sound.");
+					    ex.printStackTrace();
+					}
+				}
+				else if(instruction.getSource() == 9){
 					//if CardReader.isReading{
 					//   turnoff();
 					//if CardPuncher.isReady(){
@@ -429,7 +450,7 @@ public class Processor {
 		this.tcb = false;
 	}
 	
-	public void step() throws InterruptedException, IOException{
+	public void step() throws IOException{
 		executeInstruction();
 		getNextInstruction();
 	}

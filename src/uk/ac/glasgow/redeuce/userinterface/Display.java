@@ -1,4 +1,4 @@
-package userinterface;
+package uk.ac.glasgow.redeuce.userinterface;
 
 import java.io.BufferedWriter;
 import java.io.File;

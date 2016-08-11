@@ -1,4 +1,4 @@
-package uk.ac.glasgow.redeuce.peripherals.memory;
+package uk.ac.glasgow.redeuce.peripherals;
 
 public class FixedCardDeck extends CardDeck {
 	

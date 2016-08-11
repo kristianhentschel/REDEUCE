@@ -38,21 +38,33 @@ public class Memory {
 		linesAndStores[toDelayLine].write(word);
 	}
 	
+	//USED ONLY FOR CONSOLETEST OUTPUT, HENCE ONLY SHOWING 4 REGISTERS
 	public String toString(){
-		String output = "";
+		StringBuilder output = new StringBuilder();
 		for (int i=13; i<=16; i++){
-			output += linesAndStores[i].toString() + "\n";
+			output.append(linesAndStores[i].makeString());
+			output.append("\n");
 		}
-		return output;
+		return output.toString();
+	}
+	
+	public String outputRegisters(){
+		StringBuilder output = new StringBuilder();
+		for (int i=13; i<=21; i++){
+			output.append(linesAndStores[i].makeString());
+			output.append(" ");
+		}
+		return output.toString();
 	}
 	
 	//Method to return contents in a delay line for the Displays
 	public String outputDelayLine(int delayLine, int offset){
-		String delayStore = "";
+		StringBuilder delayStore = new StringBuilder();
 		for (int i=0; i<32; i++){
-			delayStore += linesAndStores[delayLine].contents[(i + offset)%32].toString() + "\n";
+			delayStore.append(linesAndStores[delayLine].contents[(i + offset)%32].toString());
+			delayStore.append(" ");
 		}
-		return delayStore;
+		return delayStore.toString();
 	}
 	
 	public void clear(){

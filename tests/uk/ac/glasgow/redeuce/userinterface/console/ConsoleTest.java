@@ -1,12 +1,14 @@
-package userinterface;
+package uk.ac.glasgow.redeuce.userinterface.console;
 
 import static org.junit.Assert.*;
 
 import java.io.IOException;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
-import uk.ac.glasgow.redeuce.peripherals.memory.OutOfCardsException;
+
+import uk.ac.glasgow.redeuce.peripherals.OutOfCardsException;
 
 public class ConsoleTest {
 	
