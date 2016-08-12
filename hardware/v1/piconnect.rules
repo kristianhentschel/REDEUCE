@@ -1,0 +1,99 @@
+
+(rules PCB piconnect
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2891)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+  )
+  (rule
+    (width 400.0)
+    (clear 400.2)
+    (clear 200.0 (type smd_to_turn_gap))
+    (clear 100.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_1600:1000_um"
+    (shape
+      (circle F.Cu 1600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1600:1000_um" "Via[0-1]_1600:1000_um" default
+  )
+  (via 
+    "Via[0-1]_1600:1000_um-kicad_default" "Via[0-1]_1600:1000_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1600:1000_um-power" "Via[0-1]_1600:1000_um" power
+  )
+  (via_rule
+    default "Via[0-1]_1600:1000_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_1600:1000_um-kicad_default"
+  )
+  (via_rule
+    power "Via[0-1]_1600:1000_um-power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/I2C1_SDA" "/I2C1_SCL" "/I2C2_SDA" "/I2C2_SCL" "/DOUT2_5V" "/CLK_5V" "/CS_5V" "/A_SEGA"
+    "/A_SEGDP" "/A_SEGB" "/A_DIG0" "/A_SEGC" "/A_DIG1" "/A_SEGD" "/A_SEGF" "/A_SEGE"
+    "/A_SEGG" "/A_DIG2" "/A_DIG3" "/A_DIG4" "/A_DIG5" "/A_DIG6" "/A_DIG7" "/B_SEGA"
+    "/B_SEGDP" "/B_SEGB" "/B_DIG0" "/B_SEGC" "/B_DIG1" "/B_SEGD" "/B_SEGF" "/B_SEGE"
+    "/B_SEGG" "/B_DIG2" "/B_DIG3" "/B_DIG4" "/B_DIG5" "/B_DIG6" "/B_DIG7" /RXD
+    /TXD "Net-(P30-Pad2)" "Net-(P30-Pad3)" "/SPI0_CE0" "/SPI0_SCLK" "/SPI0_MOSI" "/DIN_5V" "Net-(R7-Pad2)"
+    "Net-(R8-Pad2)" "/GPIO_BCM17" "/GPIO_BCM27" "/DOUT1_5V"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    VCC GND "/VCC_PRINTER" VDD "/PRINTER_GND"
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
