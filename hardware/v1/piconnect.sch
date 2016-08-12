@@ -35,7 +35,7 @@ LIBS:MCP23017
 LIBS:piconnect-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 6
 Title ""
@@ -487,20 +487,9 @@ U 1 1 57A5975A
 P 4750 4000
 F 0 "CON1" H 4750 4250 50  0000 C CNN
 F 1 "BARREL_JACK" H 4750 3800 50  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 4750 4000 50  0001 C CNN
+F 2 "myparts:BARREL_JACK-custom" H 4750 4000 50  0001 C CNN
 F 3 "" H 4750 4000 50  0000 C CNN
 	1    4750 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Pi2_Connector U1
-U 1 1 57A598EA
-P 2550 2600
-F 0 "U1" H 2550 2500 50  0000 C CNN
-F 1 "Pi2_Connector" H 2550 2700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 2550 2600 50  0001 C CNN
-F 3 "DOCUMENTATION" H 2550 2600 50  0001 C CNN
-	1    2550 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -529,56 +518,52 @@ $EndComp
 $Comp
 L GND #PWR013
 U 1 1 57A5ABCB
-P 3800 3650
-F 0 "#PWR013" H 3800 3400 50  0001 C CNN
-F 1 "GND" H 3800 3500 50  0000 C CNN
-F 2 "" H 3800 3650 50  0000 C CNN
-F 3 "" H 3800 3650 50  0000 C CNN
-	1    3800 3650
+P 3800 3800
+F 0 "#PWR013" H 3800 3550 50  0001 C CNN
+F 1 "GND" H 3800 3650 50  0000 C CNN
+F 2 "" H 3800 3800 50  0000 C CNN
+F 3 "" H 3800 3800 50  0000 C CNN
+	1    3800 3800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3300 1650
-NoConn ~ 3300 1750
+NoConn ~ 3300 1800
+NoConn ~ 3300 1900
 $Comp
 L VDD #PWR014
 U 1 1 57A5B383
-P 1000 1600
-F 0 "#PWR014" H 1000 1450 50  0001 C CNN
-F 1 "VDD" H 1000 1750 50  0000 C CNN
-F 2 "" H 1000 1600 50  0000 C CNN
-F 3 "" H 1000 1600 50  0000 C CNN
-	1    1000 1600
+P 1000 1750
+F 0 "#PWR014" H 1000 1600 50  0001 C CNN
+F 1 "VDD" H 1000 1900 50  0000 C CNN
+F 2 "" H 1000 1750 50  0000 C CNN
+F 3 "" H 1000 1750 50  0000 C CNN
+	1    1000 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR015
 U 1 1 57A5C258
-P 1050 3600
-F 0 "#PWR015" H 1050 3350 50  0001 C CNN
-F 1 "GND" H 1050 3450 50  0000 C CNN
-F 2 "" H 1050 3600 50  0000 C CNN
-F 3 "" H 1050 3600 50  0000 C CNN
-	1    1050 3600
+P 1050 3750
+F 0 "#PWR015" H 1050 3500 50  0001 C CNN
+F 1 "GND" H 1050 3600 50  0000 C CNN
+F 2 "" H 1050 3750 50  0000 C CNN
+F 3 "" H 1050 3750 50  0000 C CNN
+	1    1050 3750
 	1    0    0    -1  
 $EndComp
-Text Label 1800 1750 2    60   ~ 0
+Text Label 1800 1900 2    60   ~ 0
 I2C1_SDA
-Text Label 1800 1850 2    60   ~ 0
+Text Label 1800 2000 2    60   ~ 0
 I2C1_SCL
-Text Label 1800 2950 2    60   ~ 0
+Text Label 1800 3100 2    60   ~ 0
 I2C2_SDA
-Text Label 3300 2950 0    60   ~ 0
+Text Label 3300 3100 0    60   ~ 0
 I2C2_SCL
-Text Label 1800 2550 2    60   ~ 0
+Text Label 1800 2700 2    60   ~ 0
 SPI0_MOSI
-Text Label 1800 2650 2    60   ~ 0
-SPI0_MISO
-Text Label 1800 2750 2    60   ~ 0
+Text Label 1800 2900 2    60   ~ 0
 SPI0_SCLK
-Text Label 3300 2750 0    60   ~ 0
+Text Label 3300 2900 0    60   ~ 0
 SPI0_CE0
-Text Label 3300 2850 0    60   ~ 0
-SPI0_CE1
 Text Label 5900 3050 2    60   ~ 0
 SPI0_CE0
 Text Label 5900 1250 2    60   ~ 0
@@ -610,32 +595,30 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG018
 U 1 1 57A659A2
-P 750 1650
-F 0 "#FLG018" H 750 1745 50  0001 C CNN
-F 1 "PWR_FLAG" H 750 1830 50  0000 C CNN
-F 2 "" H 750 1650 50  0000 C CNN
-F 3 "" H 750 1650 50  0000 C CNN
-	1    750  1650
+P 750 1800
+F 0 "#FLG018" H 750 1895 50  0001 C CNN
+F 1 "PWR_FLAG" H 750 1980 50  0000 C CNN
+F 2 "" H 750 1800 50  0000 C CNN
+F 3 "" H 750 1800 50  0000 C CNN
+	1    750  1800
 	1    0    0    -1  
 $EndComp
-Text Label 3300 1950 0    60   ~ 0
+Text Label 3300 2100 0    60   ~ 0
 TXD
-Text Label 3300 2050 0    60   ~ 0
+Text Label 3300 2200 0    60   ~ 0
 RXD
-NoConn ~ 3300 2150
-NoConn ~ 3300 2350
-NoConn ~ 3300 2450
-NoConn ~ 3300 2650
-NoConn ~ 3300 3150
-NoConn ~ 3300 3350
-NoConn ~ 1800 3450
-NoConn ~ 1800 3250
-NoConn ~ 1800 3150
-NoConn ~ 1800 3050
-NoConn ~ 1800 2350
-NoConn ~ 1800 2250
-NoConn ~ 1800 2150
-NoConn ~ 1800 1950
+NoConn ~ 3300 2300
+NoConn ~ 3300 2500
+NoConn ~ 3300 2600
+NoConn ~ 3300 2800
+NoConn ~ 3300 3300
+NoConn ~ 3300 3500
+NoConn ~ 1800 3600
+NoConn ~ 1800 3400
+NoConn ~ 1800 3300
+NoConn ~ 1800 3200
+NoConn ~ 1800 2500
+NoConn ~ 1800 2100
 Text Label 1650 5850 2    60   ~ 0
 I2C2_SDA
 Text Label 1650 5950 2    60   ~ 0
@@ -820,12 +803,12 @@ F 3 "" H 3550 5800 50  0000 C CNN
 	1    3550 5800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3300 3450
-NoConn ~ 3300 3550
-NoConn ~ 1800 3350
+NoConn ~ 3300 3600
+NoConn ~ 3300 3700
+NoConn ~ 1800 3500
 Text Notes 6100 4000 0    60   ~ 0
 5V 1A LED Supply\ncenter positive.
-Text Notes 700  4350 0    60   ~ 0
+Text Notes 700  4500 0    60   ~ 0
 Raspberry Pi Connector\n\nPi must be supplied by 5V 2A+ micro USB, provides 3v3 power\nfor the switches (<=20mA total), and enough USB current for\nthe screen.
 $Comp
 L CONN_02X05 P26
@@ -1014,6 +997,146 @@ F 3 "" H 6150 5800 50  0000 C CNN
 $EndComp
 Text Notes 850  6500 0    60   ~ 0
 I2C Ports for Switches\nGND, VCC (3v3), SDA, SCL\n\n+ expansion headers, unpopulated.
+Text Notes 8100 900  0    60   ~ 0
+LED Display Drivers and connectors.\nOne connector per two digits.
+Text Notes 4400 950  0    60   ~ 0
+Logic level shifters\nfor serial inputs\nto LED Drivers
+$Comp
+L BARREL_JACK CON2
+U 1 1 57ADBBF3
+P 1000 1000
+F 0 "CON2" H 1000 1250 50  0000 C CNN
+F 1 "BARREL_JACK" H 1000 800 50  0000 C CNN
+F 2 "myparts:BARREL_JACK-custom" H 1000 1000 50  0001 C CNN
+F 3 "" H 1000 1000 50  0000 C CNN
+	1    1000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P28
+U 1 1 57ADBFA4
+P 2500 750
+F 0 "P28" H 2500 950 50  0000 C CNN
+F 1 "CONN_01X03" V 2600 750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 2500 750 50  0001 C CNN
+F 3 "" H 2500 750 50  0000 C CNN
+	1    2500 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P29
+U 1 1 57ADC191
+P 3200 750
+F 0 "P29" H 3200 950 50  0000 C CNN
+F 1 "CONN_01X03" V 3300 750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 3200 750 50  0001 C CNN
+F 3 "" H 3200 750 50  0000 C CNN
+	1    3200 750 
+	0    -1   -1   0   
+$EndComp
+Text Label 3250 1300 0    60   ~ 0
+TXD
+Text Label 3350 1150 0    60   ~ 0
+RXD
+Text Label 1300 900  0    60   ~ 0
+VCC_PRINTER
+NoConn ~ 1300 1000
+$Comp
+L GND #PWR026
+U 1 1 57ADD7D4
+P 3100 1100
+F 0 "#PWR026" H 3100 850 50  0001 C CNN
+F 1 "GND" H 3100 950 50  0000 C CNN
+F 2 "" H 3100 1100 50  0000 C CNN
+F 3 "" H 3100 1100 50  0000 C CNN
+	1    3100 1100
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 750  0    60   ~ 0
+5V 2A supply for printer\ncentre-positive
+$Comp
+L VDD #PWR027
+U 1 1 57AE1E9A
+P 1450 6950
+F 0 "#PWR027" H 1450 6800 50  0001 C CNN
+F 1 "VDD" H 1450 7100 50  0000 C CNN
+F 2 "" H 1450 6950 50  0000 C CNN
+F 3 "" H 1450 6950 50  0000 C CNN
+	1    1450 6950
+	0    -1   -1   0   
+$EndComp
+Text Label 1600 7350 2    60   ~ 0
+GPIO_BCM17
+Text Label 2000 7350 0    60   ~ 0
+GPIO_BCM27
+$Comp
+L GND #PWR028
+U 1 1 57AE271C
+P 2600 7950
+F 0 "#PWR028" H 2600 7700 50  0001 C CNN
+F 1 "GND" H 2600 7800 50  0000 C CNN
+F 2 "" H 2600 7950 50  0000 C CNN
+F 3 "" H 2600 7950 50  0000 C CNN
+	1    2600 7950
+	1    0    0    -1  
+$EndComp
+Text Notes 800  8350 0    60   ~ 0
+Telephone Dial GPIO Connections\nAdd weak pullup and input current protection\nTreat the dial as two switches between 4-3 and 4-2.
+$Comp
+L CONN_01X04 P30
+U 1 1 57AE4644
+P 2900 7800
+F 0 "P30" H 2900 8050 50  0000 C CNN
+F 1 "CONN_01X04" V 3000 7800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2900 7800 50  0001 C CNN
+F 3 "" H 2900 7800 50  0000 C CNN
+	1    2900 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 57AE4DD6
+P 2000 7100
+F 0 "R11" V 2080 7100 50  0000 C CNN
+F 1 "47K" V 2000 7100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 7100 50  0001 C CNN
+F 3 "" H 2000 7100 50  0000 C CNN
+	1    2000 7100
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R12
+U 1 1 57AE52F9
+P 2000 7550
+F 0 "R12" V 2080 7550 50  0000 C CNN
+F 1 "470" V 2000 7550 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 7550 50  0001 C CNN
+F 3 "" H 2000 7550 50  0000 C CNN
+	1    2000 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R10
+U 1 1 57AE5601
+P 1600 7550
+F 0 "R10" V 1680 7550 50  0000 C CNN
+F 1 "470" V 1600 7550 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1530 7550 50  0001 C CNN
+F 3 "" H 1600 7550 50  0000 C CNN
+	1    1600 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 57AE644D
+P 1600 7100
+F 0 "R9" V 1680 7100 50  0000 C CNN
+F 1 "47K" V 1600 7100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1530 7100 50  0001 C CNN
+F 3 "" H 1600 7100 50  0000 C CNN
+	1    1600 7100
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
 	8150 2000 7700 2000
 Wire Wire Line
@@ -1145,38 +1268,38 @@ Wire Wire Line
 Wire Wire Line
 	5050 4100 5750 4100
 Wire Wire Line
-	3300 3250 3800 3250
+	3300 3400 3800 3400
 Wire Wire Line
-	3800 1850 3800 3650
+	3800 2000 3800 3800
 Wire Wire Line
-	3300 3050 3800 3050
-Connection ~ 3800 3250
+	3300 3200 3800 3200
+Connection ~ 3800 3400
 Wire Wire Line
-	3300 2550 3800 2550
-Connection ~ 3800 3050
+	3300 2700 3800 2700
+Connection ~ 3800 3200
 Wire Wire Line
-	3300 2250 3800 2250
-Connection ~ 3800 2550
+	3300 2400 3800 2400
+Connection ~ 3800 2700
 Wire Wire Line
-	3300 1850 3800 1850
-Connection ~ 3800 2250
+	3300 2000 3800 2000
+Connection ~ 3800 2400
 Wire Wire Line
-	750  1650 1800 1650
+	750  1800 1800 1800
 Wire Wire Line
-	1000 1600 1000 2450
+	1000 1750 1000 2600
 Wire Wire Line
-	1000 2450 1800 2450
-Connection ~ 1000 1650
+	1000 2600 1800 2600
+Connection ~ 1000 1800
 Wire Wire Line
-	1800 2050 1050 2050
+	1800 2200 1050 2200
 Wire Wire Line
-	1050 2050 1050 3600
+	1050 2200 1050 3750
 Wire Wire Line
-	1050 3550 1800 3550
+	1050 3700 1800 3700
 Wire Wire Line
-	1800 2850 1050 2850
-Connection ~ 1050 2850
-Connection ~ 1050 3550
+	1800 3000 1050 3000
+Connection ~ 1050 3000
+Connection ~ 1050 3700
 Connection ~ 5400 4100
 Wire Wire Line
 	5400 3850 5750 3850
@@ -1307,13 +1430,13 @@ Wire Notes Line
 Wire Notes Line
 	6400 6550 6400 4700
 Wire Notes Line
-	550  1300 550  4450
+	550  1450 550  4600
 Wire Notes Line
-	550  4450 4050 4450
+	550  4600 4050 4600
 Wire Notes Line
-	4050 4450 4050 1300
+	4050 4600 4050 1450
 Wire Notes Line
-	4050 1300 550  1300
+	4050 1450 550  1450
 Wire Notes Line
 	4250 3550 7000 3550
 Wire Notes Line
@@ -1346,8 +1469,80 @@ Wire Notes Line
 	11200 6700 11200 650 
 Wire Notes Line
 	11200 650  7450 650 
-Text Notes 8100 900  0    60   ~ 0
-LED Display Drivers and connectors.\nOne connector per two digits.
-Text Notes 4400 950  0    60   ~ 0
-Logic level shifters\nfor serial inputs\nto LED Drivers
+Wire Wire Line
+	3200 950  3200 1300
+Wire Wire Line
+	3200 1300 3250 1300
+Wire Wire Line
+	3300 950  3300 1150
+Wire Wire Line
+	3300 1150 3350 1150
+Wire Wire Line
+	3100 950  3100 1100
+Wire Notes Line
+	550  550  550  1350
+Wire Notes Line
+	550  1350 3600 1350
+Wire Notes Line
+	3600 1350 3600 550 
+Wire Notes Line
+	3600 550  550  550 
+Wire Wire Line
+	1600 7400 1600 7250
+Wire Wire Line
+	2000 7400 2000 7250
+Wire Wire Line
+	1450 6950 2600 6950
+Connection ~ 1600 6950
+Wire Wire Line
+	2000 7700 2000 7750
+Wire Wire Line
+	2000 7750 2700 7750
+Wire Wire Line
+	1600 7700 1600 7850
+Wire Wire Line
+	1600 7850 2700 7850
+Wire Wire Line
+	2600 7950 2700 7950
+Wire Wire Line
+	2600 7650 2700 7650
+Wire Wire Line
+	2600 6950 2600 7650
+Connection ~ 2000 6950
+Wire Notes Line
+	3350 8500 3350 6800
+Wire Notes Line
+	3350 6800 700  6800
+Wire Notes Line
+	700  6800 700  8500
+Wire Notes Line
+	700  8500 3350 8500
+Text Label 1800 2300 2    60   ~ 0
+GPIO_BCM17
+Text Label 1800 2400 2    60   ~ 0
+GPIO_BCM27
+$Comp
+L Pi2_Connector U1
+U 1 1 57A598EA
+P 2550 2750
+F 0 "U1" H 2550 2650 50  0000 C CNN
+F 1 "Pi2_Connector" H 2550 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20" H 2550 2750 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2550 2750 50  0001 C CNN
+	1    2550 2750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3300 3000
+NoConn ~ 1800 2800
+NoConn ~ 2500 950 
+Wire Wire Line
+	2400 950  2400 1100
+Wire Wire Line
+	2400 1100 1300 1100
+Text Label 2600 1250 2    60   ~ 0
+VCC_PRINTER
+Wire Wire Line
+	2600 1250 2600 950 
+Text Label 1950 1100 2    60   ~ 0
+PRINTER_GND
 $EndSCHEMATC
