@@ -5,7 +5,7 @@
     (no_connects 10)
     (area 71.069999 16.459999 271.830001 50.850001)
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 254)
     (zones 0)
     (modules 21)
@@ -809,6 +809,7 @@
     )
   )
 
+  (gr_circle (center 201.93 40.64) (end 202.565 40.64) (layer F.SilkS) (width 0.2))
   (gr_line (start 201.93 50.8) (end 192.405 50.8) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 203.2 49.53) (end 201.93 50.8) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 203.2 39.37) (end 203.2 49.53) (layer Edge.Cuts) (width 0.1))
