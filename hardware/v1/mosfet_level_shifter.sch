@@ -28,16 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Pi2_Connector
 LIBS:MAX7221
 LIBS:MCP23S17
 LIBS:MCP23017
-LIBS:Pi2_Connector
-LIBS:v1-cache
+LIBS:piconnect-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 36
+Sheet 7 6
 Title ""
 Date ""
 Rev ""
@@ -51,9 +51,9 @@ $Comp
 L R R1
 U 1 1 5798C5FD
 P 1150 1000
-AR Path="/57A2FF40/57A33FAE/5798C5FD" Ref="R1"  Part="1" 
-AR Path="/57A2FF40/57A33FC0/5798C5FD" Ref="R3"  Part="1" 
-AR Path="/57A2FF40/57A33FD2/5798C5FD" Ref="R5"  Part="1" 
+AR Path="/57A33FAE/5798C5FD" Ref="R1"  Part="1" 
+AR Path="/57A33FC0/5798C5FD" Ref="R3"  Part="1" 
+AR Path="/57A33FD2/5798C5FD" Ref="R5"  Part="1" 
 F 0 "R5" V 1230 1000 50  0000 C CNN
 F 1 "10K" V 1150 1000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1080 1000 50  0001 C CNN
@@ -65,9 +65,9 @@ $Comp
 L R R2
 U 1 1 5798C628
 P 2000 1000
-AR Path="/57A2FF40/57A33FAE/5798C628" Ref="R2"  Part="1" 
-AR Path="/57A2FF40/57A33FC0/5798C628" Ref="R4"  Part="1" 
-AR Path="/57A2FF40/57A33FD2/5798C628" Ref="R6"  Part="1" 
+AR Path="/57A33FAE/5798C628" Ref="R2"  Part="1" 
+AR Path="/57A33FC0/5798C628" Ref="R4"  Part="1" 
+AR Path="/57A33FD2/5798C628" Ref="R6"  Part="1" 
 F 0 "R6" V 2080 1000 50  0000 C CNN
 F 1 "10K" V 2000 1000 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1930 1000 50  0001 C CNN
@@ -87,9 +87,9 @@ $Comp
 L BS170 Q1
 U 1 1 5798C66E
 P 1550 1200
-AR Path="/57A2FF40/57A33FAE/5798C66E" Ref="Q1"  Part="1" 
-AR Path="/57A2FF40/57A33FC0/5798C66E" Ref="Q2"  Part="1" 
-AR Path="/57A2FF40/57A33FD2/5798C66E" Ref="Q3"  Part="1" 
+AR Path="/57A33FAE/5798C66E" Ref="Q1"  Part="1" 
+AR Path="/57A33FC0/5798C66E" Ref="Q2"  Part="1" 
+AR Path="/57A33FD2/5798C66E" Ref="Q3"  Part="1" 
 F 0 "Q3" H 1750 1275 50  0000 L CNN
 F 1 "2N7000" H 1750 1200 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1750 1125 50  0000 L CIN
