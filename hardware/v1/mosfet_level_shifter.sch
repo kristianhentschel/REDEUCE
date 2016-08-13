@@ -28,16 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Pi2_Connector
-LIBS:MAX7221
-LIBS:MCP23S17
-LIBS:MCP23017
 LIBS:piconnect-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -92,7 +88,7 @@ AR Path="/57A33FC0/5798C66E" Ref="Q2"  Part="1"
 AR Path="/57A33FD2/5798C66E" Ref="Q3"  Part="1" 
 F 0 "Q1" H 1750 1275 50  0000 L CNN
 F 1 "2N7000" H 1750 1200 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1750 1125 50  0000 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1750 1125 50  0000 L CIN
 F 3 "" H 1550 1200 50  0000 L CNN
 	1    1550 1200
 	0    1    1    0   
