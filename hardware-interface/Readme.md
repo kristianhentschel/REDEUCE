@@ -11,7 +11,7 @@ Intended for a Raspberry Pi (Raspbian) for use with the `../hardware/v1` printed
 - Current user must have access to SPI, I2C, and Serial devices
 
 ```
-sudo apt-get install i2cdev spidev virtualenv
+sudo apt-get install i2cdev spidev python-spidev python-smbus virtualenv
 
 virtualenv init venv
 source venv/bin/activate
