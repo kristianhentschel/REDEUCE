@@ -2,7 +2,7 @@ import spidev
 import time
 
 # delay used in animations
-DELAY_TIME_MS   = 200
+DELAY_TIME_MS   = 0.05
 
 # SPI Bus settings
 SPI_DEVICE      = 0         # 0 or 1 to select SPI bus
@@ -49,20 +49,20 @@ def setAll(bits):
     """ refresh the entire display on all connected chips. not as efficient as updating single Digits! """
     for device in range(NUM_MAX_DEVICES):
         for digit in range(8):
-            setDigit(device, digit, digitFromBits(device, digit, bits)])
+            setDigit(device, digit, digitFromBits(device, digit, bits))
 
 def setDigit(device, digit, word):
     """ set a single digit of 8 LED segments to the given binary word """
 
-        # address, data
-        to_send = [digit + MAX_REG_DIG0, word]
-        
-        # pad with no-op address/data pairs to shift through all previous devices before latching.
-        for i in range(device):
-            to_send += [MAX_REG_NOP, 0x00]
+    # address, data
+    to_send = [digit + MAX_REG_DIG0, word]
+    
+    # pad with no-op address/data pairs to shift through all previous devices before latching.
+    for i in range(device):
+        to_send += [MAX_REG_NOP, 0x00]
 
-        # transfer the prepared sequence of words
-        spiTransfer(to_send)
+    # transfer the prepared sequence of words
+    spiTransfer(to_send)
 
 def digitFromBits(device, digit, bits):
     """ Get a binary 8-bit word by extracting the 8 booleans from the array of all LED statuses """
@@ -77,7 +77,7 @@ def digitFromBits(device, digit, bits):
     return data
 
 def setIntensity(level):
-    spiTransfer(MAX_REG_INTENSITY, level)
+    spiTransfer([MAX_REG_INTENSITY, level] * NUM_MAX_DEVICES)
 
 def delay():
     time.sleep(DELAY_TIME_MS);
@@ -86,37 +86,49 @@ def main():
     initialize()
 
     # flash entire display a number of times
-    for i in range(0, 5):
+    print "flashing:",
+    for i in range(10):
+        print "off",
         setAll([0]*128)
         delay()
+        print "on",
         setAll([1]*128)
         delay()
-
+    print "\n"
     delay()
 
     # cycle through all intensity settings once up to the maximum
-    for i in range(0, 15):
+    print "intensity:",
+    for i in range(16):
+        print i,
         setIntensity(i)
         delay()
-
+    print "\n"
+        
     delay()
 
     # iterate through all LEDs, turning on one at a time
+    print "one at a time:",
     for i in range(128):
+        print i, 
         bits = [0]*128
         bits[i] = 1
         setAll(bits)
         delay()
+    print "\n"
 
 
     delay()
 
     # successively turn on all LEDs
+    print "fill up:",
     bits = [0]*128
     for i in range(128):
+        print i, 
         bits[i] = 1
         setAll(bits)
         delay()
+    print "\n"
 
 
 if __name__ == "__main__":
