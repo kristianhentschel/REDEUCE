@@ -6,6 +6,8 @@ i2c_base_address = 0x20 # I2C address of first IO expander
 i2c_bus = 0
 i2c_enable_pins = [5, 6]
 
+# TODO generate list of devices as (pin, address) pairs
+
 # MCP 23017 register map
 MCP_REG_IODIRA      = 0x00
 MCP_REG_IODIRB      = 0x01
@@ -36,17 +38,21 @@ def main():
     global i2c
     i2c = open_i2c()
     for pin in i2c_enable_pins:
-        mcp_initialize(pin)
+        mcp_initialize(pin, i2c_base_address)
 
-    while True:
-         data = read_all_ports()
-         for byte in data:
-            print "%b" % byte
-         print "\n"
-         time.sleep(1000)
+    try:
+        while True:
+            data = read_all_ports()
+            for byte in data:
+                print "%x" % byte,
+            print "\n"
+            time.sleep(0.5)
+    except Exception as e:
+        print e
+        GPIO.cleanup()
 
 def open_i2c():
-    GPIO.setMode(GPIO.BCM)
+    GPIO.setmode(GPIO.BCM)
     for pin in i2c_enable_pins:
         GPIO.setup(pin, GPIO.OUT)
         GPIO.output(pin, GPIO.LOW)
@@ -54,12 +60,13 @@ def open_i2c():
     return smbus.SMBus(i2c_bus)
 
 def i2c_write_byte_data(i2c, enable_pin, address, register, data):
+    print "%d %x %x %x" % (enable_pin, address, register, data)
     i2c_select_group(enable_pin)
-    i2c.write_byte_data(i2c_base_address + address, register, data) 
+    i2c.write_byte_data(address, register, data)
 
 def i2c_read_word(i2c, enable_pin, address, register):
     i2c_select_group(enable_pin)
-    return i2c.read_byte_data(i2c_base_address + address, register)
+    return i2c.read_byte_data(address, register)
 
 def i2c_select_group(enable_pin):
     for pin in i2c_enable_pins:
@@ -71,10 +78,11 @@ def i2c_select_group(enable_pin):
 def read_all_ports():
     data = []
     for pin in i2c_enable_pins:
-        for i in range(8): # TODO hardcoded number of devices per enable pin
+        for i in range(1): # TODO hardcoded number of devices per enable pin
             address = i2c_base_address + i
-            data += i2c_read_word(i2c, pin, address, MCP_REG_GPIOA)
-            data += i2c_read_word(i2c, pin, address, MCP_REG_GPIOB)
+            data += [i2c_read_word(i2c, pin, address, MCP_REG_GPIOA)]
+            data += [i2c_read_word(i2c, pin, address, MCP_REG_GPIOB)]
+    return data
 
 def mcp_initialize(pin, address):
     i2c_write_byte_data(i2c, pin, address, MCP_REG_IODIRA, 0xF)
