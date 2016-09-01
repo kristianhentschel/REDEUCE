@@ -38,7 +38,7 @@ def initialize():
     spiTransfer(to_send)
 
     # set scan limit to enable all digits
-    to_send = [MAX_REG_SCAN_LIMIT, 0x0F] * NUM_MAX_DEVICES
+    to_send = [MAX_REG_SCAN_LIMIT, 0x07] * NUM_MAX_DEVICES
     spiTransfer(to_send)
 
     # exit sleep mode
