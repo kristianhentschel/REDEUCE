@@ -1,4 +1,4 @@
-update=Sunday, 07 August 2016 'pmt' 13:01:04
+update=Thursday, 01 September 2016 'pmt' 15:38:26
 version=1
 last_client=kicad
 [general]
@@ -64,3 +64,13 @@ LibName30=/Users/kristian/repositories/redeuce/hardware/kicad_libs/Pi2_Connector
 LibName31=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MAX7221
 LibName32=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MCP23S17
 LibName33=/Users/kristian/repositories/redeuce/hardware/kicad_libs/MCP23017
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
