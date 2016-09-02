@@ -85,10 +85,10 @@ def read_all_ports():
     return data
 
 def mcp_initialize(pin, address):
-    i2c_write_byte_data(i2c, pin, address, MCP_REG_IODIRA, 0xF)
-    i2c_write_byte_data(i2c, pin, address, MCP_REG_IODIRB, 0xF)
-    i2c_write_byte_data(i2c, pin, address, MCP_REG_GPPUA, 0xF)
-    i2c_write_byte_data(i2c, pin, address, MCP_REG_GPPUB, 0xF)
+    i2c_write_byte_data(i2c, pin, address, MCP_REG_IODIRA, 0xFF)
+    i2c_write_byte_data(i2c, pin, address, MCP_REG_IODIRB, 0xFF)
+    i2c_write_byte_data(i2c, pin, address, MCP_REG_GPPUA, 0xFF)
+    i2c_write_byte_data(i2c, pin, address, MCP_REG_GPPUB, 0xFF)
 
 if __name__ == "__main__":
     main()
