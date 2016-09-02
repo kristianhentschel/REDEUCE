@@ -2,8 +2,8 @@
 
   (general
     (links 18)
-    (no_connects 6)
-    (area 49.221 65.965 221.139 94.030001)
+    (no_connects 0)
+    (area 26.361 58.98 221.139 86.285)
     (thickness 1.6)
     (drawings 17)
     (tracks 64)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../plans/v1_board_assembly/))
   )
 
   (net 0 "")

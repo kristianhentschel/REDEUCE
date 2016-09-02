@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
 
   (general
-    (links 0)
+    (links 36)
     (no_connects 0)
     (area 34.545001 90.614999 284.225 124.620001)
     (thickness 1.6)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../plans/v1_board_assembly/))
   )
 
   (net 0 "")
