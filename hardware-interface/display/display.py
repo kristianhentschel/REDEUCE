@@ -5,8 +5,8 @@ import sys
 WINDOW_WIDTH  = 1024
 WINDOW_HEIGHT = 600
 
-CRT_WIDTH  =  460
-CRT_HEIGHT =  560
+CRT_WIDTH  =  400
+CRT_HEIGHT =  400
 
 BIT_WIDTH    = 5
 BIT_HEIGHT   = 5
@@ -57,7 +57,7 @@ def drawDisplayReg(canvas, displayRegData):
 
 # Initialise Pygame
 pygame.init()
-canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT), pygame.FULLSCREEN)
 
 if len(sys.argv) != 2:
     print ("Usuage display.py <dataFile>")
@@ -85,6 +85,14 @@ while True:
                     num = dataPoints[1]
                     if num == selectedDL:
                         delayLineData = dataPoints[2:]
+
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            exit(-1)
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                exit(-1)
 
     canvas.fill(BLACK)
 
