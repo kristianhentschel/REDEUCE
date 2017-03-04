@@ -1,6 +1,7 @@
 package uk.ac.glasgow.redeuce;
 
 public class DeuceConstants {
+        public static final int BITS_IN_WORD = 32;
 	public static final int MAX_TRANSFER_ADDRESS = 21;
 	public static final int SOURCE_DOUBLESTORE_HALVED = 22;
 	public static final int SOURCE_SINGLESTORE_HALVED = 23;

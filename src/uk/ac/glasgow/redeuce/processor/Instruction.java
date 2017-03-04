@@ -164,4 +164,14 @@ public class Instruction {
 						+ "And the Go digit is: " + getGo();
 		return output;
 	}
+
+    /** 
+     * a compact one-line assembler view of the instruction
+     */
+    public String toAsm() {
+	StringBuilder sb = new StringBuilder();
+	sb.append(String.format("%1$2s", getSource()));
+	sb.append(" - " + String.format("%1$2s", getDest()));
+	return sb.toString();
+    }
 }
