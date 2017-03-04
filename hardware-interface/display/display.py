@@ -61,23 +61,29 @@ canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 displayRegSurface  = pygame.Surface((CRT_WIDTH, CRT_HEIGHT))
 displayLineSurface = pygame.Surface((CRT_WIDTH, CRT_HEIGHT))
 
-for line in testDelayData.splitlines():
-    dataPoints = line.split()
-    if len(dataPoints) > 0:
-        if dataPoints[0] == "DISPLAY_REG":
-            displayRegData = dataPoints[1:]
-        if dataPoints[0] == "DISPLAY_DL":
-            num = dataPoints[1]
-            delayLineData = dataPoints[2:]
-
-canvas.fill(BLACK)
-
-drawDisplayReg(displayRegSurface, displayRegData)
-drawDelayLine(displayLineSurface, delayLineData)
-
-canvas.blit(displayRegSurface,  (20, 20, 500, 500))
-canvas.blit(displayLineSurface, (600, 20, 1000, 500))
-pygame.display.flip()
-
 while True:
-    pass
+    with open("testdata.dat", 'r') as f:
+        selectedDL = 1
+        for line in f.readlines():
+            dataPoints = line.split()
+            if len(dataPoints) > 0:
+                if dataPoints[0] == "DISPLAY_DL_SEL":
+                    selectedDL = dataPoints[1]
+
+                if dataPoints[0] == "DISPLAY_REG":
+                    displayRegData = dataPoints[1:]
+
+                if dataPoints[0] == "DISPLAY_DL":
+                    num = dataPoints[1]
+                    if num == selectedDL:
+                        delayLineData = dataPoints[2:]
+
+    canvas.fill(BLACK)
+
+    drawDisplayReg(displayRegSurface, displayRegData)
+    drawDelayLine(displayLineSurface, delayLineData)
+
+    canvas.blit(displayRegSurface,  (20, 20, 500, 500))
+    canvas.blit(displayLineSurface, (600, 20, 1000, 500))
+
+    pygame.display.flip()
