@@ -15,6 +15,7 @@ import uk.ac.glasgow.redeuce.processor.Instruction;
  * following the format from Copeland's 
  * "Alan Turing's Electronic Brain" book.
  *
+ * @author Jeremy Singer
  * Uses Rasmus' card reader code from peripherals
  */
 
