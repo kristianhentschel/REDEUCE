@@ -1,4 +1,5 @@
 import pygame
+import sys
 
 # Constants
 WINDOW_WIDTH  = 1024
@@ -58,14 +59,21 @@ def drawDisplayReg(canvas, displayRegData):
 pygame.init()
 canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 
+if len(sys.argv) != 2:
+    print ("Usuage display.py <dataFile>")
+    exit(-1)
+else:
+    dataFile = sys.argv[1]
+
 displayRegSurface  = pygame.Surface((CRT_WIDTH, CRT_HEIGHT))
 displayLineSurface = pygame.Surface((CRT_WIDTH, CRT_HEIGHT))
 
 while True:
-    with open("testdata.dat", 'r') as f:
+    with open(dataFile, 'r') as f:
         selectedDL = 1
         for line in f.readlines():
             dataPoints = line.split()
+            #FIXME: Add error checking
             if len(dataPoints) > 0:
                 if dataPoints[0] == "DISPLAY_DL_SEL":
                     selectedDL = dataPoints[1]
