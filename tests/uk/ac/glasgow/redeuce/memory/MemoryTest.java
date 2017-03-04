@@ -12,8 +12,8 @@ public class MemoryTest {
 	@Test
 	public void test() {
 		Memory memory = new Memory();
-		for (int i=1; i<memory.linesAndStores.length; i++){
-			assertTrue(memory.linesAndStores[i] instanceof MemoryUnit);
+		for (int i = 1; i < Memory.NUM_MEMORY_LINES; i++){
+      assertTrue(memory.getLineOrStore(i) instanceof MemoryUnit);
 		}
 	}
 }
