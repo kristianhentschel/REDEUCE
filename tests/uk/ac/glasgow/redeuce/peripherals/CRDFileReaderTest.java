@@ -10,7 +10,7 @@ public class CRDFileReaderTest {
 
 	@Test
 	public void ExampleDeckTest() throws IOException {
-		String file = "/users/level3/2089278r/INTERN/REDEUCE/src/uk/ac/glasgow/redeuce/peripherals/prog07DH.crd";
+		String file = "./cards/prog07DH.crd";
 		CRDFileReader testReader = new CRDFileReader(file);
 		FixedCardDeck newDeck = testReader.createNewDeck();
 		assertTrue(newDeck.cards.size() == 13);
@@ -18,7 +18,7 @@ public class CRDFileReaderTest {
 	
 	@Test
 	public void ExampleCardTest() throws IOException {
-		String file = "/users/level3/2089278r/INTERN/REDEUCE/src/uk/ac/glasgow/redeuce/peripherals/prog07DH.crd";
+		String file = "./cards/prog07DH.crd";
 		CRDFileReader testReader = new CRDFileReader(file);
 		FixedCardDeck newDeck = testReader.createNewDeck();
 		for (int i=0; i<newDeck.cards.size(); i++){
@@ -28,7 +28,7 @@ public class CRDFileReaderTest {
 	
 	@Test
 	public void ExampleCardRowTest() throws Exception {
-		String file = "/users/level3/2089278r/INTERN/REDEUCE/src/uk/ac/glasgow/redeuce/peripherals/prog07DH.crd";
+		String file = "./cards/prog07DH.crd";
 		CRDFileReader testReader = new CRDFileReader(file);
 		FixedCardDeck newDeck = testReader.createNewDeck();
 		Card firstCard = newDeck.getNextCard();
@@ -43,7 +43,7 @@ public class CRDFileReaderTest {
 	
 	@Test(expected=OutOfCardsException.class)
 	public void EventuallyRunsOutTest() throws OutOfCardsException, IOException{
-		String file = "/users/level3/2089278r/INTERN/REDEUCE/src/uk/ac/glasgow/redeuce/peripherals/prog07DH.crd";
+		String file = "./cards/prog07DH.crd";
 		CRDFileReader testReader = new CRDFileReader(file);
 		FixedCardDeck newDeck = testReader.createNewDeck();
 		@SuppressWarnings("unused")

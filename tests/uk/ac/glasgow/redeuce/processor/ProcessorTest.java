@@ -20,7 +20,7 @@ import uk.ac.glasgow.redeuce.peripherals.OutOfCardsException;
 
 public class ProcessorTest {
 	
-	String file = "/users/level3/2089278r/INTERN/REDEUCE/src/uk/ac/glasgow/redeuce/peripherals/prog07DH.crd";
+	String file = "./cards/prog07DH.crd";
 	CRDFileReader testReader = new CRDFileReader(file);
 	DEUCECardReader reader = new DEUCECardReader();
 	DEUCECardPuncher puncher = new DEUCECardPuncher();

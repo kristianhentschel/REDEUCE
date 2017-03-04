@@ -10,11 +10,12 @@ package uk.ac.glasgow.redeuce.memory;
  */
 
 public class Memory {
+  public static int NUM_MEMORY_LINES = 22;
 	private MemoryUnit[] linesAndStores;
 	
 	public Memory(){
 		//DL0 was actually DL8, so there is a +1 to make implementation easier later on...
-		this.linesAndStores = new MemoryUnit[22]; 
+		this.linesAndStores = new MemoryUnit[NUM_MEMORY_LINES]; 
 		for (int i=1; i<=12; i++){
 			linesAndStores[i] = new DelayLine();
 		}
@@ -85,4 +86,8 @@ public class Memory {
 			}
 		}
 	}
+
+  public MemoryUnit getLineOrStore(int lineNum) {
+    return linesAndStores[lineNum];
+  }
 }
